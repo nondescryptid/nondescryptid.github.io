@@ -1,4 +1,4 @@
-I"!�<p><span class="newthought">The Tufte Jekyll theme</span>  is an attempt to create a website design with the look and feel of Edward Tufte’s books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.<!--more--> The idea for this project is essentially cribbed wholesale from Tufte and R Markdown’s Tufte Handout format<label for="One" class="margin-toggle sidenote-number"></label><input type="checkbox" id="One" class="margin-toggle" /><span class="sidenote">See <a href="https://tufte-latex.github.io/tufte-latex/">tufte-latex.github.io/tufte-latex/</a> and <a href="http://rmarkdown.rstudio.com/tufte_handout_format.html">rmarkdown.rstudio.com/tufte_handout_format</a> </span> This page is an adaptation of the <a href="http://rmarkdown.rstudio.com/examples/tufte-handout.pdf">Tufte Handout PDF</a>.</p>
+I"��<p><span class="newthought">The Tufte Jekyll theme</span>  is an attempt to create a website design with the look and feel of Edward Tufte’s books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.<!--more--> The idea for this project is essentially cribbed wholesale from Tufte and R Markdown’s Tufte Handout format<label for="One" class="margin-toggle sidenote-number"></label><input type="checkbox" id="One" class="margin-toggle" /><span class="sidenote">See <a href="https://tufte-latex.github.io/tufte-latex/">tufte-latex.github.io/tufte-latex/</a> and <a href="http://rmarkdown.rstudio.com/tufte_handout_format.html">rmarkdown.rstudio.com/tufte_handout_format</a> </span> This page is an adaptation of the <a href="http://rmarkdown.rstudio.com/examples/tufte-handout.pdf">Tufte Handout PDF</a>.</p>
 
 <h2 id="jekyll-customizations">Jekyll customizations</h2>
 
@@ -98,7 +98,7 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 
 <h3 id="margin-figures">Margin Figures</h3>
 
-<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/tufte-jekyll/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span></p>
+<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/assets/img/rhino.png" /><br />F.J. Cole, “The History of Albrecht Dürer’s Rhinoceros in Zoological Literature,” <em>Science, Medicine, and History: Essays on the Evolution of Scientific Thought and Medical Practice</em> (London, 1953), ed. E. Ashworth Underwood, 337-356. From page 71 of Edward Tufte’s <em>Visual Explanations</em>.</span></p>
 
 <p>Images and graphics play an integral role in Tufte’s work. To place figures in the margin, use the custom margin figure liquid tag included in the <code class="language-plaintext highlighter-rouge">_plugins</code> directory like so:</p>
 
@@ -116,7 +116,7 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 
 <p>Yields this:</p>
 
-<figure class="fullwidth"><img src="/tufte-jekyll/assets/img/napoleons-march.png" /><figcaption>Napoleon’s March <em>(Edward Tufte’s English translation)</em></figcaption></figure>
+<figure class="fullwidth"><img src="/assets/img/napoleons-march.png" /><figcaption>Napoleon’s March <em>(Edward Tufte’s English translation)</em></figcaption></figure>
 
 <h3 id="main-column-figures">Main Column Figures</h3>
 
@@ -126,7 +126,7 @@ $link-style: color; // choices are 'color' or 'underline'. Default is color usin
 
 <p>yields this:</p>
 
-<figure><img src="/tufte-jekyll/assets/img/exports-imports.png" /><figcaption class="maincolumn-figure">From Edward Tufte, <em>Visual Display of Quantitative Information</em>, page 92</figcaption></figure>
+<figure><img src="/assets/img/exports-imports.png" /><figcaption class="maincolumn-figure">From Edward Tufte, <em>Visual Display of Quantitative Information</em>, page 92</figcaption></figure>
 
 <h2 id="sidenotes-and-margin-notes">Sidenotes and Margin notes</h2>
 

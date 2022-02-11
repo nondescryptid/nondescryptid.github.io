@@ -1,4 +1,4 @@
-I"Ú$<p>Some edge cases and cautionary examples on using Markdown for writing content using this theme. In particular, list syntax can really knot things up.
+I"Â$<p>Some edge cases and cautionary examples on using Markdown for writing content using this theme. In particular, list syntax can really knot things up.
 <!--more--></p>
 
 <h3 id="mathjax-improperly-parsing-greater-and-less-than-and-ampersands-inside-blocks">Mathjax improperly parsing greater and less than and ampersands inside blocks</h3>
@@ -148,5 +148,5 @@ using the standard Kramdown parser. Some examples sent to me by Quxiaofeng are n
 <p>This code: <code class="language-plaintext highlighter-rouge">{% fullwidth "assets/img/rhino.png" "Tuftes pet rhino (via &lt;a href=\"//www.edwardtufte.com/tufte/\"&gt;Edward Tufte&lt;/a&gt;)"  %}</code></p>
 
 <p>produces the following image with a title. Notice that I have had to escape the double quotes in the HTML with a backslash. Also, the example above leaves out the single quote in ‚ÄòTufte‚Äôs‚Äù because of the topsy-turvy way that you have to escape the escapes in code sections that are used for illustrative purposes in this text. Bottom line is that there are occasionally some odd interactions between the Markdown parser, custom <em>Liquid</em> tags and HTML.</p>
-<figure class="fullwidth"><img src="/tufte-jekyll/assets/img/rhino.png" /><figcaption>Tufte&#8217;s pet rhino (via <a href="//www.edwardtufte.com/tufte/">Edward Tufte</a>)</figcaption></figure>
+<figure class="fullwidth"><img src="/assets/img/rhino.png" /><figcaption>Tufte&#8217;s pet rhino (via <a href="//www.edwardtufte.com/tufte/">Edward Tufte</a>)</figcaption></figure>
 :ET

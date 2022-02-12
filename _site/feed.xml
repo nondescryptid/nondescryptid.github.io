@@ -5,9 +5,20 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Feb 2022 06:44:40 -0500</pubDate>
-    <lastBuildDate>Fri, 11 Feb 2022 06:44:40 -0500</lastBuildDate>
+    <pubDate>Sat, 12 Feb 2022 03:32:54 -0500</pubDate>
+    <lastBuildDate>Sat, 12 Feb 2022 03:32:54 -0500</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>hello world</title>
+        <description>
+</description>
+        <pubDate>Fri, 11 Feb 2022 00:00:00 -0500</pubDate>
+        <link>/articles/22/hello-world</link>
+        <guid isPermaLink="true">/articles/22/hello-world</guid>
+        
+        
+      </item>
     
       <item>
         <title>Edge Cases</title>

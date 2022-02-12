@@ -1,14 +1,12 @@
 ---
-layout: full-width
+layout: default
 title: About
 ---
 
-The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.
+Outlaw who tinkers with code. 
 
-To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.
+I fell into this while I was working a painfully repetitive admin job after high school, and thought that there has to be a better way. I started trying to learn more about computer science, and watched David Malan tear up a phonebook as he demonstrated how binary search works. 
 
-Note that this is a full-width layout. This was accomplished by including ```layout: full-width``` in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts! 
+After university started, I kept trying to learn more, even if it was just trying a problem set or reading an article on freecodecamp's blog. There's a graveyard of courses I never finished, but partially completed.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
-
-
+Somehow, I thought that programming for a living would never be on the cards for me. I was terrible at math, and didn't think I was "technical" enough (whatever that means). However, after 

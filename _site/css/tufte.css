@@ -149,19 +149,19 @@ html { text-align: baseline; font-size: 11px; -webkit-font-smoothing: antialiase
 
 @media screen and (min-width: 800px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 900px) { html { font-size: 13px; } }
+@media screen and (min-width: 900px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 1000px) { html { font-size: 14px; } }
+@media screen and (min-width: 1000px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 1100px) { html { font-size: 15px; } }
+@media screen and (min-width: 1100px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 1200px) { html { font-size: 16px; } }
+@media screen and (min-width: 1200px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 1300px) { html { font-size: 17px; } }
+@media screen and (min-width: 1300px) { html { font-size: 12px; } }
 
 .mjx-math { font-size: 1.3rem; }
 
-a { color: #a00000; text-decoration: none; }
+a { color: #498288; text-decoration: none; }
 
 p > a, cite > a, span > a { color: #111; text-decoration: none; background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor); background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor); -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-repeat: no-repeat, no-repeat, repeat-x; text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8; background-position: 0% 93%, 100% 93%, 0% 93%; }
 
@@ -196,7 +196,7 @@ blockquote p, blockquote footer { width: 45%; padding-left: 2.5%; padding-right:
 blockquote footer { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
 
 /* blockquote footer { width: 45%; text-align: right; } */
-.sans { font-family: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif; letter-spacing: .03em; }
+.sans { font-family: "Roboto Mono", monospace; letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 1.2rem; line-height: 1.71428571; margin-top: 1.71428571rem; }
 
@@ -252,11 +252,11 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79%; }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 
-.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " "; font-family: et-bembo-roman-old-style; color: #a00000; position: relative; vertical-align: baseline; }
+.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " "; font-family: et-bembo-roman-old-style; color: #498288; position: relative; vertical-align: baseline; }
 
 .sidenote-number:after { content: counter(sidenote-counter); font-size: 1rem; top: -0.5rem; left: 0.1rem; }
 
-.sidenote:before { content: counter(sidenote-counter) ". "; color: #a00000; top: 0rem; }
+.sidenote:before { content: counter(sidenote-counter) ". "; color: #498288; top: 0rem; }
 
 p, footer, div.table-wrapper, .MJXc-display { width: 55%; }
 
@@ -285,7 +285,7 @@ label.sidenote-number { display: inline; }
 
 label.margin-toggle:not(.sidenote-number) { display: none; }
 
-@media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: #a00000; }
+@media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; color: #498288; }
   .sidenote, .marginnote { display: none; }
   .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { display: block; float: left; left: 1rem; clear: both; width: 95%; margin: 1rem 2.5%; vertical-align: baseline; position: relative; }
   label { cursor: pointer; }
@@ -299,17 +299,17 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 /*--- End of Basic Layout stuff from tufte.css ---*/
 /* -- Jekyll specific styling --*/
-.contrast { color: #a00000; }
+.contrast { color: #498288; }
 
 .smaller { font-size: 80%; }
 
-header > nav.group, body footer { width: 95%; padding-top: 2rem; }
+header > nav.group, body footer { width: 80%; padding-top: 2rem; }
 
 nav.group a.active:before { content: "\0003c\000a0"; }
 
 nav.group a.active:after { content: "\000a0\0003e"; }
 
-header > nav a { font-size: 1.2rem; font-family: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif; letter-spacing: 0.15em; text-transform: uppercase; color: #a00000; padding-top: 1.5rem; text-decoration: none; display: inline-block; float: left; margin-top: 0; margin-bottom: 0; padding-right: 2rem; vertical-align: baseline; }
+header > nav a { font-size: 1.2rem; font-family: "Roboto Mono", monospace; letter-spacing: 0.15em; text-transform: uppercase; color: #498288; padding-top: 1.5rem; text-decoration: none; display: inline-block; float: left; margin-top: 0; margin-bottom: 0; padding-right: 2rem; vertical-align: baseline; }
 
 header > nav a img { height: 5rem; position: relative; max-width: 100%; top: -1.5rem; }
 
@@ -319,11 +319,11 @@ ul.footer-links li { display: inline; padding: 0.5rem 0.25rem; }
 
 .credits { padding: 1rem 0rem; }
 
-.credits { font-family: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif; }
+.credits { font-family: "Roboto Mono", monospace; }
 
-.credits a { color: #a00000; }
+.credits a { color: #498288; }
 
-body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 5%; }
+body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 0%; }
 
 .full-width article p { width: 90%; }
 
@@ -351,7 +351,7 @@ hr.slender { border: 0; height: 1px; margin-top: 1.4rem; margin-bottom: 1.4rem; 
     orphans: 4;
     widows: 2; }
   body { font-size: 12pt; }
-  html body span.print-footer { font-family: "Gill Sans", "Gill Sans MT", "Gotham Narrow", "Lato", Calibri, sans-serif; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; }
+  html body span.print-footer { font-family: "Roboto Mono", monospace; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; }
   thead { display: table-header-group; }
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }

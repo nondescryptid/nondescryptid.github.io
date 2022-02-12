@@ -242,7 +242,7 @@ end
 
 
 desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+task :ghpublish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
     system "git checkout -B gh-pages"

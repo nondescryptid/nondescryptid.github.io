@@ -323,7 +323,7 @@ ul.footer-links li { display: inline; padding: 0.5rem 0.25rem; }
 
 .credits a { color: #498288; }
 
-body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 0%; }
+body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 5%; }
 
 .full-width article p { width: 90%; }
 

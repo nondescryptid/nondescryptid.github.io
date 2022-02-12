@@ -5,8 +5,14 @@ title: About
 
 Outlaw who tinkers with code. 
 
-I fell into this while I was working a painfully repetitive admin job after high school, and thought that there has to be a better way. I started trying to learn more about computer science, and watched David Malan tear up a phonebook as he demonstrated how binary search works. 
+I fell into this life while I was working a painfully repetitive admin job after high school, and thought that there has to be a better way. I started trying to learn more about computer science, and watched David Malan tear up a phonebook as he demonstrated how binary search works. 
 
 After university started, I kept trying to learn more, even if it was just trying a problem set or reading an article on freecodecamp's blog. There's a graveyard of courses I never finished, but partially completed.
 
-Somehow, I thought that programming for a living would never be on the cards for me. I was terrible at math, and didn't think I was "technical" enough (whatever that means). However, after 
+Somehow, I thought that programming for a living would never be on the cards for me. I was terrible at math, and didn't think I was "technical" enough (whatever that means). However, after spending almost a year's worth of Saturdays (and more) working on a web app for a non-profit as part of a part-time bootcamp, I realised that I was still interested. I still wanted to keep learning. And I had all these PRs I'd closed, which said something, no matter how small they were. I'd learnt to how to integrate frontend and backend, used Postman to work with APIs and experienced the horrors of dependency hell. 
+
+When you keep doing something you have no obligation to do, and in spite of all the actual obligations you have -- that's a strong signal for what you actually like. 
+
+I don't think I'm going to become a lawyer, although I appreciate what I've learnt with this degree.
+
+I'm now seeking a full-time role, ideally one that involves representing legal knowledge / automating legal tasks, or full stack web development. 

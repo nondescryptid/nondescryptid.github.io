@@ -4,6 +4,12 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
+require 'rubygems'
+require 'rdoc'
+require 'date'
+require 'tmpdir'
+require 'jekyll'
+
 
 # == Configuration =============================================================
 

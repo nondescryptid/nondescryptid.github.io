@@ -234,7 +234,7 @@ article { position: relative; padding: 1 rem 0rem 2.5rem 0rem; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
-ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: none; }
+ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: disc; }
 
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
 

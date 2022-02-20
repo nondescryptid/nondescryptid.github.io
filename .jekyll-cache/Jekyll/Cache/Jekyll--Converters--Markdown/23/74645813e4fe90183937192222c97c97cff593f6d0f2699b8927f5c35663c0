@@ -1,0 +1,17 @@
+I"�<p>Used to study law, now I don’t. <label for="sidenote-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sidenote-id" class="margin-toggle" /><span class="sidenote">Mainly because I graduated and don’t really want to practice </span></p>
+
+<p>I want to make things I care about/find fun. Sometimes they’re useful, sometimes they’re not.</p>
+
+<p>Some of the things I want to learn more about:</p>
+<ul>
+  <li>representing legal knowledge</li>
+  <li>automating the boring stuff</li>
+  <li>generative art</li>
+</ul>
+
+<p><br /></p>
+<div id="p5canvas">
+        <script src="p5.js"></script>
+        <script src="torus.js"></script>
+</div>
+:ET

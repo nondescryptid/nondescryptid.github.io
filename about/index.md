@@ -10,3 +10,9 @@ Some of the things I want to learn more about:
 - representing legal knowledge 
 - automating the boring stuff
 - generative art 
+
+<br>
+<div id="p5canvas">
+        <script src="p5.js"></script>
+        <script src="torus.js"></script>
+</div>

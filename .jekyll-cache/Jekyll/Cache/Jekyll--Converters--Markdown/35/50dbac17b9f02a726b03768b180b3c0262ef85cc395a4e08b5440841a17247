@@ -1,0 +1,25 @@
+I"�<h1 class="content-listing-header sans">works in progress </h1>
+<p>works are never completed, only abandoned. <label for="sidenote-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sidenote-id" class="margin-toggle" /><span class="sidenote">there are many incarnations of this statement, but it seems like Paul Valéry’s the first mover. ‘…un ouvrage n’est jamais achevé, – mot qui pour eux n’a aucun sens, – mais abandonné’ </span></p>
+<div id="p5canvas">
+        <script src="p5.js"></script>
+        <script src="torus.js"></script>
+</div>
+<p> 
+    <a href="https://nondescryptid.github.io/scrimba-blackjack/"> blackjack </a> 
+    <br />
+    - just good old html, css and javascript
+</p>
+<p>
+    <a href="https://wave-at-tomo-nondescryptid.vercel.app/"> hello from Rinkeby </a>
+    <br />
+    - say hi to me on the rinkeby testnet <br />
+    - react, ethers.js, alchemy
+</p>
+
+<style>
+#p5canvas {
+    text-align: center;
+}
+</style>
+
+:ET

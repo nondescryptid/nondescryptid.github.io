@@ -49,9 +49,9 @@ html{
 
 @media screen and (min-width: 1100px){ html{ font-size: 12px; } }
 
-@media screen and (min-width: 1200px){ html{ font-size: 14px; } }
+@media screen and (min-width: 1200px){ html{ font-size: 12px; } }
 
-@media screen and (min-width: 1300px){ html{ font-size: 16px; } }
+@media screen and (min-width: 1300px){ html{ font-size: 13px; } }
 
 // Mathjax fonts need TLC
 .mjx-math{
@@ -435,7 +435,7 @@ body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
 
 }
 .full-width article p{
-  width: 90%;
+  width: 80%;
 }
 
 

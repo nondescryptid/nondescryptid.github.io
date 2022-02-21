@@ -1,7 +1,7 @@
 
 
 function setup() {
-    var canvas = createCanvas(200, 200, WEBGL);
+    var canvas = createCanvas(200, 200);
     canvas.parent('p5canvas');
   } 
   

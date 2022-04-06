@@ -1,18 +1,17 @@
 ---
 layout: default
-title: About
+title: posts
+# Note that this index page uses a full-width layout!
 ---
-I want to make things I care about/find fun. Sometimes they're useful, sometimes they're not.
+  <h1 class="content-listing-header sans">Posts</h1>
+  <ul class="content-listing ">
 
-Some of the things I want to learn more about:
-- representing legal knowledge 
-- automating the boring stuff
-- generative art 
-
-<br>
-Some things you can pay me to do:
-- proofreading (academic articles and whatnot)
-- fixing random bugs 
-- making silly pixel art (i made the badge in the navbar!)
-- researching and writing (but not for people's assignments - go do your own homework)
-
+    {% for post in site.posts %}      
+        <li class="listing">
+          <hr class="slender">
+          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
+          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
+          <div>{{ post.excerpt }}</div> 
+        </li>
+    {% endfor %}
+  </ul>

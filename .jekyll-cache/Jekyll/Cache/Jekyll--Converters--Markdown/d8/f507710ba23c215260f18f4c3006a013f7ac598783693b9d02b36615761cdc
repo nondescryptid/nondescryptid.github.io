@@ -1,0 +1,21 @@
+I"�<h1 class="content-listing-header sans">works in progress </h1>
+<p>-
+    <!-- <a href="https://nondescryptid.github.io/scrimba-blackjack/"> blackjack </a> 
+    <br>
+    - just good old html, css and javascript --></p>
+
+<p><a href="https://irrc-madwish-nondescryptid.vercel.app/">Volunteer and client management site</a></p>
+<ul>
+  <li>a web app for ItsRainingRaincoats to manage volunteers and students (matching + managing people at various statuses: Screening -&gt; Unmatched -&gt; Matched Dropped Out)</li>
+  <li>made with a group of other self-taught programmers with guidance from mentors as part of the TechLadies bootcamp.</li>
+  <li>stack: vue, express+objection, node</li>
+  <li><a href="https://github.com/TechLadies/irrc-madwish">github repo here</a>. the link for this project above leads to a partial mirror of the actual web app (access is restricted). only the front-end is up right now – back-end will be deployed when I have the time and feel like it.</li>
+</ul>
+
+<p><a href="https://wave-at-tomo-nondescryptid.vercel.app/">hello from Rinkeby</a></p>
+<ul>
+  <li>say hi to me on Ethereum’s Rinkeby testnet (remember to connect your wallet to the testnet not mainnet)</li>
+  <li>made with: react, ethers.js, alchemy</li>
+</ul>
+
+:ET

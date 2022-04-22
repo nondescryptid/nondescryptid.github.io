@@ -1,6 +1,7 @@
 ---
 title: ""
 layout: page
+nav_exclude: true
 ---
 ☆૮꒰•༝  •。꒱ა
 

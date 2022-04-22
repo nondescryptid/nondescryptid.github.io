@@ -5,9 +5,30 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Apr 2022 12:54:10 -0400</pubDate>
-    <lastBuildDate>Wed, 06 Apr 2022 12:54:10 -0400</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2022 14:42:55 -0400</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2022 14:42:55 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>day1</title>
+        <description>&lt;p&gt;Got the news that I was rejected for Build@Mercari. 
+&lt;!--more--&gt;
+Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.&lt;/p&gt;
+
+&lt;p&gt;What I did today:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Made a 100 days section for my website. I’ll use this as a journal of sorts.&lt;/li&gt;
+  &lt;li&gt;Hackerrank: Plus-Minus; Mini-Max Sum&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Apr 2022 00:00:00 -0400</pubDate>
+        <link>/articles/22/day1</link>
+        <guid isPermaLink="true">/articles/22/day1</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
   </channel>
 </rss>

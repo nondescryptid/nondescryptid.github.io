@@ -27,6 +27,7 @@ POST_TIME = DATE + ' ' + TIME
 # Directories
 POSTS = "_posts"
 DRAFTS = "_drafts"
+DAYS = "days/_posts"
 
 # == Helpers ===================================================================
 
@@ -100,6 +101,20 @@ task :post, :title do |t, args|
   filename = "#{DATE}-#{transform_to_slug(title, extension)}"
   content = read_file(template)
   create_file(POSTS, filename, content, title, editor)
+end
+
+
+# rake days100[Title]
+desc "Create a post in days to track100daysofcode"
+task :days, :title do |t, args|
+  title = args[:title]
+  template = CONFIG["post"]["template"]
+  extension = CONFIG["post"]["extension"]
+  editor = CONFIG["editor"]
+  check_title(title)
+  filename = "#{DATE}-#{transform_to_slug(title, extension)}"
+  content = read_file(template)
+  create_file(DAYS, filename, content, title, editor)
 end
 
 # rake draft["Title"]

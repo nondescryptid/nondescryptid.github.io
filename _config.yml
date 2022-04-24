@@ -1,4 +1,5 @@
-baseurl: ''
+# baseurl: ''
+url: "https://tomoe.asia"
 title: Tufte-Jekyll
 subtitle: Content-centric blogging
 author: tomo

@@ -1,6 +1,7 @@
 ---
 title: ???
 layout: page
+nav_exclude: true
 ---
 <script src="p5.js"></script>
 <div id="p5canvas" style="float:left; margin: 0 10px 0 10px" >

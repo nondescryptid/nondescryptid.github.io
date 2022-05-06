@@ -3,27 +3,162 @@
   <channel>
     <title>Tufte-Jekyll</title>
     <description>A Jekyll theme for content-rich sites</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Apr 2022 14:42:55 -0400</pubDate>
-    <lastBuildDate>Fri, 22 Apr 2022 14:42:55 -0400</lastBuildDate>
+    <link>https://tomoe.asia/</link>
+    <atom:link href="https://tomoe.asia/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 May 2022 13:42:39 -0400</pubDate>
+    <lastBuildDate>Fri, 06 May 2022 13:42:39 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
+        <title>day 4</title>
+        <description>&lt;p&gt;Not much from me today. &lt;!--more--&gt; I’m going to move away from grinding Hackerrank and devote my time to studying data structures and algorithms by going through an online course before I move to stuff like leetcode/hackerrank.&lt;/p&gt;
+
+&lt;p&gt;Added buttons to the Blackjack game where players can choose to hit or stand with, instead of typing “hit” and “stand” into the input bar.&lt;/p&gt;
+
+&lt;p&gt;Small win of the day: Graduated from the Rocket Academy Basics course today. I’ll sort of miss seeing my classmates around now that we aren’t meeting twice a week.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Apr 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-4</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-4</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 3</title>
+        <description>&lt;p&gt;Fiddling with CNAME, working on blackjack, no Hackerrank today
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h1 id=&quot;website-improvements&quot;&gt;Website Improvements&lt;/h1&gt;
+
+&lt;p&gt;I was very happy about finally mapping my domain, but then realised it’d return a 404 whenever i try to access tomoe.asia after pushing new changes and deploying.&lt;/p&gt;
+
+&lt;p&gt;When you go to your Github Pages site repo &amp;gt; Settings &amp;gt; Pages and type in a custom domain for github pages, it creates this CNAME file in the root of your repo. However, it turns out that static site generators (like Jekyll) can force push changes, which can overwrite the CNAME file (haven’t figured out how exactly it works), which affects whether tomoe.asia resolves to get the content of my site. That was why tomoe.asia wouldn’t work after I push changes and publish my site.&lt;/p&gt;
+
+&lt;p&gt;Useful links of the day: 
+https://github.com/tschaub/gh-pages/issues/213&lt;/p&gt;
+
+&lt;p&gt;https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe&lt;/p&gt;
+
+&lt;p&gt;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages&lt;/p&gt;
+
+&lt;h1 id=&quot;blackjack&quot;&gt;Blackjack!&lt;/h1&gt;
+
+&lt;p&gt;Troubleshooted some parts of the CheckAce function (which checks whether a given user - player or computer - has an ace). Created a div that displays players’ hands. I’m working on this as part of Rocket Academy’s Basics course. &lt;a href=&quot;https://2l0fsh.csb.app/project3-blackjack/index.html&quot;&gt;You can play some (slightly wonky) blackjack if you want.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;others&quot;&gt;Others&lt;/h1&gt;
+
+&lt;p&gt;Didn’t do any Hackerrank today. Sundays are my flop era because the few brain cells I have are completely worn out by Japanese class.&lt;/p&gt;
+
+&lt;p&gt;I’ve been doing Hackerrank with Python while I work on web dev stuff with Javascript, and I’m wondering if I should just do everything in Javascript to avoid the friction that comes with having to mentally switch languages.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Apr 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-3</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-3</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 2</title>
+        <description>&lt;p&gt;Website improvements, hackerrank 
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h1 id=&quot;website-improvements&quot;&gt;Website improvements:&lt;/h1&gt;
+&lt;p&gt;Added &lt;a href=&quot;https://try.catche.co/&quot;&gt;Catche&lt;/a&gt; to my site. It adds instant search. Click on the magnifying glass in the lower right of the screen!&lt;/p&gt;
+
+&lt;p&gt;Mapped domain (tomoe.asia) to my current Github Pages site.&lt;/p&gt;
+
+&lt;h1 id=&quot;hackerrank&quot;&gt;Hackerrank&lt;/h1&gt;
+&lt;h2 id=&quot;time-conversion&quot;&gt;&lt;a href=&quot;https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?isFullScreen=true&quot;&gt;Time conversion&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Inelegant solution, but it works. It’s quite late now so I’ll think of a more elegant solution another day:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def timeConversion(s):
+    # Write your code
+    if s[-2:] == &quot;PM&quot;:
+        s = s.replace(&quot;PM&quot;, &quot;&quot;)
+        digits = int(s[0:2])
+        if digits != 12:
+            digits += 12
+            digits = str(digits)
+            s = digits + s[2:]
+        else:
+            pass
+
+    else:
+        s = s.replace(&quot;AM&quot;, &quot;&quot;)
+        if s[0:2] == &quot;12&quot;:
+            s = &quot;00&quot; + s[2:]
+    return s
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sparse-arrays&quot;&gt;Sparse Arrays&lt;/h2&gt;
+
+&lt;p&gt;Inelegant attempt that didn’t work (it’s like 2 now so I’m going to just sleep and do this again tomorrow)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
+    # initialise array to track results
+    results = []
+    # Make results arr as long as queries
+    results = [0 for i in range(len(queries))]
+    for query in queries:
+        for string in strings:
+            if query == string:
+                results[queries.index(query)] += 1 
+            else: 
+                pass
+    return results 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Better solutions from &lt;a href=&quot;https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/forum/comments/1028765?isFullScreen=true&amp;amp;h_l=interview&amp;amp;playlist_slugs%5B%5D=preparation-kits&amp;amp;playlist_slugs%5B%5D=one-month-preparation-kit&amp;amp;playlist_slugs%5B%5D=one-month-week-one&amp;amp;h_r=next-challenge&amp;amp;h_v=zen&quot;&gt;syedshahid821721 and VictorSGhosh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;margin-noteid&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;margin-noteid&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;I should get a lot more familiar with Python methods. Knowing .count() would’ve saved me so much time. &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
+    # Write your code here
+    results=[] 
+    count=0
+    for i in queries:
+        results.append(strings.count(i)) 
+    return results
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
+    return [strings.count (q) for q in queries]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 23 Apr 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day2</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day2</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
         <title>day1</title>
-        <description>&lt;p&gt;Got the news that I was rejected for Build@Mercari. 
+        <description>&lt;p&gt;Handling rejection, rake tasks and hackerrank
 &lt;!--more--&gt;
-Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.&lt;/p&gt;
+Got the news that I was rejected for Build@Mercari.&lt;/p&gt;
+
+&lt;p&gt;Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.&lt;/p&gt;
 
 &lt;p&gt;What I did today:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Made a 100 days section for my website. I’ll use this as a journal of sorts.&lt;/li&gt;
   &lt;li&gt;Hackerrank: Plus-Minus; Mini-Max Sum&lt;/li&gt;
+  &lt;li&gt;Site reorganisation: added 100daysofcode directory + its own _posts directory; moved _posts out of the root directory to its own directory (posts/_posts).&lt;/li&gt;
+  &lt;li&gt;Wrote rake task to create new post in 100daysofcode&lt;/li&gt;
+  &lt;li&gt;Useful link of the day: &lt;a href=&quot;https://stackoverflow.com/questions/41660514/pulling-from-specific-subfolders-using-for-post-in-site-posts&quot;&gt;Pulling from specific subfolders using {% for post in site.posts %}&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 22 Apr 2022 00:00:00 -0400</pubDate>
-        <link>/articles/22/day1</link>
-        <guid isPermaLink="true">/articles/22/day1</guid>
+        <link>https://tomoe.asia/articles/22/day1</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day1</guid>
         
         
         <category>days</category>

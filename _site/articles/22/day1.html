@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>day1</title>
-  <meta name="description" content="Got the news that I was rejected for Build@Mercari.">
+  <meta name="description" content="Handling rejection, rake tasks and hackerrank">
   <link rel="icon" href="../assets/img/pixeltree.png">
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
   
@@ -41,13 +41,17 @@
 
  <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
   
+  <!-- widget for searching on my site from try.catche.co-->
+  <script catche-key="bb085e6f-2914-44d0-9235-eeaf11367173" type="module" crossorigin src="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/index.js"></script>
+<!-- next line is optional to preload modules -->
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/vendor.js">
 
   <link rel="stylesheet" type="text/css" href="/css/tufte.css">
   <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="/articles/22/day1">
+  <link rel="canonical" href="https://tomoe.asia/articles/22/day1">
 
-  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="https://tomoe.asia/feed.xml" />
 </head>
 
   <body>
@@ -57,16 +61,14 @@
 	<a href="/"><img class="badge" src="/assets/img/pixeltree.png" title="i made this too!" alt="CH"></a>
 	
 		
-		    
-		      <a href="/days/100days">100 days of code</a>
-		    
-	    
   	
 		
   	
 		
+  	
+		
 		    
-		      <a href="/"></a>
+		      <a href="/posts/">posts</a>
 		    
 	    
   	
@@ -78,13 +80,7 @@
   	
 		
 		    
-		      <a href="/random/">???</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/posts/">posts</a>
+		      <a href="/days/">100 days of code</a>
 		    
 	    
   	
@@ -100,16 +96,21 @@
 </header>
     <article class="group">
       <h1>day1</h1>
-<p class="subtitle">April 22, 2022</p>
+<p class="subtitle">April 22, 2022, Friday</p>
 
-<p>Got the news that I was rejected for Build@Mercari. 
+<p>Handling rejection, rake tasks and hackerrank
 <!--more-->
-Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.</p>
+Got the news that I was rejected for Build@Mercari.</p>
+
+<p>Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.</p>
 
 <p>What I did today:</p>
 <ul>
   <li>Made a 100 days section for my website. I’ll use this as a journal of sorts.</li>
   <li>Hackerrank: Plus-Minus; Mini-Max Sum</li>
+  <li>Site reorganisation: added 100daysofcode directory + its own _posts directory; moved _posts out of the root directory to its own directory (posts/_posts).</li>
+  <li>Wrote rake task to create new post in 100daysofcode</li>
+  <li>Useful link of the day: <a href="https://stackoverflow.com/questions/41660514/pulling-from-specific-subfolders-using-for-post-in-site-posts">Pulling from specific subfolders using {% for post in site.posts %}</a></li>
 </ul>
 
 

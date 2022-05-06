@@ -1,0 +1,25 @@
+I"�<p>Fiddling with CNAME, working on blackjack, no Hackerrank today
+<!--more--></p>
+<h1 id="website-improvements">Website Improvements</h1>
+
+<p>I was very happy about finally mapping my domain, but then realised it’d return a 404 whenever i try to access tomoe.asia after pushing new changes and deploying.</p>
+
+<p>When you go to your Github Pages site repo &gt; Settings &gt; Pages and type in a custom domain for github pages, it creates this CNAME file in the root of your repo. However, it turns out that static site generators (like Jekyll) can force push changes, which can overwrite the CNAME file (haven’t figured out how exactly it works), which affects whether tomoe.asia resolves to get the content of my site. That was why tomoe.asia wouldn’t work after I push changes and publish my site.</p>
+
+<p>Useful links of the day: 
+https://github.com/tschaub/gh-pages/issues/213</p>
+
+<p>https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe</p>
+
+<p>https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages</p>
+
+<h1 id="blackjack">Blackjack!</h1>
+
+<p>Troubleshooted some parts of the CheckAce function (which checks whether a given user - player or computer - has an ace). Created a div that displays players’ hands. I’m working on this as part of Rocket Academy’s Basics course. <a href="https://2l0fsh.csb.app/project3-blackjack/index.html">You can play some (slightly wonky) blackjack if you want.</a>.</p>
+
+<h1 id="others">Others</h1>
+
+<p>Didn’t do any Hackerrank today. Sundays are my flop era because the few brain cells I have are completely worn out by Japanese class.</p>
+
+<p>I’ve been doing Hackerrank with Python while I work on web dev stuff with Javascript, and I’m wondering if I should just do everything in Javascript to avoid the friction that comes with having to mentally switch languages.</p>
+:ET

@@ -1,0 +1,66 @@
+I"�<p>Website improvements, hackerrank 
+<!--more--></p>
+<h1 id="website-improvements">Website improvements:</h1>
+<p>Added <a href="https://try.catche.co/">Catche</a> to my site. It adds instant search. Click on the magnifying glass in the lower right of the screen!</p>
+
+<p>Mapped domain (tomoe.asia) to my current Github Pages site.</p>
+
+<h1 id="hackerrank">Hackerrank</h1>
+<h2 id="time-conversion"><a href="https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?isFullScreen=true">Time conversion</a></h2>
+
+<p>Inelegant solution, but it works. It’s quite late now so I’ll think of a more elegant solution another day:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def timeConversion(s):
+    # Write your code
+    if s[-2:] == "PM":
+        s = s.replace("PM", "")
+        digits = int(s[0:2])
+        if digits != 12:
+            digits += 12
+            digits = str(digits)
+            s = digits + s[2:]
+        else:
+            pass
+
+    else:
+        s = s.replace("AM", "")
+        if s[0:2] == "12":
+            s = "00" + s[2:]
+    return s
+
+</code></pre></div></div>
+
+<h2 id="sparse-arrays">Sparse Arrays</h2>
+
+<p>Inelegant attempt that didn’t work (it’s like 2 now so I’m going to just sleep and do this again tomorrow)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def matchingStrings(strings, queries):
+    # initialise array to track results
+    results = []
+    # Make results arr as long as queries
+    results = [0 for i in range(len(queries))]
+    for query in queries:
+        for string in strings:
+            if query == string:
+                results[queries.index(query)] += 1 
+            else: 
+                pass
+    return results 
+</code></pre></div></div>
+
+<p>Better solutions from <a href="https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/forum/comments/1028765?isFullScreen=true&amp;h_l=interview&amp;playlist_slugs%5B%5D=preparation-kits&amp;playlist_slugs%5B%5D=one-month-preparation-kit&amp;playlist_slugs%5B%5D=one-month-week-one&amp;h_r=next-challenge&amp;h_v=zen">syedshahid821721 and VictorSGhosh</a></p>
+
+<p><label for="margin-noteid" class="margin-toggle"> ⊕</label><input type="checkbox" id="margin-noteid" class="margin-toggle" /><span class="marginnote">I should get a lot more familiar with Python methods. Knowing .count() would’ve saved me so much time. </span></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def matchingStrings(strings, queries):
+    # Write your code here
+    results=[] 
+    count=0
+    for i in queries:
+        results.append(strings.count(i)) 
+    return results
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def matchingStrings(strings, queries):
+    return [strings.count (q) for q in queries]
+</code></pre></div></div>
+
+:ET

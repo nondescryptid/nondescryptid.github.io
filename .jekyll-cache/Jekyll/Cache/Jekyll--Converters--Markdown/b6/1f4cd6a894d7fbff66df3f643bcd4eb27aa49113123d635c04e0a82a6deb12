@@ -1,0 +1,38 @@
+I"<h1 class="content-listing-header sans">Posts</h1>
+<ul class="content-listing ">
+
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-4"><h3 class="contrast">day 4</h3></a>
+          <br /><span class="smaller">April 25, 2022</span>  <br />
+          <div><p>Not much from me today.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-3"><h3 class="contrast">day 3</h3></a>
+          <br /><span class="smaller">April 24, 2022</span>  <br />
+          <div><p>Fiddling with CNAME, working on blackjack, no Hackerrank today</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day2"><h3 class="contrast">day 2</h3></a>
+          <br /><span class="smaller">April 23, 2022</span>  <br />
+          <div><p>Website improvements, hackerrank</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day1"><h3 class="contrast">day1</h3></a>
+          <br /><span class="smaller">April 22, 2022</span>  <br />
+          <div><p>Handling rejection, rake tasks and hackerrank</p>
+</div> 
+        </li>
+    
+  </ul>
+:ET

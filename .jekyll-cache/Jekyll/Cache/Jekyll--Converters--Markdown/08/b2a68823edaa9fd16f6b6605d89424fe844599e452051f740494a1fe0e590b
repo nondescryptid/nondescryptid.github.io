@@ -1,0 +1,23 @@
+I"å<p>Did half an hour of Javascript exercises on <a href="jschallenger.com">jschallenger.com</a>. <!--more--></p>
+
+<p>One of the more interesting things I learned today was that you can use the ternary operator (a.k.a question mark) to make code more succinct.</p>
+
+<p>Instead of</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function returnLarger(a, b) {
+    if (a &gt; b) {
+        return a 
+    } else {
+        return b
+    }
+}
+
+</code></pre></div></div>
+
+<p>You could just write</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function returnLarger(a, b) {
+    return a &gt; b ? a : b 
+}    
+</code></pre></div></div>
+:ET

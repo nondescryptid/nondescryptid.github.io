@@ -1,0 +1,15 @@
+I"9<p>Bits of progress - did some regex exercises + learnt about array + object methods <!--more--></p>
+
+<p>I’ve been pretty tired lately but I’m glad that I made a bit of time (45 minutes) today to learn something new for my own interest, as opposed to learning something for my paid work (I guess it can improve my work, but it’s not a very direct benefit considering that I’m doing more of working with third party apps on Shopify and troubleshooting them). That was fun. I’m trying to get out of the mindset that I need to have particularly noteworthy things to talk about every day, and just focus on building up <em>consistency</em> – any daily exercise/learning is good learning and any post is a good post. The main point is to be more consistent, and trust the process a bit more.</p>
+
+<p>Method of the day: .splice()
+.splice() takes in 3 params: the starting index, number of items to remove, and what to replace the starting index’s contents with. <br />
+Besides modifying the array that it is used on, it also returns an array containing the items that have been removed</p>
+
+<p>Example: 
+Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue's’, ‘Clues’]</p>
+
+<p>arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.</p>
+
+<p>arr.splice(3, 3, ‘young’) would remove the 3 items mentioned above but also replace them with ‘young’ at index 3 in the original arr to give us “We are looking young”, while returning an array containing the 3 removed elements.</p>
+:ET

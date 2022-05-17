@@ -1,0 +1,95 @@
+I"o<h1 class="content-listing-header sans">Posts</h1>
+<ul class="content-listing ">
+
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-11"><h3 class="contrast">day 11</h3></a>
+          <br /><span class="smaller">May 17, 2022</span>  <br />
+          <div><p>Did half an hour of Javascript exercises on <a href="jschallenger.com">jschallenger.com</a></p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-10"><h3 class="contrast">day 10</h3></a>
+          <br /><span class="smaller">May 16, 2022</span>  <br />
+          <div><p>Flexbox shenanigans!</p>
+
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-9"><h3 class="contrast">day 9</h3></a>
+          <br /><span class="smaller">May 15, 2022</span>  <br />
+          <div><p>More working with objects: Object.keys(obj) and <code class="language-plaintext highlighter-rouge">for (let item in items)</code>on freecodecamp.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-8"><h3 class="contrast">day 8</h3></a>
+          <br /><span class="smaller">May 14, 2022</span>  <br />
+          <div><p>Bits of progress - did some regex exercises + learnt about array + object methods</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-7"><h3 class="contrast">day 7</h3></a>
+          <br /><span class="smaller">May 13, 2022</span>  <br />
+          <div><p>Starting to think about whether this site is accessible, how to test if it is accessible, and how to make it accessible if it isn’t</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-6"><h3 class="contrast">day 6</h3></a>
+          <br /><span class="smaller">May 10, 2022</span>  <br />
+          <div><p>from May 6 - May 10 just a lot of Shopify stuff</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-5"><h3 class="contrast">day 5???</h3></a>
+          <br /><span class="smaller">May 6, 2022</span>  <br />
+          <div><p>Falling off the face of the earth; drinking from a firehose.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-4"><h3 class="contrast">day 4</h3></a>
+          <br /><span class="smaller">April 25, 2022</span>  <br />
+          <div><p>Not much from me today.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-3"><h3 class="contrast">day 3</h3></a>
+          <br /><span class="smaller">April 24, 2022</span>  <br />
+          <div><p>Fiddling with CNAME, working on blackjack, no Hackerrank today</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day2"><h3 class="contrast">day 2</h3></a>
+          <br /><span class="smaller">April 23, 2022</span>  <br />
+          <div><p>Website improvements, hackerrank</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day1"><h3 class="contrast">day1</h3></a>
+          <br /><span class="smaller">April 22, 2022</span>  <br />
+          <div><p>Handling rejection, rake tasks and hackerrank</p>
+</div> 
+        </li>
+    
+  </ul>
+:ET

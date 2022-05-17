@@ -1,0 +1,20 @@
+I"^<p>Did half an hour of Javascript exercises on <a href="jschallenger.com">jschallenger.com</a>. <!--more--></p>
+
+<p>One of the more interesting things I learned today was that you can use the ternary operator to make code more succinct.</p>
+
+<p>Instead of</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function Compare() {
+    if (a &lt; b) {
+        return a 
+    } else {
+        return b
+    }
+}
+
+</code></pre></div></div>
+
+<p>You could just write</p>
+
+<p><code class="language-plaintext highlighter-rouge">return a &lt; b ? a : b</code></p>
+:ET

@@ -5,9 +5,214 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>https://tomoe.asia/</link>
     <atom:link href="https://tomoe.asia/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 May 2022 13:42:39 -0400</pubDate>
-    <lastBuildDate>Fri, 06 May 2022 13:42:39 -0400</lastBuildDate>
+    <pubDate>Tue, 17 May 2022 12:32:32 -0400</pubDate>
+    <lastBuildDate>Tue, 17 May 2022 12:32:32 -0400</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>day 11</title>
+        <description>&lt;p&gt;Did half an hour of Javascript exercises on &lt;a href=&quot;jschallenger.com&quot;&gt;jschallenger.com&lt;/a&gt;. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;javascript&quot;&gt;Javascript&lt;/h1&gt;
+
+&lt;p&gt;One of the more interesting things I learned today was that you can use the ternary operator (a.k.a question mark) to make code more succinct.&lt;/p&gt;
+
+&lt;p&gt;Instead of&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function returnLarger(a, b) {
+    if (a &amp;gt; b) {
+        return a 
+    } else {
+        return b
+    }
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You could just write&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function returnLarger(a, b) {
+    return a &amp;gt; b ? a : b 
+}    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;career-stuff&quot;&gt;Career stuff&lt;/h1&gt;
+
+&lt;p&gt;Attended a talk today that featured a software engineer who had no formal CS background, which was pretty heartening. She mentioned a really good way of thinking about your career, namely the importance of developing these 4 things: skillset (functional, conscious competence), mindset (self beliefs and self-awareness), teamwork, and network (influence and relationships). A lot of software engineering comprises of things that aren’t just your technical skill (unless you’re some kind of very monastic individual contributor who never has to interact with people).&lt;/p&gt;
+
+&lt;p&gt;Now that COVID measures are easing up a bit, I’m trying to push myself to attend more meetups and meet new people. I was incredibly nervous at my first meetup and probably committed some kind of social faux pas, but never mind. It’ll get better with practice.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-11</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-11</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 10</title>
+        <description>&lt;p&gt;Flexbox shenanigans!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://flexboxfroggy.com/&quot;&gt;Flexbox Froggy&lt;/a&gt;&lt;/strong&gt; – completed this today!  it’s a great resource that teaches you about the differences between various properties that work with flex, like align-content and align-items. Highly recommend. Doesn’t take long to complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Volunteering project&lt;/strong&gt;: Got a component to take JSON data (messages) from an API, set state and use the state to generate divs for each message. So if there are 5 messages, 5 divs are generated. Used media query + flex to display 2 columns only when screen size is above a certain threshold, so that it isn’t awfully small on mobile. No demo as it’s a private repo :(&lt;/p&gt;
+
+&lt;p&gt;Side note: Today’s a public holiday and I’m glad I managed to sit down for 1.5h to focus on learning the stuff needed to build my component. I’m usually very drained on other days as I have to be out of the house.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-10</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-10</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 9</title>
+        <description>&lt;p&gt;More working with objects: Object.keys(obj) and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for (let item in items)&lt;/code&gt;on freecodecamp. &lt;!--more--&gt; Short update as I was out the whole day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-9</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-9</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 8</title>
+        <description>&lt;p&gt;Bits of progress - did some regex exercises + learnt about array + object methods &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been pretty tired lately but I’m glad that I made a bit of time (45 minutes) today to learn something new for my own interest, as opposed to learning something for my paid work (I guess it can improve my work, but it’s not a very direct benefit considering that I’m doing more of working with third party apps on Shopify and troubleshooting them). That was fun. I’m trying to get out of the mindset that I need to have particularly noteworthy things to talk about every day, and just focus on building up &lt;em&gt;consistency&lt;/em&gt; – any daily exercise/learning is good learning and any post is a good post. The main point is to be more consistent, and trust the process a bit more.&lt;/p&gt;
+
+&lt;p&gt;Method of the day: .splice()
+.splice() takes in 3 params: the starting index, number of items to remove, and what to replace the starting index’s contents with. &lt;br /&gt;
+Besides modifying the array that it is used on, it also returns an array containing the items that have been removed&lt;/p&gt;
+
+&lt;p&gt;Example: 
+Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue's’, ‘Clues’]&lt;/p&gt;
+
+&lt;p&gt;arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.&lt;/p&gt;
+
+&lt;p&gt;arr.splice(3, 3, ‘young’) would remove the 3 items mentioned above but also replace them with ‘young’ at index 3 in the original arr to give us “We are looking young”, while returning an array containing the 3 removed elements.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-8</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-8</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 7</title>
+        <description>&lt;p&gt;Starting to think about whether this site is accessible, how to test if it is accessible, and how to make it accessible if it isn’t
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h1 id=&quot;thinking-about-my-personal-sites-accessibility&quot;&gt;Thinking about my personal site’s accessibility&lt;/h1&gt;
+
+&lt;p&gt;I attended a StackX meetup yesterday and decided to poke about GovTech’s github repos. Seeing the SGDS provoked me to think about &lt;em&gt;my&lt;/em&gt; own site’s accessibility. There’s some tech debt in the sense that I’m using Jekyll, and need to figure out how the html in my site is generated. If I were coding everything by myself with HTML+CSS+JS, it’d probably be a lot easier to just tweak the site’s html directly. So this is the main todo.&lt;/p&gt;
+
+&lt;p&gt;Resources:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.goring.org/resources/accessibility.html&quot;&gt;Accessibility with Jekyll Pages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also finished FreeCodeCamp’s regex section, although regex still feels very mind-bending to me. Should look for more exercises so it becomes a matter of muscle memory.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-7</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-7</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 6</title>
+        <description>&lt;p&gt;from May 6 - May 10 just a lot of Shopify stuff
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;shopify&quot;&gt;Shopify&lt;/h1&gt;
+
+&lt;p&gt;i’ve been spending most of my time familiarising myself with Shopify because of work. My tasks can generally be grouped into the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Theme customisation&lt;/li&gt;
+  &lt;li&gt;Updating information (like product tags / changing HTML templates for certain pages)&lt;/li&gt;
+  &lt;li&gt;Writing tests – I’m learning to use UI-licious to automate testing of stores’ Uis&lt;/li&gt;
+  &lt;li&gt;Working with Shopify’s third party apps for doing a variety of things, like setting up logic for shipping, build-your-own-box products, etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I want to spend some time outside of work becoming more familiar with Liquid and the structure of Shopify themes so that I can do more complex customisation work. There’s also some really cool-looking stuff like Hydrogen (Shopify’s framework for building custom storefronts) that I want to explore. In this vein, I’ve signed up for a Udemy course to learn how to make themes (esp learning how to use the Shopify CLI, Liquid, Tailwind and also the JSON templates that themes have).&lt;/p&gt;
+
+&lt;h1 id=&quot;soft-skills-and-learning-about-my-own-preferences&quot;&gt;Soft skills and learning about my own preferences&lt;/h1&gt;
+
+&lt;p&gt;One thing I’ve learnt lately is that I don’t really enjoy meetings. I’m on a contract to do about 20h of work a week, but find that meetings (standups, client meetings etc) tend to take close to 20% of that time, which is a lot of time to me. Moving forward, I’m going to try to not attend client meetings where my presence is just good to have but not actually necessary. However, since I’m new, I’m going to treat these meetings like part of the necessary learning curve to get to know clients’ usual pain points and what features they tend to need.&lt;/p&gt;
+
+&lt;p&gt;Coming to my own preferences – I realised that when I look for full-time dev opportuntiies, I’d prefer to work on things that have a longer time frame. Ideally, this would be a company where devs build the company’s own product as opposed to having to answer to external clients. With agency work, meetings can be last minute as unexpected problems crop up (e.g. client reports that some feature of their site is down and it’s an important) quite often. I enjoy more long-term, less urgent work that I can do asynchronously most of the time. I think that’s why I liked my undergrad research jobs so much, because it’s about chipping away at this One Project until it’s done. There also aren’t a lot of meetings or last-minute requests.&lt;/p&gt;
+
+&lt;h1 id=&quot;setting-boundaries&quot;&gt;Setting boundaries&lt;/h1&gt;
+
+&lt;p&gt;Working as a freelancer for an agency has really tested my ability to set boundaries, mostly because I have an overextended sense of responsibility. Like, when someone asks me “Can you do this by tomorrow”, I think of it as “Can I do this if I stay up late” and tend to say yes if I think it is physically possible to do it, and not so much of whether I &lt;em&gt;should&lt;/em&gt; be exerting myself to that point where I’m up till 1 working on something.&lt;/p&gt;
+
+&lt;p&gt;This is an issue to do with setting boundaries, and I think it’s time for me to properly set some. I will keep myself available in the day for work, but won’t do it after 5pm because I’ve got other parts of my life to tend to. If I keep responding to people’s requests whenever they come in, it means I’m living a lot less of my life. My contract is for 4 hours a day, but quite a lot of time goes to things outside of dev work like doing time tracking, responding to colleagues etc, client meetings that aren’t always billable.&lt;/p&gt;
+
+&lt;p&gt;These boundaries are important because I realised that I’ve not been focusing much on my own learning and growth for things outside of stuff related to my paid work – e.g. learning data structures and algorithms, learning more about backend.&lt;/p&gt;
+
+&lt;h1 id=&quot;random-update-some-free-camp&quot;&gt;Random update: some free camp&lt;/h1&gt;
+
+&lt;p&gt;I signed up for this -redacted tech company - Youth Camp thing that involves 2-3h classes every weekday from last Wednesday to this Friday (run by SWEs from that company), but am realising that it’s not for me. 2-3h hours every weekday on top of work is making me way more tired than I expected. I also don’t fare well with long lectures. I’ll look for this sort of thing and vet the opportunities I want to sign up for more judiciously in the future.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-6</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-6</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 5???</title>
+        <description>&lt;p&gt;Falling off the face of the earth; drinking from a firehose. 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been more than a week. I’m definitely not fantastic at staying updated – honestly each day is more of “a day where I remembered to document what I was doing”. I think 100daysofcode is a nice guide and symbol of consistency, but it’s not something that I can realistically do. Some days, you just need a clean break from coding. And that’s fine.&lt;/p&gt;
+
+&lt;h1 id=&quot;drinking-from-the-firehose&quot;&gt;Drinking from the firehose&lt;/h1&gt;
+
+&lt;p&gt;But anyway, the past week has felt like a blender. I started working on the frontend for a &lt;a href=&quot;https://datch-messages.vercel.app/&quot;&gt;volunteer project&lt;/a&gt;, and had to touch React for the first time (or maybe the 1.5th time). Working with another volunteer (a much more experienced dev who I’ve never met and whose actual identity I have no clue of - such is the internet :P) who wrote the backend meant that I had to figure out how to work with Flask (to test locally), and also set up Node. They wanted me to get some experience deploying apps and dealing with real world concerns like load balancing, but I haven’t managed to get it up yet…&lt;/p&gt;
+
+&lt;h1 id=&quot;shes-in-her-freelance-era&quot;&gt;She’s in her freelance era&lt;/h1&gt;
+
+&lt;p&gt;On 4 May, Wednesday, I started my first day of working for a web design + dev agency that focuses on Shopify sites. I’ve never touched Shopify in my life (besides checking things out). I’m learning to accept the discomfort of starting a new job, learning a whole new set of norms + tech stack for managing work + syntax (Shopify does use Liquid [ok actually they made it], which I have touched a little bit because Jekyll uses it too). I’m blundering and hopefully reducing my learning:doing ratio (in favour of spending more time doing) over time. But anyway, it’s 4 hours a day and pays me twice as much as any of my law internships ever did (which is more of a testament to how poorly law interns are paid).&lt;/p&gt;
+
+&lt;h1 id=&quot;changing-lanes&quot;&gt;Changing lanes&lt;/h1&gt;
+
+&lt;p&gt;After finishing 4 years of university, picking up this freelance thing felt like the first step in confirming my change of paths. I studied law, but won’t be practicing as a lawyer as I genuinely don’t think I can hack it. Some people can handle constant stress and 12-hour days, but not me. I’ve got other priorities like my health and possible family caregiving stuff.&lt;/p&gt;
+
+&lt;p&gt;Ideally, I’ll be able to do dev work that also taps on my legal training – like building tools for legal ecosystem folks (research, practice managements, blahblah). But for now, I’m just going to focus on getting my foot in the door, feeding myself, and learning.&lt;/p&gt;
+
+&lt;p&gt;There’s a kind of shame associated with not doing what you were trained for, but it’s kind of natural to change. Optimistically viewed, it means that my time in university was genuinely transformative. I’m a very different person from my 19 year old self now. The version of me 4 years from now will also probably feel like a whole different person.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-5</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-5</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 4</title>
@@ -133,32 +338,6 @@ https://github.com/tschaub/gh-pages/issues/213&lt;/p&gt;
         <pubDate>Sat, 23 Apr 2022 00:00:00 -0400</pubDate>
         <link>https://tomoe.asia/articles/22/day2</link>
         <guid isPermaLink="true">https://tomoe.asia/articles/22/day2</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day1</title>
-        <description>&lt;p&gt;Handling rejection, rake tasks and hackerrank
-&lt;!--more--&gt;
-Got the news that I was rejected for Build@Mercari.&lt;/p&gt;
-
-&lt;p&gt;Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven’t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.&lt;/p&gt;
-
-&lt;p&gt;What I did today:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Made a 100 days section for my website. I’ll use this as a journal of sorts.&lt;/li&gt;
-  &lt;li&gt;Hackerrank: Plus-Minus; Mini-Max Sum&lt;/li&gt;
-  &lt;li&gt;Site reorganisation: added 100daysofcode directory + its own _posts directory; moved _posts out of the root directory to its own directory (posts/_posts).&lt;/li&gt;
-  &lt;li&gt;Wrote rake task to create new post in 100daysofcode&lt;/li&gt;
-  &lt;li&gt;Useful link of the day: &lt;a href=&quot;https://stackoverflow.com/questions/41660514/pulling-from-specific-subfolders-using-for-post-in-site-posts&quot;&gt;Pulling from specific subfolders using {% for post in site.posts %}&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 22 Apr 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day1</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day1</guid>
         
         
         <category>days</category>

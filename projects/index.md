@@ -1,6 +1,7 @@
 ---
 layout: default
 title: projects
+nav_exclude: true
 ---
 
 <h1 class="content-listing-header sans">works in progress </h1>

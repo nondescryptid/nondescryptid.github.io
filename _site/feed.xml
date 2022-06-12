@@ -3,11 +3,84 @@
   <channel>
     <title>Tufte-Jekyll</title>
     <description>A Jekyll theme for content-rich sites</description>
-    <link>https://tomoe.asia/</link>
-    <atom:link href="https://tomoe.asia/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 May 2022 12:32:32 -0400</pubDate>
-    <lastBuildDate>Tue, 17 May 2022 12:32:32 -0400</lastBuildDate>
-    <generator>Jekyll v4.2.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 12 Jun 2022 18:35:14 -0400</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2022 18:35:14 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>day 15</title>
+        <description>&lt;p&gt;Wrote documentation on how to use git (e.g. using branches, making pull requests, setting remote repos) for my workplace. It’s on Notion, titled &lt;a href=&quot;https://wakeful-table-63f.notion.site/Working-with-Git-c4e3c3d335884ed2987f81f99b8835aa&quot;&gt;Working with Git&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-15</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-15</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 14</title>
+        <description>&lt;p&gt;Set cookies for JSON Web Tokens with Flask and added support for the use of credentials in cross-origin requests.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Got nerfed by a cough (probably caught it on the plane) and fell off the wagon – inertia is very real, and the longer I put off setting up a routine + updating my blog regularly the harder it becomes to start again.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jun 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-14</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-14</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 13</title>
+        <description>&lt;p&gt;Set up node to communicate with a Flask backend that someone else built for a volunteering project. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Reorganised code to place the frontend I built and the backend someone else built in the same repo, so I can use relative routes like “/login” instead of exposing the server address of what I’m working on like XX.XX.XX:XXXX/login.&lt;/p&gt;
+
+&lt;p&gt;Also had to figure out why env variables couldn’t be accessed by Flask, then I realised I needed to use the dotenv library to retrieve variables from an .env file.&lt;/p&gt;
+
+&lt;p&gt;I found the following articles useful:
+&lt;a href=&quot;https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb&quot;&gt;Easiest Way to Connect a React Frontend with Node.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/javarevisited/connecting-flask-with-node-js-7b9d823ca923&quot;&gt;Connecting Flask with Node.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nylas.com/blog/making-use-of-environment-variables-in-python/&quot;&gt;Making Use of Environment Variables in Python&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t work on my projects for a while as I made the mistake of going out to meet friends too many times in a week when I don’t really have the social batteries for it. Looking forward to pacing myself better in the future, and hibernating + hacking away at my own stuff for the next week!!&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 May 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-13</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-13</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 12</title>
+        <description>&lt;p&gt;Figured out how to use asdf (it’s a version manager!) to manage different versions of Ruby and Python on my laptop. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Had to do it because I was struggling to install Shopify’s CLI when my ruby version kept pointing to the ancient Mac OSX system one instead of the one I actually wanted.&lt;/p&gt;
+
+&lt;p&gt;Lighthouse says my site could use ARIA and better contrast.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 May 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-12</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-12</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 11</title>
@@ -43,8 +116,8 @@
 &lt;p&gt;Now that COVID measures are easing up a bit, I’m trying to push myself to attend more meetups and meet new people. I was incredibly nervous at my first meetup and probably committed some kind of social faux pas, but never mind. It’ll get better with practice.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-11</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-11</guid>
+        <link>http://localhost:4000/articles/22/day-11</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-11</guid>
         
         
         <category>days</category>
@@ -65,8 +138,8 @@
 
 </description>
         <pubDate>Mon, 16 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-10</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-10</guid>
+        <link>http://localhost:4000/articles/22/day-10</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-10</guid>
         
         
         <category>days</category>
@@ -78,8 +151,8 @@
         <description>&lt;p&gt;More working with objects: Object.keys(obj) and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for (let item in items)&lt;/code&gt;on freecodecamp. &lt;!--more--&gt; Short update as I was out the whole day.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-9</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-9</guid>
+        <link>http://localhost:4000/articles/22/day-9</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-9</guid>
         
         
         <category>days</category>
@@ -97,15 +170,15 @@
 Besides modifying the array that it is used on, it also returns an array containing the items that have been removed&lt;/p&gt;
 
 &lt;p&gt;Example: 
-Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue's’, ‘Clues’]&lt;/p&gt;
+Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue&apos;s’, ‘Clues’]&lt;/p&gt;
 
 &lt;p&gt;arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.&lt;/p&gt;
 
 &lt;p&gt;arr.splice(3, 3, ‘young’) would remove the 3 items mentioned above but also replace them with ‘young’ at index 3 in the original arr to give us “We are looking young”, while returning an array containing the 3 removed elements.&lt;/p&gt;
 </description>
         <pubDate>Sat, 14 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-8</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-8</guid>
+        <link>http://localhost:4000/articles/22/day-8</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-8</guid>
         
         
         <category>days</category>
@@ -128,8 +201,8 @@ Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue's
 &lt;p&gt;Also finished FreeCodeCamp’s regex section, although regex still feels very mind-bending to me. Should look for more exercises so it becomes a matter of muscle memory.&lt;/p&gt;
 </description>
         <pubDate>Fri, 13 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-7</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-7</guid>
+        <link>http://localhost:4000/articles/22/day-7</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-7</guid>
         
         
         <category>days</category>
@@ -173,171 +246,8 @@ Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue's
 
 </description>
         <pubDate>Tue, 10 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-6</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-6</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 5???</title>
-        <description>&lt;p&gt;Falling off the face of the earth; drinking from a firehose. 
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s been more than a week. I’m definitely not fantastic at staying updated – honestly each day is more of “a day where I remembered to document what I was doing”. I think 100daysofcode is a nice guide and symbol of consistency, but it’s not something that I can realistically do. Some days, you just need a clean break from coding. And that’s fine.&lt;/p&gt;
-
-&lt;h1 id=&quot;drinking-from-the-firehose&quot;&gt;Drinking from the firehose&lt;/h1&gt;
-
-&lt;p&gt;But anyway, the past week has felt like a blender. I started working on the frontend for a &lt;a href=&quot;https://datch-messages.vercel.app/&quot;&gt;volunteer project&lt;/a&gt;, and had to touch React for the first time (or maybe the 1.5th time). Working with another volunteer (a much more experienced dev who I’ve never met and whose actual identity I have no clue of - such is the internet :P) who wrote the backend meant that I had to figure out how to work with Flask (to test locally), and also set up Node. They wanted me to get some experience deploying apps and dealing with real world concerns like load balancing, but I haven’t managed to get it up yet…&lt;/p&gt;
-
-&lt;h1 id=&quot;shes-in-her-freelance-era&quot;&gt;She’s in her freelance era&lt;/h1&gt;
-
-&lt;p&gt;On 4 May, Wednesday, I started my first day of working for a web design + dev agency that focuses on Shopify sites. I’ve never touched Shopify in my life (besides checking things out). I’m learning to accept the discomfort of starting a new job, learning a whole new set of norms + tech stack for managing work + syntax (Shopify does use Liquid [ok actually they made it], which I have touched a little bit because Jekyll uses it too). I’m blundering and hopefully reducing my learning:doing ratio (in favour of spending more time doing) over time. But anyway, it’s 4 hours a day and pays me twice as much as any of my law internships ever did (which is more of a testament to how poorly law interns are paid).&lt;/p&gt;
-
-&lt;h1 id=&quot;changing-lanes&quot;&gt;Changing lanes&lt;/h1&gt;
-
-&lt;p&gt;After finishing 4 years of university, picking up this freelance thing felt like the first step in confirming my change of paths. I studied law, but won’t be practicing as a lawyer as I genuinely don’t think I can hack it. Some people can handle constant stress and 12-hour days, but not me. I’ve got other priorities like my health and possible family caregiving stuff.&lt;/p&gt;
-
-&lt;p&gt;Ideally, I’ll be able to do dev work that also taps on my legal training – like building tools for legal ecosystem folks (research, practice managements, blahblah). But for now, I’m just going to focus on getting my foot in the door, feeding myself, and learning.&lt;/p&gt;
-
-&lt;p&gt;There’s a kind of shame associated with not doing what you were trained for, but it’s kind of natural to change. Optimistically viewed, it means that my time in university was genuinely transformative. I’m a very different person from my 19 year old self now. The version of me 4 years from now will also probably feel like a whole different person.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 06 May 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-5</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-5</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 4</title>
-        <description>&lt;p&gt;Not much from me today. &lt;!--more--&gt; I’m going to move away from grinding Hackerrank and devote my time to studying data structures and algorithms by going through an online course before I move to stuff like leetcode/hackerrank.&lt;/p&gt;
-
-&lt;p&gt;Added buttons to the Blackjack game where players can choose to hit or stand with, instead of typing “hit” and “stand” into the input bar.&lt;/p&gt;
-
-&lt;p&gt;Small win of the day: Graduated from the Rocket Academy Basics course today. I’ll sort of miss seeing my classmates around now that we aren’t meeting twice a week.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Apr 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-4</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-4</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 3</title>
-        <description>&lt;p&gt;Fiddling with CNAME, working on blackjack, no Hackerrank today
-&lt;!--more--&gt;&lt;/p&gt;
-&lt;h1 id=&quot;website-improvements&quot;&gt;Website Improvements&lt;/h1&gt;
-
-&lt;p&gt;I was very happy about finally mapping my domain, but then realised it’d return a 404 whenever i try to access tomoe.asia after pushing new changes and deploying.&lt;/p&gt;
-
-&lt;p&gt;When you go to your Github Pages site repo &amp;gt; Settings &amp;gt; Pages and type in a custom domain for github pages, it creates this CNAME file in the root of your repo. However, it turns out that static site generators (like Jekyll) can force push changes, which can overwrite the CNAME file (haven’t figured out how exactly it works), which affects whether tomoe.asia resolves to get the content of my site. That was why tomoe.asia wouldn’t work after I push changes and publish my site.&lt;/p&gt;
-
-&lt;p&gt;Useful links of the day: 
-https://github.com/tschaub/gh-pages/issues/213&lt;/p&gt;
-
-&lt;p&gt;https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe&lt;/p&gt;
-
-&lt;p&gt;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages&lt;/p&gt;
-
-&lt;h1 id=&quot;blackjack&quot;&gt;Blackjack!&lt;/h1&gt;
-
-&lt;p&gt;Troubleshooted some parts of the CheckAce function (which checks whether a given user - player or computer - has an ace). Created a div that displays players’ hands. I’m working on this as part of Rocket Academy’s Basics course. &lt;a href=&quot;https://2l0fsh.csb.app/project3-blackjack/index.html&quot;&gt;You can play some (slightly wonky) blackjack if you want.&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;others&quot;&gt;Others&lt;/h1&gt;
-
-&lt;p&gt;Didn’t do any Hackerrank today. Sundays are my flop era because the few brain cells I have are completely worn out by Japanese class.&lt;/p&gt;
-
-&lt;p&gt;I’ve been doing Hackerrank with Python while I work on web dev stuff with Javascript, and I’m wondering if I should just do everything in Javascript to avoid the friction that comes with having to mentally switch languages.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Apr 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day-3</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-3</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 2</title>
-        <description>&lt;p&gt;Website improvements, hackerrank 
-&lt;!--more--&gt;&lt;/p&gt;
-&lt;h1 id=&quot;website-improvements&quot;&gt;Website improvements:&lt;/h1&gt;
-&lt;p&gt;Added &lt;a href=&quot;https://try.catche.co/&quot;&gt;Catche&lt;/a&gt; to my site. It adds instant search. Click on the magnifying glass in the lower right of the screen!&lt;/p&gt;
-
-&lt;p&gt;Mapped domain (tomoe.asia) to my current Github Pages site.&lt;/p&gt;
-
-&lt;h1 id=&quot;hackerrank&quot;&gt;Hackerrank&lt;/h1&gt;
-&lt;h2 id=&quot;time-conversion&quot;&gt;&lt;a href=&quot;https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?isFullScreen=true&quot;&gt;Time conversion&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Inelegant solution, but it works. It’s quite late now so I’ll think of a more elegant solution another day:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def timeConversion(s):
-    # Write your code
-    if s[-2:] == &quot;PM&quot;:
-        s = s.replace(&quot;PM&quot;, &quot;&quot;)
-        digits = int(s[0:2])
-        if digits != 12:
-            digits += 12
-            digits = str(digits)
-            s = digits + s[2:]
-        else:
-            pass
-
-    else:
-        s = s.replace(&quot;AM&quot;, &quot;&quot;)
-        if s[0:2] == &quot;12&quot;:
-            s = &quot;00&quot; + s[2:]
-    return s
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;sparse-arrays&quot;&gt;Sparse Arrays&lt;/h2&gt;
-
-&lt;p&gt;Inelegant attempt that didn’t work (it’s like 2 now so I’m going to just sleep and do this again tomorrow)&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
-    # initialise array to track results
-    results = []
-    # Make results arr as long as queries
-    results = [0 for i in range(len(queries))]
-    for query in queries:
-        for string in strings:
-            if query == string:
-                results[queries.index(query)] += 1 
-            else: 
-                pass
-    return results 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Better solutions from &lt;a href=&quot;https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/forum/comments/1028765?isFullScreen=true&amp;amp;h_l=interview&amp;amp;playlist_slugs%5B%5D=preparation-kits&amp;amp;playlist_slugs%5B%5D=one-month-preparation-kit&amp;amp;playlist_slugs%5B%5D=one-month-week-one&amp;amp;h_r=next-challenge&amp;amp;h_v=zen&quot;&gt;syedshahid821721 and VictorSGhosh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;label for=&quot;margin-noteid&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;margin-noteid&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;I should get a lot more familiar with Python methods. Knowing .count() would’ve saved me so much time. &lt;/span&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
-    # Write your code here
-    results=[] 
-    count=0
-    for i in queries:
-        results.append(strings.count(i)) 
-    return results
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def matchingStrings(strings, queries):
-    return [strings.count (q) for q in queries]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sat, 23 Apr 2022 00:00:00 -0400</pubDate>
-        <link>https://tomoe.asia/articles/22/day2</link>
-        <guid isPermaLink="true">https://tomoe.asia/articles/22/day2</guid>
+        <link>http://localhost:4000/articles/22/day-6</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-6</guid>
         
         
         <category>days</category>

@@ -1,31 +1,226 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Tufte-Jekyll</title>
+    <description>A Jekyll theme for content-rich sites</description>
+    <link>https://tomoe.asia/</link>
+    <atom:link href="https://tomoe.asia/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 20 Jul 2022 09:57:32 -0400</pubDate>
+    <lastBuildDate>Wed, 20 Jul 2022 09:57:32 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>day 17</title>
+        <description>&lt;p&gt;Joys of pair programming and fiddling with Liquid + Shopify metafields 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I debugged something with a coworker today, which was nice. A html element wasn’t showing up on a Shopify dev store page (e.g. instead of (0/6) it’d just show (0/ )), and we were trying to figure out why. We compared the HTML of the live store versus the dev store and realised that the value attribute of that element on the dev store was missing altogether. After digging into the Liquid file that the page was generated from, we realised that the value attribute was retrieving its value from an object (a Shopify metafield – like product.metafields.namespace.key) that didn’t exist on the dev store, as it wasn’t copied over when we copied products over to the dev store. Thinking out loud, figuring out the bug and fixing it together was quite fun.&lt;/p&gt;
+
+&lt;p&gt;Also had to work more with Liquid today as I was changing a template for invoices.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-17</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-17</guid>
+        
+        
+        <category>days</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>day 16</title>
+        <description>&lt;p&gt;Using .filter(), and thinking about reusable components
+&lt;!--more--&gt;
+Volunteering - Learned to use .filter() to filter messages for various recipients from a larger array of messages. This is quite a rushed job so I’ve been writing a lot of inelegant code. One improvement I want to make is to create a reusable components that I can pass props into, because a lot of the things I’m making have the same template but with a few variables that are tweaked.&lt;/p&gt;
+
+&lt;p&gt;Work - Conducted a demo/training on how to use Git to collaborate. I realise I quite enjoy writing documentation and teaching, although how skilled I am is another question altogether.&lt;/p&gt;
+
+&lt;p&gt;I’ve also disappeared for a month and have done programming in the interim, just that I wasn’t very diligent about recording it. :P&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jul 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-16</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-16</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 15</title>
+        <description>&lt;p&gt;Wrote documentation on how to use git (e.g. using branches, making pull requests, setting remote repos) for my workplace. It’s on Notion, titled &lt;a href=&quot;https://wakeful-table-63f.notion.site/Working-with-Git-c4e3c3d335884ed2987f81f99b8835aa&quot;&gt;Working with Git&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-15</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-15</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 14</title>
+        <description>&lt;p&gt;Set cookies for JSON Web Tokens with Flask and added support for the use of credentials in cross-origin requests.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Got nerfed by a cough (probably caught it on the plane) and fell off the wagon – inertia is very real, and the longer I put off setting up a routine + updating my blog regularly the harder it becomes to start again.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jun 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-14</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-14</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 13</title>
+        <description>&lt;p&gt;Set up node to communicate with a Flask backend that someone else built for a volunteering project. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Reorganised code to place the frontend I built and the backend someone else built in the same repo, so I can use relative routes like “/login” instead of exposing the server address of what I’m working on like XX.XX.XX:XXXX/login.&lt;/p&gt;
+
+&lt;p&gt;Also had to figure out why env variables couldn’t be accessed by Flask, then I realised I needed to use the dotenv library to retrieve variables from an .env file.&lt;/p&gt;
+
+&lt;p&gt;I found the following articles useful:
+&lt;a href=&quot;https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb&quot;&gt;Easiest Way to Connect a React Frontend with Node.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/javarevisited/connecting-flask-with-node-js-7b9d823ca923&quot;&gt;Connecting Flask with Node.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nylas.com/blog/making-use-of-environment-variables-in-python/&quot;&gt;Making Use of Environment Variables in Python&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I didn’t work on my projects for a while as I made the mistake of going out to meet friends too many times in a week when I don’t really have the social batteries for it. Looking forward to pacing myself better in the future, and hibernating + hacking away at my own stuff for the next week!!&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-13</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-13</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 12</title>
+        <description>&lt;p&gt;Figured out how to use asdf (it’s a version manager!) to manage different versions of Ruby and Python on my laptop. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Had to do it because I was struggling to install Shopify’s CLI when my ruby version kept pointing to the ancient Mac OSX system one instead of the one I actually wanted.&lt;/p&gt;
+
+&lt;p&gt;Lighthouse says my site could use ARIA and better contrast.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-12</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-12</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 11</title>
+        <description>&lt;p&gt;Did half an hour of Javascript exercises on &lt;a href=&quot;jschallenger.com&quot;&gt;jschallenger.com&lt;/a&gt;. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;javascript&quot;&gt;Javascript&lt;/h1&gt;
+
+&lt;p&gt;One of the more interesting things I learned today was that you can use the ternary operator (a.k.a question mark) to make code more succinct.&lt;/p&gt;
+
+&lt;p&gt;Instead of&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function returnLarger(a, b) {
+    if (a &amp;gt; b) {
+        return a 
+    } else {
+        return b
+    }
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You could just write&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function returnLarger(a, b) {
+    return a &amp;gt; b ? a : b 
+}    
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;career-stuff&quot;&gt;Career stuff&lt;/h1&gt;
+
+&lt;p&gt;Attended a talk today that featured a software engineer who had no formal CS background, which was pretty heartening. She mentioned a really good way of thinking about your career, namely the importance of developing these 4 things: skillset (functional, conscious competence), mindset (self beliefs and self-awareness), teamwork, and network (influence and relationships). A lot of software engineering comprises of things that aren’t just your technical skill (unless you’re some kind of very monastic individual contributor who never has to interact with people).&lt;/p&gt;
+
+&lt;p&gt;Now that COVID measures are easing up a bit, I’m trying to push myself to attend more meetups and meet new people. I was incredibly nervous at my first meetup and probably committed some kind of social faux pas, but never mind. It’ll get better with practice.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-11</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-11</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 10</title>
+        <description>&lt;p&gt;Flexbox shenanigans!&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://flexboxfroggy.com/&quot;&gt;Flexbox Froggy&lt;/a&gt;&lt;/strong&gt; – completed this today!  it’s a great resource that teaches you about the differences between various properties that work with flex, like align-content and align-items. Highly recommend. Doesn’t take long to complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Volunteering project&lt;/strong&gt;: Got a component to take JSON data (messages) from an API, set state and use the state to generate divs for each message. So if there are 5 messages, 5 divs are generated. Used media query + flex to display 2 columns only when screen size is above a certain threshold, so that it isn’t awfully small on mobile. No demo as it’s a private repo :(&lt;/p&gt;
+
+&lt;p&gt;Side note: Today’s a public holiday and I’m glad I managed to sit down for 1.5h to focus on learning the stuff needed to build my component. I’m usually very drained on other days as I have to be out of the house.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-10</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-10</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 9</title>
+        <description>&lt;p&gt;More working with objects: Object.keys(obj) and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for (let item in items)&lt;/code&gt;on freecodecamp. &lt;!--more--&gt; Short update as I was out the whole day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-9</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-9</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 8</title>
+        <description>&lt;p&gt;Bits of progress - did some regex exercises + learnt about array + object methods &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been pretty tired lately but I’m glad that I made a bit of time (45 minutes) today to learn something new for my own interest, as opposed to learning something for my paid work (I guess it can improve my work, but it’s not a very direct benefit considering that I’m doing more of working with third party apps on Shopify and troubleshooting them). That was fun. I’m trying to get out of the mindset that I need to have particularly noteworthy things to talk about every day, and just focus on building up &lt;em&gt;consistency&lt;/em&gt; – any daily exercise/learning is good learning and any post is a good post. The main point is to be more consistent, and trust the process a bit more.&lt;/p&gt;
+
+&lt;p&gt;Method of the day: .splice()
+.splice() takes in 3 params: the starting index, number of items to remove, and what to replace the starting index’s contents with. &lt;br /&gt;
+Besides modifying the array that it is used on, it also returns an array containing the items that have been removed&lt;/p&gt;
+
+&lt;p&gt;Example: 
+Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue&apos;s’, ‘Clues’]&lt;/p&gt;
+
+&lt;p&gt;arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.&lt;/p&gt;
+
+&lt;p&gt;arr.splice(3, 3, ‘young’) would remove the 3 items mentioned above but also replace them with ‘young’ at index 3 in the original arr to give us “We are looking young”, while returning an array containing the 3 removed elements.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 May 2022 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/articles/22/day-8</link>
+        <guid isPermaLink="true">https://tomoe.asia/articles/22/day-8</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
   </channel>
 </rss>

@@ -4,6 +4,7 @@ title: 100 days of code
 # Note that this index page uses a full-width layout!
 ---
   <h1 class="content-listing-header sans">Posts</h1>
+  At this point it's more like trying to post 100 times about what I've done, rather than doing it 100 days in a row...
   <ul class="content-listing ">
 
     {% for post in site.categories.days %}      

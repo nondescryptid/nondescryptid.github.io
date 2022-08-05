@@ -1,4 +1,6 @@
-I"4<h1 class="content-listing-header sans">Posts</h1>
+I"N<h1 class="content-listing-header sans">Posts</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;At this point it's more like trying to post 100 times about what I've done, rather than doing it 100 days in a row...
+</code></pre></div></div>
 <ul class="content-listing ">
 
           
@@ -14,7 +16,7 @@
           <hr class="slender" />
           <a href="/articles/22/day-18"><h3 class="contrast">day 18</h3></a>
           <br /><span class="smaller">August 2, 2022</span>  <br />
-          <div><p>Created reusable components in React.</p>
+          <div><p>Created reusable components in React for a volunteering project.</p>
 </div> 
         </li>
           

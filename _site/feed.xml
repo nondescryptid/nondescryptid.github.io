@@ -5,9 +5,81 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Jun 2022 18:37:39 -0400</pubDate>
-    <lastBuildDate>Sun, 12 Jun 2022 18:37:39 -0400</lastBuildDate>
+    <pubDate>Fri, 05 Aug 2022 12:06:21 -0400</pubDate>
+    <lastBuildDate>Fri, 05 Aug 2022 12:06:21 -0400</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>day 19</title>
+        <description>&lt;p&gt;Touched more server-side stuff. Learned to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;screen&lt;/code&gt; on a server to manage sessions and update sites.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Aug 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-19</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-19</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 18</title>
+        <description>&lt;p&gt;Created reusable components in React for a volunteering project.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This project involved some really tight timelines, so I was really just doing stuff manually (i.e. copy-pasting and tweaking things slightly) because it took less effort than thinking through how to add props and make a component reusable. However, I finally got some time to think about and implement it, which was worth the time as it means that we won’t be clogging up the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src&lt;/code&gt; folder with lots of different files in the future.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Aug 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-18</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-18</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 17</title>
+        <description>&lt;p&gt;Joys of pair programming and fiddling with Liquid + Shopify metafields 
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I debugged something with a coworker today, which was nice. A html element wasn’t showing up on a Shopify dev store page (e.g. instead of (0/6) it’d just show (0/ )), and we were trying to figure out why. We compared the HTML of the live store versus the dev store and realised that the value attribute of that element on the dev store was missing altogether. After digging into the Liquid file that the page was generated from, we realised that the value attribute was retrieving its value from an object (a Shopify metafield – like product.metafields.namespace.key) that didn’t exist on the dev store, as it wasn’t copied over when we copied products over to the dev store. Thinking out loud, figuring out the bug and fixing it together was quite fun.&lt;/p&gt;
+
+&lt;p&gt;Also had to work more with Liquid today as I was changing a template for invoices.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-17</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-17</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 16</title>
+        <description>&lt;p&gt;Using .filter(), and thinking about reusable components
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;volunteering&quot;&gt;Volunteering&lt;/h1&gt;
+
+&lt;p&gt;Learned to use .filter() to filter messages for various recipients from a larger array of messages. This is quite a rushed job so I’ve been writing a lot of inelegant code. One improvement I want to make is to create a reusable components that I can pass props into, because a lot of the things I’m making have the same template but with a few variables that are tweaked.&lt;/p&gt;
+
+&lt;h1 id=&quot;work&quot;&gt;Work&lt;/h1&gt;
+
+&lt;p&gt;Conducted a demo/training on how to use Git to collaborate. I realise I quite enjoy writing documentation and teaching, although how skilled I am is another question altogether.&lt;/p&gt;
+
+&lt;h1 id=&quot;inter-alia&quot;&gt;Inter alia&lt;/h1&gt;
+&lt;p&gt;I’ve also disappeared for a month and have done programming in the interim, just that I wasn’t very diligent about recording it. :P&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Jul 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-16</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-16</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 15</title>
@@ -140,114 +212,6 @@
         <pubDate>Mon, 16 May 2022 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/articles/22/day-10</link>
         <guid isPermaLink="true">http://localhost:4000/articles/22/day-10</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 9</title>
-        <description>&lt;p&gt;More working with objects: Object.keys(obj) and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;for (let item in items)&lt;/code&gt;on freecodecamp. &lt;!--more--&gt; Short update as I was out the whole day.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 15 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-9</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-9</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 8</title>
-        <description>&lt;p&gt;Bits of progress - did some regex exercises + learnt about array + object methods &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve been pretty tired lately but I’m glad that I made a bit of time (45 minutes) today to learn something new for my own interest, as opposed to learning something for my paid work (I guess it can improve my work, but it’s not a very direct benefit considering that I’m doing more of working with third party apps on Shopify and troubleshooting them). That was fun. I’m trying to get out of the mindset that I need to have particularly noteworthy things to talk about every day, and just focus on building up &lt;em&gt;consistency&lt;/em&gt; – any daily exercise/learning is good learning and any post is a good post. The main point is to be more consistent, and trust the process a bit more.&lt;/p&gt;
-
-&lt;p&gt;Method of the day: .splice()
-.splice() takes in 3 params: the starting index, number of items to remove, and what to replace the starting index’s contents with. &lt;br /&gt;
-Besides modifying the array that it is used on, it also returns an array containing the items that have been removed&lt;/p&gt;
-
-&lt;p&gt;Example: 
-Take that we let arr = [‘We’, ‘are’, ‘looking’, ‘for’, ‘Blue&apos;s’, ‘Clues’]&lt;/p&gt;
-
-&lt;p&gt;arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.&lt;/p&gt;
-
-&lt;p&gt;arr.splice(3, 3, ‘young’) would remove the 3 items mentioned above but also replace them with ‘young’ at index 3 in the original arr to give us “We are looking young”, while returning an array containing the 3 removed elements.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-8</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-8</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 7</title>
-        <description>&lt;p&gt;Starting to think about whether this site is accessible, how to test if it is accessible, and how to make it accessible if it isn’t
-&lt;!--more--&gt;&lt;/p&gt;
-&lt;h1 id=&quot;thinking-about-my-personal-sites-accessibility&quot;&gt;Thinking about my personal site’s accessibility&lt;/h1&gt;
-
-&lt;p&gt;I attended a StackX meetup yesterday and decided to poke about GovTech’s github repos. Seeing the SGDS provoked me to think about &lt;em&gt;my&lt;/em&gt; own site’s accessibility. There’s some tech debt in the sense that I’m using Jekyll, and need to figure out how the html in my site is generated. If I were coding everything by myself with HTML+CSS+JS, it’d probably be a lot easier to just tweak the site’s html directly. So this is the main todo.&lt;/p&gt;
-
-&lt;p&gt;Resources:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.goring.org/resources/accessibility.html&quot;&gt;Accessibility with Jekyll Pages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Also finished FreeCodeCamp’s regex section, although regex still feels very mind-bending to me. Should look for more exercises so it becomes a matter of muscle memory.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 13 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-7</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-7</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 6</title>
-        <description>&lt;p&gt;from May 6 - May 10 just a lot of Shopify stuff
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;shopify&quot;&gt;Shopify&lt;/h1&gt;
-
-&lt;p&gt;i’ve been spending most of my time familiarising myself with Shopify because of work. My tasks can generally be grouped into the following:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Theme customisation&lt;/li&gt;
-  &lt;li&gt;Updating information (like product tags / changing HTML templates for certain pages)&lt;/li&gt;
-  &lt;li&gt;Writing tests – I’m learning to use UI-licious to automate testing of stores’ Uis&lt;/li&gt;
-  &lt;li&gt;Working with Shopify’s third party apps for doing a variety of things, like setting up logic for shipping, build-your-own-box products, etc.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I want to spend some time outside of work becoming more familiar with Liquid and the structure of Shopify themes so that I can do more complex customisation work. There’s also some really cool-looking stuff like Hydrogen (Shopify’s framework for building custom storefronts) that I want to explore. In this vein, I’ve signed up for a Udemy course to learn how to make themes (esp learning how to use the Shopify CLI, Liquid, Tailwind and also the JSON templates that themes have).&lt;/p&gt;
-
-&lt;h1 id=&quot;soft-skills-and-learning-about-my-own-preferences&quot;&gt;Soft skills and learning about my own preferences&lt;/h1&gt;
-
-&lt;p&gt;One thing I’ve learnt lately is that I don’t really enjoy meetings. I’m on a contract to do about 20h of work a week, but find that meetings (standups, client meetings etc) tend to take close to 20% of that time, which is a lot of time to me. Moving forward, I’m going to try to not attend client meetings where my presence is just good to have but not actually necessary. However, since I’m new, I’m going to treat these meetings like part of the necessary learning curve to get to know clients’ usual pain points and what features they tend to need.&lt;/p&gt;
-
-&lt;p&gt;Coming to my own preferences – I realised that when I look for full-time dev opportuntiies, I’d prefer to work on things that have a longer time frame. Ideally, this would be a company where devs build the company’s own product as opposed to having to answer to external clients. With agency work, meetings can be last minute as unexpected problems crop up (e.g. client reports that some feature of their site is down and it’s an important) quite often. I enjoy more long-term, less urgent work that I can do asynchronously most of the time. I think that’s why I liked my undergrad research jobs so much, because it’s about chipping away at this One Project until it’s done. There also aren’t a lot of meetings or last-minute requests.&lt;/p&gt;
-
-&lt;h1 id=&quot;setting-boundaries&quot;&gt;Setting boundaries&lt;/h1&gt;
-
-&lt;p&gt;Working as a freelancer for an agency has really tested my ability to set boundaries, mostly because I have an overextended sense of responsibility. Like, when someone asks me “Can you do this by tomorrow”, I think of it as “Can I do this if I stay up late” and tend to say yes if I think it is physically possible to do it, and not so much of whether I &lt;em&gt;should&lt;/em&gt; be exerting myself to that point where I’m up till 1 working on something.&lt;/p&gt;
-
-&lt;p&gt;This is an issue to do with setting boundaries, and I think it’s time for me to properly set some. I will keep myself available in the day for work, but won’t do it after 5pm because I’ve got other parts of my life to tend to. If I keep responding to people’s requests whenever they come in, it means I’m living a lot less of my life. My contract is for 4 hours a day, but quite a lot of time goes to things outside of dev work like doing time tracking, responding to colleagues etc, client meetings that aren’t always billable.&lt;/p&gt;
-
-&lt;p&gt;These boundaries are important because I realised that I’ve not been focusing much on my own learning and growth for things outside of stuff related to my paid work – e.g. learning data structures and algorithms, learning more about backend.&lt;/p&gt;
-
-&lt;h1 id=&quot;random-update-some-free-camp&quot;&gt;Random update: some free camp&lt;/h1&gt;
-
-&lt;p&gt;I signed up for this -redacted tech company - Youth Camp thing that involves 2-3h classes every weekday from last Wednesday to this Friday (run by SWEs from that company), but am realising that it’s not for me. 2-3h hours every weekday on top of work is making me way more tired than I expected. I also don’t fare well with long lectures. I’ll look for this sort of thing and vet the opportunities I want to sign up for more judiciously in the future.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 10 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-6</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-6</guid>
         
         
         <category>days</category>

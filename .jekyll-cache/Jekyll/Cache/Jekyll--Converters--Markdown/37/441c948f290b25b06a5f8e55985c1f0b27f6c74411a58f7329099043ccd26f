@@ -1,0 +1,4 @@
+I"Ý<p>Created reusable components in React.
+<!--more--> 
+This project involved some really tight timelines, so I was really just doing stuff manually (i.e. copy-pasting and tweaking things slightly) because it took less effort than thinking through how to add props and make a component reusable. However, I finally got some time to think about and implement it, which was worth the time as it means that we wonâ€™t be clogging up the src folder with lots of different files.</p>
+:ET

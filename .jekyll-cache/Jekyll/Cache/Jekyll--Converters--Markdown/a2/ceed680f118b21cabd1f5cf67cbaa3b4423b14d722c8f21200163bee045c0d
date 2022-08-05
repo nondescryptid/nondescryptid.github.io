@@ -1,6 +1,38 @@
-I"Ø<h1 class="content-listing-header sans">Posts</h1>
+I"O<h1 class="content-listing-header sans">Posts</h1>
 <ul class="content-listing ">
 
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-19"><h3 class="contrast">day 19</h3></a>
+          <br /><span class="smaller">August 5, 2022</span>  <br />
+          <div><p>Touched more server-side stuff. Learned to use <code class="language-plaintext highlighter-rouge">screen</code> on a server to manage sessions and update sites.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-18"><h3 class="contrast">day 18</h3></a>
+          <br /><span class="smaller">August 2, 2022</span>  <br />
+          <div><p>Created reusable components in React for a volunteering project.</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-17"><h3 class="contrast">day 17</h3></a>
+          <br /><span class="smaller">July 20, 2022</span>  <br />
+          <div><p>Joys of pair programming and fiddling with Liquid + Shopify metafields</p>
+</div> 
+        </li>
+          
+        <li class="listing">
+          <hr class="slender" />
+          <a href="/articles/22/day-16"><h3 class="contrast">day 16</h3></a>
+          <br /><span class="smaller">July 19, 2022</span>  <br />
+          <div><p>Using .filter(), and thinking about reusable components</p>
+</div> 
+        </li>
           
         <li class="listing">
           <hr class="slender" />

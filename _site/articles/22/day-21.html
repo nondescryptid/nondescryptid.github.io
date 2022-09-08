@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>day 21</title>
+  <meta name="description" content="Took part in a Go workshop by Chuk organised by GeeksHacking, where we made a command line tool that interacts with the Boardgame Atlas API to search for boa...">
+  <link rel="icon" href="../assets/img/pixeltree.png">
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+  <!-- widget for searching on my site from try.catche.co-->
+  <script catche-key="bb085e6f-2914-44d0-9235-eeaf11367173" type="module" crossorigin src="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/index.js"></script>
+<!-- next line is optional to preload modules -->
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/vendor.js">
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://localhost:4000/articles/22/day-21">
+
+  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="http://localhost:4000/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/pixeltree.png" title="i made this too!" alt="CH"></a>
+	
+		
+  	
+		
+  	
+		
+  	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/days/">100 days of code</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>day 21</h1>
+<p class="subtitle">September 3, 2022, Saturday</p>
+
+<p>Took part in a Go workshop by Chuk organised by GeeksHacking, where we made a command line tool that interacts with the Boardgame Atlas API to search for board games.</p>
+
+<!--more-->
+
+<p><a href="bit.ly/golang_for_programmers">Slides can be found here</a></p>
+
+<p><a href="https://docs.google.com/presentation/d/1S2bS0Wvevd3_Cb8DwDXYD4Swwq_3IDlfVuFY1V2lesg/edit#slide=id.p">alt link</a></p>
+
+<h1 id="go">Go</h1>
+<p>Languages can be thought of in terms of STRONG vs WEAK typing, and static v dynamic</p>
+
+<h1 id="where-go-is-used">Where Go is used</h1>
+<ul>
+  <li>Infra like Kubernetes and Docker</li>
+  <li>Cloud native devt (writing RESTful [message-based] web apps; gRPC (another service style))</li>
+  <li>Replacing existing infra such as CoreDNS/Caddy (reverse proxy - nginx is an alternative to Caddy. Chuk likes Caddy bc it just has one binary to deal with)</li>
+</ul>
+
+<h1 id="go-data-types">Go Data Types</h1>
+<ul>
+  <li>string</li>
+  <li>rune (equivalent of a char in JS)</li>
+  <li>number int, uint (no negative numbers), floats</li>
+  <li>complex</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var name string
+
+var age uint8 = 21
+</code></pre></div></div>
+
+<h1 id="arrays--slices-dynamic-arrays">Arrays &amp; Slices (dynamic arrays)</h1>
+
+<h2 id="arrays-fixed-size">Arrays (fixed size)</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var name [5]string
+</code></pre></div></div>
+
+<h2 id="slices">Slices</h2>
+
+<p>Looks like you declare the upper limit of memory it can have (e.g. 5 items) and then append items without necessary using all of the memory allocated</p>
+
+<p>TODO: look up arrays vs Slices</p>
+
+<h1 id="loops">Loops</h1>
+
+<h1 id="pointers">Pointers</h1>
+
+<p>Python etc have a concept of a reference - a pointer-like thing to an object</p>
+<ul>
+  <li>in Java, objects arrays etc are references but primitives are not references.</li>
+</ul>
+
+<p>Chuk: “You wont ask an F1 driver to ask slowly right. Sometimes you want the freedom to do stupid things [as an engineer].”</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name := "fred"
+
+&amp;name #gives you the address of a var 
+
+*&amp;name == "fred" # gives you contents of the address 
+</code></pre></div></div>
+
+<p>This allows you to have double pointers that allow “dynamic addressing” (TODO: look up)</p>
+
+<p>And anything can be passed by reference or value into functions</p>
+
+<h1 id="creating-custom-types">Creating custom types</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type natural unit32
+</code></pre></div></div>
+
+<p>or create objects</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Customer struct {
+    ...
+}
+</code></pre></div></div>
+
+<p>Function types</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>type Apply[T any] func(T,T)T 
+
+# function takes 2 params of type T, and returns type T. 
+
+</code></pre></div></div>
+<h1 id="visibility-of-vars">Visibility of vars</h1>
+<p>If a var starts with uppercase it is public, and lowercase is private.</p>
+
+<blockquote>
+  <p>Chuk: “You either see it or you don’t”</p>
+</blockquote>
+
+<h1 id="class-like">Class-like</h1>
+<p>Can write functions that are only accessible by certain structs</p>
+
+<p>Receiver function must be in the same module</p>
+
+<blockquote>
+  <p>Critique of Go: You extend or implement an interface, but there’s no explicit stuff like that in Go. Go handles it implicitly where if your struct has methods of the interface, it is considered implemented.</p>
+
+  <p>This makes reading code a bit difficult because a param can require a reader but you have to figure out which structs implement a reader, then hunt down the methods in that reader.</p>
+</blockquote>
+
+<p>TODO: Find out what’s a thread … Chuk is talking about threads but I don’t know what it’s about</p>
+
+<h1 id="communicating-between-routines">Communicating between routines</h1>
+
+<p>Use a built-in primitive called channels.</p>
+
+<p>To read:</p>
+<ul>
+  <li><a href="https://www.educative.io/answers/what-are-channels-in-golang">What are channels in Golang?</a></li>
+</ul>
+
+<h1 id="todays-workshop">Today’s workshop</h1>
+
+<p>Building a command line tool to search for board games</p>
+
+<p>If there’s time:</p>
+<ul>
+  <li>Pretty print results</li>
+  <li>Cross compile to other platforms e.g. Linux to Windows</li>
+  <li>Write a multi threaded version if time permits</li>
+</ul>
+
+<h2 id="initialise-project-as-a-go-project">Initialise project as a Go project</h2>
+<p>Run <code class="language-plaintext highlighter-rouge">go mod init</code> in the directory where your project is. It should create a file called <code class="language-plaintext highlighter-rouge">go.mod</code>.</p>
+
+<h2 id="my-first-go-program-">My first Go program :)</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>package main
+
+func main() {
+    fmt.Println("hello, world")
+}
+</code></pre></div></div>
+
+<p>Run programs with <code class="language-plaintext highlighter-rouge">go run .</code> in the directory where your go program file is stored.</p>
+
+<h2 id="boardgame-api">Boardgame API</h2>
+
+<p>We are using the Search endpoint: https://www.boardgameatlas.com/api/docs/search</p>
+
+<p>We need:</p>
+<ul>
+  <li>Search term</li>
+  <li>Client id</li>
+  <li>Limit (e.g. 10)</li>
+  <li>Skip (e.g. 0)</li>
+</ul>
+
+<h2 id="compiling">Compiling</h2>
+<p>Use <code class="language-plaintext highlighter-rouge">go build .</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">go run</code> is for devt purposes.</p>
+
+<h2 id="questions">Questions</h2>
+<p>What are pointers and references?
+What does strong and weak typing mean, and when would someone prefer a language that’s strongly/weakly typed?</p>
+
+<h2 id="adding-colors">Adding colors:</h2>
+<p>Cool repo to add colors to the command line output: https://github.com/fatih/color
+run <code class="language-plaintext highlighter-rouge">go get github.com/fatih/color</code> in your project dir</p>
+
+
+
+    </article>
+    <span class="print-footer">day 21 - September 3, 2022 - tomo</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//github.com/nondescryptid"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/in/tomoe-a9878b119/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2022 &nbsp;&nbsp;TOMO</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

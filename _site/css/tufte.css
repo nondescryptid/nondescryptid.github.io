@@ -149,13 +149,13 @@ html { text-align: baseline; font-size: 11px; -webkit-font-smoothing: antialiase
 
 @media screen and (min-width: 800px) { html { font-size: 12px; } }
 
-@media screen and (min-width: 900px) { html { font-size: 12px; } }
+@media screen and (min-width: 900px) { html { font-size: 13px; } }
 
-@media screen and (min-width: 1000px) { html { font-size: 12px; } }
+@media screen and (min-width: 1000px) { html { font-size: 13px; } }
 
-@media screen and (min-width: 1100px) { html { font-size: 12px; } }
+@media screen and (min-width: 1100px) { html { font-size: 13px; } }
 
-@media screen and (min-width: 1200px) { html { font-size: 12px; } }
+@media screen and (min-width: 1200px) { html { font-size: 13px; } }
 
 @media screen and (min-width: 1300px) { html { font-size: 13px; } }
 
@@ -177,7 +177,7 @@ p .subtitle { font-style: italic; margin-top: 2.1777777777777778rem; margin-bott
 
 p, ol, ul { font-size: 1.4rem; }
 
-p, li { line-height: 3rem; margin-top: 1.4rem; padding-right: 2rem; vertical-align: baseline; }
+p, li { line-height: 2rem; margin-top: 1.4rem; padding-right: 2rem; vertical-align: baseline; }
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 3.5636rem 0; }
@@ -234,7 +234,7 @@ article { position: relative; padding: 1 rem 0rem 2.5rem 0rem; }
 
 section { padding-top: 1rem; padding-bottom: 1rem; }
 
-ul, ol { width: 60%; -webkit-padding-start: 2%; -webkit-padding-end: 2%; list-style-type: disc; }
+ul, ol { width: 45%; -webkit-padding-start: 5%; -webkit-padding-end: 5%; list-style-type: none; }
 
 figure, figure img.maincolumn { max-width: 55%; -webkit-margin-start: 0; -webkit-margin-end: 0; margin-bottom: 3em; }
 
@@ -244,7 +244,7 @@ figure.fullwidth figcaption { float: left; margin-right: 0%; margin-left: 33%; m
 
 img { max-width: 100%; }
 
-.sidenote, .marginnote { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 1.96rem; font-size: 1.25rem; line-height: 1.96; vertical-align: baseline; position: relative; }
+.sidenote, .marginnote { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 1.96rem; font-size: 1.0rem; line-height: 1.96; vertical-align: baseline; position: relative; }
 
 li .sidenote, li .marginnote { margin-right: -80%; }
 
@@ -258,7 +258,7 @@ blockquote .sidenote, blockquote .marginnote { margin-right: -79%; }
 
 .sidenote:before { content: counter(sidenote-counter) ". "; color: #498288; top: 0rem; }
 
-p, footer, div.table-wrapper, .MJXc-display { width: 55%; }
+p, footer, div.table-wrapper, .MJXc-display, .MathJax { width: 55%; }
 
 div.table-wrapper, table { overflow-x: auto; }
 
@@ -288,7 +288,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 .smaller { font-size: 80%; }
 
-header > nav.group, body footer { width: 80%; padding-top: 2rem; }
+header > nav.group, body footer { width: 95%; padding-top: 2rem; }
 
 nav.group a.active:before { content: "\0003c\000a0"; }
 
@@ -310,7 +310,7 @@ ul.footer-links li { display: inline; padding: 0.5rem 0.25rem; }
 
 body.full-width, .content-listing, ul.content-listing li.listing { width: 90%; margin-left: auto; margin-right: auto; padding: 0% 5%; }
 
-.full-width article p { width: 80%; }
+.full-width article p { width: 90%; }
 
 h1.content-listing-header { font-style: normal; text-transform: uppercase; letter-spacing: 0.2rem; font-size: 1.8rem; }
 

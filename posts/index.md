@@ -1,7 +1,7 @@
 ---
 layout: default
 title: posts
-nav_exclude: true
+nav_exclude: false
 # Note that this index page uses a full-width layout!
 ---
   <h1 class="content-listing-header sans">Posts</h1>

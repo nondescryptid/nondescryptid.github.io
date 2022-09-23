@@ -5,9 +5,74 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2022 09:00:10 -0400</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2022 09:00:10 -0400</lastBuildDate>
+    <pubDate>Fri, 23 Sep 2022 14:03:51 -0400</pubDate>
+    <lastBuildDate>Fri, 23 Sep 2022 14:03:51 -0400</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Streaming from your Oculus Quest 2 to Zoom while using Air Link, but your PC also has no WiFi</title>
+        <description>&lt;p&gt;I don’t know why you’d want to do this too, or have the same combination of problems. But if you do, here you go. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;context&quot;&gt;Context&lt;/h1&gt;
+
+&lt;p&gt;I was helping with organising a conference that involved an experiential VR component, where conference participants could try out apps on the Oculus Quest 2. However, one of the applications featured was a game on Steam that had no native Oculus app to install. &lt;label for=&quot;sidenote-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;P.S. This was SR4-2, if you attended the conference. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;This meant that we had to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download the Oculus app for PC (btw it has no Mac support)&lt;/li&gt;
+  &lt;li&gt;Pair the Oculus with the PC via a wired connection (USB-C) or Air Link (wireless, via WiFi)&lt;/li&gt;
+  &lt;li&gt;Start the game in Steam and choose “Launch with Steam VR”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the conference was a hybrid conference, so we also had to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Figure out how to stream what was happening on the Oculus to Zoom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-not-just-connect-it-with-a-wired-connection&quot;&gt;Why not just connect it with a wired connection?&lt;/h2&gt;
+&lt;p&gt;We could’ve used a wired connection, but there was a concern about the experience being suboptimal (range of movement being limited by the length of the USB-C cable) and also risking participants tripping over wires.&lt;/p&gt;
+
+&lt;h2 id=&quot;problems-with-air-link-and-knock-on-problems-with-streaming&quot;&gt;Problems with Air Link and knock-on problems with streaming&lt;/h2&gt;
+&lt;p&gt;The PC we were using had no WiFi, and Oculus Air Link needs WiFi to work.&lt;label for=&quot;sidenote-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://www.oculus.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/&quot;&gt;Oculus Blog, Introducing Oculus Air Link&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The casting feature in Oculus (not in Air Link/wired mode) lets you show what the Oculus user is seeing if you log in on &lt;a href=&quot;https://www.oculus.com/casting/&quot;&gt;oculus.com/casting&lt;/a&gt; on Chromium browsers, when both the browser’s device and the Oculus headset are on the same network. This feature is not available if you’re connected to a PC, so you need to find some other way to show what’s going on.&lt;/p&gt;
+
+&lt;p&gt;For the conference, we were sharing the screen of a monitor that had 5 different Chrome windows logged on to the headsets’ accounts. The 6th headset was the one that was linked to a PC, that couldn’t be shown with the same method.&lt;/p&gt;
+
+&lt;h2 id=&quot;solutionwhat-we-ended-up-doing-wifi-adapter--obs-virtual-camera&quot;&gt;Solution/What We Ended Up Doing: WiFi Adapter + OBS Virtual Camera&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Acquire WiFi Adapter (We used an &lt;a href=&quot;https://www.edimax.com/edimax/merchandise/merchandise_detail/data/edimax/global/wireless_adapters_ac1750_dual-band/ew-7833uac&quot;&gt;Edimax AC1750&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Set it up - install driver and whatnot&lt;/li&gt;
+  &lt;li&gt;Go to Settings &amp;gt; Network &amp;amp; Internet &amp;gt; Mobile hotspot&lt;/li&gt;
+  &lt;li&gt;Turn on Mobile Hotspot&lt;/li&gt;
+  &lt;li&gt;Connect your Oculus headset to the PC’s hotspot&lt;/li&gt;
+  &lt;li&gt;Turn on Airlink -&amp;gt; select your PC from the list of devices -&amp;gt; click Launch&lt;/li&gt;
+  &lt;li&gt;Launch your Steam game with Steam VR&lt;/li&gt;
+  &lt;li&gt;Use OBS Virtual Camera to do Window Capture of the Steam game’s window, then Start Virtual Camera&lt;/li&gt;
+  &lt;li&gt;Join Zoom Meeting and change camera output to OBS Camera&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/streaming-from-your-oculus-quest-2-while-using-air-link</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/streaming-from-your-oculus-quest-2-while-using-air-link</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>day 22</title>
+        <description>&lt;p&gt;Tried out implementing a UI for question-answering with BERT (using functions written by Chris McCormick) on Streamlit at &lt;a href=&quot;bert.tomoe.asia&quot;&gt;bert.tomoe.asia&lt;/a&gt; but it crashes when there are long spans of text entered – not sure if it’s due to memory constraints (free tier has 800MB of memory) or what. I’ll try using a smaller BERT model tomorrow and see if it makes a difference.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Sep 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/articles/22/day-22</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/22/day-22</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 21</title>
@@ -292,50 +357,6 @@ run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go get gi
         <pubDate>Wed, 08 Jun 2022 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/articles/22/day-14</link>
         <guid isPermaLink="true">http://localhost:4000/articles/22/day-14</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 13</title>
-        <description>&lt;p&gt;Set up node to communicate with a Flask backend that someone else built for a volunteering project. &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Reorganised code to place the frontend I built and the backend someone else built in the same repo, so I can use relative routes like “/login” instead of exposing the server address of what I’m working on like XX.XX.XX:XXXX/login.&lt;/p&gt;
-
-&lt;p&gt;Also had to figure out why env variables couldn’t be accessed by Flask, then I realised I needed to use the dotenv library to retrieve variables from an .env file.&lt;/p&gt;
-
-&lt;p&gt;I found the following articles useful:
-&lt;a href=&quot;https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb&quot;&gt;Easiest Way to Connect a React Frontend with Node.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/javarevisited/connecting-flask-with-node-js-7b9d823ca923&quot;&gt;Connecting Flask with Node.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.nylas.com/blog/making-use-of-environment-variables-in-python/&quot;&gt;Making Use of Environment Variables in Python&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I didn’t work on my projects for a while as I made the mistake of going out to meet friends too many times in a week when I don’t really have the social batteries for it. Looking forward to pacing myself better in the future, and hibernating + hacking away at my own stuff for the next week!!&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 29 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-13</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-13</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 12</title>
-        <description>&lt;p&gt;Figured out how to use asdf (it’s a version manager!) to manage different versions of Ruby and Python on my laptop. &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Had to do it because I was struggling to install Shopify’s CLI when my ruby version kept pointing to the ancient Mac OSX system one instead of the one I actually wanted.&lt;/p&gt;
-
-&lt;p&gt;Lighthouse says my site could use ARIA and better contrast.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 May 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/articles/22/day-12</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/22/day-12</guid>
         
         
         <category>days</category>

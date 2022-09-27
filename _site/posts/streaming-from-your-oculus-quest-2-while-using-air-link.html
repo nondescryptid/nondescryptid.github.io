@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Streaming from your Oculus Quest 2 to Zoom while using Air Link, but your PC also has no WiFi</title>
+  <meta name="description" content="I don’t know why you’d want to do this too, or have the same combination of problems. But if you do, here you go.">
+  <link rel="icon" href="../assets/img/pixeltree.png">
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+  <!-- widget for searching on my site from try.catche.co-->
+  <script catche-key="bb085e6f-2914-44d0-9235-eeaf11367173" type="module" crossorigin src="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/index.js"></script>
+<!-- next line is optional to preload modules -->
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/vendor.js">
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="http://localhost:4000/posts/streaming-from-your-oculus-quest-2-while-using-air-link">
+
+  <link rel="alternate" type="application/rss+xml" title="Tufte-Jekyll" href="http://localhost:4000/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/pixeltree.png" title="i made this too!" alt="CH"></a>
+	
+		
+  	
+		
+  	
+		
+		    
+		      <a href="/days/">100 days of code</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/posts/">posts</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/css/latex.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>Streaming from your Oculus Quest 2 to Zoom while using Air Link, but your PC also has no WiFi</h1>
+<p class="subtitle">September 23, 2022, Friday</p>
+
+<p>I don’t know why you’d want to do this too, or have the same combination of problems. But if you do, here you go. <!--more--></p>
+
+<h1 id="context">Context</h1>
+
+<p>I was helping with organising a conference that involved an experiential VR component, where conference participants could try out apps on the Oculus Quest 2. However, one of the applications featured was a game on Steam that had no native Oculus app to install. <label for="sidenote-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sidenote-id" class="margin-toggle" /><span class="sidenote">P.S. This was SR4-2, if you attended the conference. </span></p>
+
+<p>This meant that we had to:</p>
+<ul>
+  <li>Download the Oculus app for PC (btw it has no Mac support)</li>
+  <li>Pair the Oculus with the PC via a wired connection (USB-C) or Air Link (wireless, via WiFi)</li>
+  <li>Start the game in Steam and choose “Launch with Steam VR”</li>
+</ul>
+
+<p>And the conference was a hybrid conference, so we also had to:</p>
+<ul>
+  <li>Figure out how to stream what was happening on the Oculus to Zoom</li>
+</ul>
+
+<h2 id="why-not-just-connect-it-with-a-wired-connection">Why not just connect it with a wired connection?</h2>
+<p>We could’ve used a wired connection, but there was a concern about the experience being suboptimal (range of movement being limited by the length of the USB-C cable) and also risking participants tripping over wires.</p>
+
+<h2 id="problems-with-air-link-and-knock-on-problems-with-streaming">Problems with Air Link and knock-on problems with streaming</h2>
+<p>The PC we were using had no WiFi, and Oculus Air Link needs WiFi to work.<label for="sidenote-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sidenote-id" class="margin-toggle" /><span class="sidenote"><a href="https://www.oculus.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/">Oculus Blog, Introducing Oculus Air Link</a> </span></p>
+
+<p>The casting feature in Oculus (not in Air Link/wired mode) lets you show what the Oculus user is seeing if you log in on <a href="https://www.oculus.com/casting/">oculus.com/casting</a> on Chromium browsers, when both the browser’s device and the Oculus headset are on the same network. This feature is not available if you’re connected to a PC, so you need to find some other way to show what’s going on.</p>
+
+<p>For the conference, we were sharing the screen of a monitor that had 5 different Chrome windows logged on to the headsets’ accounts. The 6th headset was the one that was linked to a PC, that couldn’t be shown with the same method.</p>
+
+<h2 id="solutionwhat-we-ended-up-doing-wifi-adapter--obs-virtual-camera">Solution/What We Ended Up Doing: WiFi Adapter + OBS Virtual Camera</h2>
+<ol>
+  <li>Acquire WiFi Adapter (We used an <a href="https://www.edimax.com/edimax/merchandise/merchandise_detail/data/edimax/global/wireless_adapters_ac1750_dual-band/ew-7833uac">Edimax AC1750</a>)</li>
+  <li>Set it up - install driver and whatnot</li>
+  <li>Go to Settings &gt; Network &amp; Internet &gt; Mobile hotspot</li>
+  <li>Turn on Mobile Hotspot</li>
+  <li>Connect your Oculus headset to the PC’s hotspot</li>
+  <li>Turn on Airlink -&gt; select your PC from the list of devices -&gt; click Launch</li>
+  <li>Launch your Steam game with Steam VR</li>
+  <li>Use OBS Virtual Camera to do Window Capture of the Steam game’s window, then Start Virtual Camera</li>
+  <li>Join Zoom Meeting and change camera output to OBS Camera</li>
+</ol>
+
+
+
+    </article>
+    <span class="print-footer">Streaming from your Oculus Quest 2 to Zoom while using Air Link, but your PC also has no WiFi - September 23, 2022 - tomo</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:suzukitomoe.st@gmail.com"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//github.com/nondescryptid"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.linkedin.com/in/tomoe-a9878b119/"><span class="icon-linkedin"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2022 &nbsp;&nbsp;TOMO</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for Content-centric blogging </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

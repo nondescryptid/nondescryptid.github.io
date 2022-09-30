@@ -1,5 +1,5 @@
 ---
-title: "Personal canon - writing  I return to"
+title: "How to think about work such that it doesn't suck"
 layout: post
 ---
 

@@ -5,12 +5,12 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2022 14:38:53 -0400</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2022 14:38:53 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Sep 2022 01:26:32 -0400</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2022 01:26:32 -0400</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Personal canon - writing  I return to</title>
+        <title>How to think about work such that it doesn&apos;t suck</title>
         <description>&lt;p&gt;I’ve found myself sending similar screenshots/quotes to friends that I found helpful, so now I’m trying to park everything in one place.&lt;/p&gt;
 
 &lt;!--more--&gt;
@@ -146,8 +146,8 @@ simply to move through the work. Instead of struggling to reach the end of the s
 &lt;p&gt;Anyway, that’s about it for now. If you’ve read this far - I’d love to hear what your personal canon is like as I’m always on the lookout for new things to read.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Sep 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/personal-canon-writing-i-return-to</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/personal-canon-writing-i-return-to</guid>
+        <link>http://localhost:4000/posts/thinking-about-work</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/thinking-about-work</guid>
         
         
         <category>posts</category>

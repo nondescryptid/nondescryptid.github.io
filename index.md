@@ -19,8 +19,7 @@ What I'm trying to avoid: excessive red tape, meetings that could've been emails
 
 <h1 class="content-listing-header sans">Latest posts</h1>
   <ul class="content-listing ">
-
-    {% for post in site.categories.posts limit:3 %}      
+    {% for post in site.posts limit:3 %}      
         <li class="listing">
           <hr class="slender">
           <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>

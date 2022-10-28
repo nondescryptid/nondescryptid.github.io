@@ -5,6 +5,9 @@ title: 100 days of code
 ---
   <h1 class="content-listing-header sans">Posts</h1>
   At this point it's more like trying to post 100 times about what I've done, rather than doing it 100 days in a row...
+
+  P.S. What you see are excerpts, so click on the post title if you want to see the whole thing.
+  
   <ul class="content-listing ">
 
     {% for post in site.categories.days %}      

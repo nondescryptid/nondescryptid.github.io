@@ -17,15 +17,3 @@ What I'm trying to do more of: Being a perpetual novice, understanding that [pre
 
 What I'm trying to avoid: excessive red tape, meetings that could've been emails, [asking to ask](https://dontasktoask.com/), a job that forces me to work regular office hours.
 
-<h1 class="content-listing-header sans">Latest posts</h1>
-  <ul class="content-listing ">
-    {% for post in site.posts limit:3 %}      
-        <li class="listing">
-          <hr class="slender">
-          <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-          <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-          <div>{{ post.excerpt }}</div> 
-        </li>
-    {% endfor %}
-  </ul>
-

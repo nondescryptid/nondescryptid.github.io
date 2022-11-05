@@ -7,7 +7,7 @@ nav_exclude: true
 
 Hello! I'm Tomoe. 
 
-I'm curious about the union of law, code and design. I like explaining things simply, building things, and competing in pub trivia.
+I'm curious about the union of law, code and design. I like explaining things simply, learning to code, and competing in pub trivia.
 
 <!-- 
 Currently, I am helping to train a model to recognise entities in (Japanese) DMCA complaints.{% sidenote "sidenote-id" "Undergrad Research Assistant, NUS Law Centre for Technology, Robotics, AI and the Law (A/P Daniel Seng). You should read about his <a href='https://www.lumendatabase.org/blog_entries/lumen-researcher-interview-series-professor-daniel-seng'>doctorate journey."</a> %} I've also helped with coding Chinese interview data{% sidenote "sidenote-id" "Undergrad Research Assistant, Dr <a href='https://scholar.google.com/citations?user=2TnOeP0AAAAJ&hl=en'>Benjamin M. Chen</a>. This was my first job in college, and I remain grateful having the chance to work on something fun in my first year when school felt very dismal." %}, making infographics about matrimonial asset division {% sidenote "sidenote-id" "Volunteer, Legal Aid Bureau's LegalTech team (super nice people). The <a href='https://va.ecitizen.gov.sg/CSS/uploads/Infographic%2001.pdf'> infographic </a> is being used by iLAB (LAB's chatbot)." %}, and building a web app for a non-profit to manage client intake and matching with volunteers {% sidenote "sidenote-id" "TechLadies Bootcamp (for women with basic programming background). My teammates were all working full-time jobs, and I am in awe of them." %}.  -->
@@ -28,3 +28,4 @@ What I'm trying to avoid: excessive red tape, meetings that could've been emails
         </li>
     {% endfor %}
   </ul>
+

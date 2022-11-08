@@ -197,7 +197,7 @@ blockquote p.epigraph { font-size: 1.1rem; line-height: 1.78181818; margin-top: 
 
 blockquote footer { width: 45%; text-align: right; }
 
-.sans { font-family: "Roboto Mono", monospace; letter-spacing: .03em; }
+.sans { font-family: Courier, monospace; letter-spacing: .03em; }
 
 pre, pre code, p code, p pre code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 1.3rem; line-height: 1.71428571; margin-top: 1.71428571rem; }
 
@@ -301,7 +301,7 @@ nav.group a.active:before { content: "\0003e\000a0"; }
 
 nav.group a.active:after { content: "\000a0\0003c"; }
 
-header > nav a { font-size: 1.2rem; font-family: "Roboto Mono", monospace; letter-spacing: 0.15em; text-transform: uppercase; color: #498288; padding-top: 1.5rem; text-decoration: none; display: inline-block; float: left; margin-top: 0; margin-bottom: 0; padding-right: 2rem; vertical-align: baseline; }
+header > nav a { font-size: 1.2rem; font-family: Courier, monospace; letter-spacing: 0.15em; text-transform: uppercase; color: #498288; padding-top: 1.5rem; text-decoration: none; display: inline-block; float: left; margin-top: 0; margin-bottom: 0; padding-right: 2rem; vertical-align: baseline; }
 
 header > nav a img { height: 5rem; position: relative; max-width: 100%; top: -1.5rem; }
 
@@ -335,6 +335,6 @@ hr.slender { border: 0; height: 1px; margin-top: 2.1rem; margin-bottom: 2.1rem; 
 
 @media print { * { -webkit-transition: none !important; transition: none !important; } *, *:before, *:after { background: transparent !important; box-shadow: none !important; text-shadow: none !important; } @page { margin: 0.75in 0.5in 0.75in 0.5in;
     orphans: 4;
-    widows: 2; } body { font-size: 12pt; } html body span.print-footer { font-family: "Roboto Mono", monospace; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } img { max-width: 100% !important; } p, h2, h3 { orphans: 4; widows: 4; } article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 { page-break-after: avoid; } body header, body footer { display: none; } }
+    widows: 2; } body { font-size: 12pt; } html body span.print-footer { font-family: Courier, monospace; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; } thead { display: table-header-group; } tr, img { page-break-inside: avoid; } img { max-width: 100% !important; } p, h2, h3 { orphans: 4; widows: 4; } article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 { page-break-after: avoid; } body header, body footer { display: none; } }
 
 /*# sourceMappingURL=tufte.css.map */

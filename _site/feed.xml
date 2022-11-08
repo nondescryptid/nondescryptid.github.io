@@ -5,9 +5,73 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Oct 2022 03:40:08 -0400</pubDate>
-    <lastBuildDate>Fri, 28 Oct 2022 03:40:08 -0400</lastBuildDate>
+    <pubDate>Tue, 08 Nov 2022 04:33:24 -0500</pubDate>
+    <lastBuildDate>Tue, 08 Nov 2022 04:33:24 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>day 53 - EMNLP 2022 search + making mobile look better</title>
+        <description>&lt;p&gt;Implemented search by title – filtering by track got me to learn how to use .filter(), search made me learn how to use .include(). Fixed some styling issues by adding text-wrap to my labels for each card, which was causing a horizontal overflow problem on mobile (esp for conference tracks with very long names) earlier on. My div with the filter+search elements was also way outside the viewport, which made me realise that divs don’t inherit the dimensions of parents. So I ended up using &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fit-content&lt;/code&gt;&lt;/a&gt; to get my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; to fit the container. Frontend is fun, but it also makes my head hurt because there are so many kinds of behaviours to learn (don’t even mention flexbox / grid).&lt;/p&gt;
+
+&lt;p&gt;But anyway, I’m glad that it kinda works now. There are a few more things I would like to learn to implement:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;saving papers, and viewing them with localStorage&lt;/li&gt;
+  &lt;li&gt;chaining multiple filters (e.g. filtering by submission type + track)&lt;/li&gt;
+  &lt;li&gt;allow multi-select for conference tracks, so that I can view several tracks’ papers at once, as opposed to one track at a time (which is the case with my current dropdown)&lt;/li&gt;
+  &lt;li&gt;automating the generation of unique values for each type of filter (to get the array of conference tracks, I went to some random website that helps you remove duplicates from lists… not my best moment to be honest). The idea here, I guess, is to create something I can easily use for another kind of entity that I want to view and filter.&lt;/li&gt;
+  &lt;li&gt;make header sticky so my header doesn’t jump about depending on the number of search results&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 08 Nov 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/day-53-emnlp-2022-search-+-making-mobile-look-better</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/day-53-emnlp-2022-search-+-making-mobile-look-better</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 52 - adding filtering to the EMNLP 2022 paper view</title>
+        <description>&lt;p&gt;Added filtering by conference track. I stored the list of unique tracks in a file called track.js and exported it to components that needed it. Mapped values in tracks to their own &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;option&amp;gt;&amp;lt;/option&amp;gt;&lt;/code&gt; elements in a dropdown, and then added conditions to check whether any option was selected (if not I would just show all papers). Added labels for each card to show conference track, submission type and acceptance status.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 07 Nov 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/day-52</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/day-52</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 46 - day 51</title>
+        <description>&lt;p&gt;Nov: [1, 2, 3, 4, 5]&lt;/p&gt;
+
+&lt;p&gt;Finished CS50’s final pset which involved learning about Flask. I’ve just started on my final project – a site that displays accepted papers for EMNLP 2022. You can check it my work so far at &lt;a href=&quot;https://emnlp2022.tomoe.asia&quot;&gt;emnlp2022.tomoe.asia&lt;/a&gt; I’m doing this as it’s a good opportunity to work with some real-world data and also respond to a problem I’m having – the list of accepted papers is currently only available in this massive Excel which is incredibly hard to read.&lt;/p&gt;
+
+&lt;h1 id=&quot;things-i-expect-to-learn&quot;&gt;Things I expect to learn&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to build components, and pass props&lt;/li&gt;
+  &lt;li&gt;Managing state: how do I pass information from a filter component to the cards components, and update the card components (which show papers) accordingly?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;progress-so-far&quot;&gt;Progress so far:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Display all papers, and show abstracts on click.&lt;/li&gt;
+  &lt;li&gt;Experimented a bit with filtering and checked out &lt;a href=&quot;https://www.radix-ui.com/&quot;&gt;Radix UI&lt;/a&gt;, but have decided to try to build my components as much as possible so that I know what’s going on.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 05 Nov 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/day-46-day-51</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/day-46-day-51</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 25 - day 45</title>
@@ -442,52 +506,6 @@ run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go get gi
         <pubDate>Sat, 03 Sep 2022 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/day-21</link>
         <guid isPermaLink="true">http://localhost:4000/posts/day-21</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 20</title>
-        <description>&lt;p&gt;Started learning Django out of necessity for work.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;I only managed to spend 30 minutes today on learning Django (got started with virtual env and setting up a django project + understanding the settings file), but I’m glad I spent that time instead of spending no time at all. Putting my learning at the start of the day before other work tasks was nice as it gave me the security of knowing that I’d done some learning by lunchtime, and that I didn’t have to learn stuff at the end of the work day at night when my energy’s depleted.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Aug 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/day-20</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/day-20</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 19</title>
-        <description>&lt;p&gt;Touched more server-side stuff. Learned to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;screen&lt;/code&gt; on a server to manage sessions and update sites.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Aug 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/day-19</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/day-19</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 18</title>
-        <description>&lt;p&gt;Created reusable components in React for a volunteering project.
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;This project involved some really tight timelines, so I was really just doing stuff manually (i.e. copy-pasting and tweaking things slightly) because it took less effort than thinking through how to add props and make a component reusable. However, I finally got some time to think about and implement it, which was worth the time as it means that we won’t be clogging up the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src&lt;/code&gt; folder with lots of different files in the future.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 02 Aug 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/day-18</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/day-18</guid>
         
         
         <category>days</category>

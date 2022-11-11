@@ -5,9 +5,24 @@
     <description>A Jekyll theme for content-rich sites</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Nov 2022 11:52:28 -0500</pubDate>
-    <lastBuildDate>Tue, 08 Nov 2022 11:52:28 -0500</lastBuildDate>
+    <pubDate>Fri, 11 Nov 2022 00:54:55 -0500</pubDate>
+    <lastBuildDate>Fri, 11 Nov 2022 00:54:55 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>day 54 - localStorage woes</title>
+        <description>&lt;p&gt;Wanted to try to create an array in localStorage, then push saved papers to it. This failed when I realised that localStorage stores everything as strings, so localStorage.getItem(“saved”).push(paper) wouldn’t work.&lt;/p&gt;
+
+&lt;p&gt;https://catalins.tech/store-array-in-localstorage/#:~:text=Get%20Array%20From%20localStorage,a%20string%20to%20an%20array.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Nov 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/day-54-localstorage-woes</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/day-54-localstorage-woes</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
     
       <item>
         <title>day 53 - EMNLP 2022 search + making mobile look better</title>
@@ -335,177 +350,6 @@ simply to move through the work. Instead of struggling to reach the end of the s
         <pubDate>Fri, 09 Sep 2022 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/day-22</link>
         <guid isPermaLink="true">http://localhost:4000/posts/day-22</guid>
-        
-        
-        <category>days</category>
-        
-      </item>
-    
-      <item>
-        <title>day 21</title>
-        <description>&lt;p&gt;Took part in a Go workshop by Chuk organised by GeeksHacking, where we made a command line tool that interacts with the Boardgame Atlas API to search for board games.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;a href=&quot;bit.ly/golang_for_programmers&quot;&gt;Slides can be found here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1S2bS0Wvevd3_Cb8DwDXYD4Swwq_3IDlfVuFY1V2lesg/edit#slide=id.p&quot;&gt;alt link&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;go&quot;&gt;Go&lt;/h1&gt;
-&lt;p&gt;Languages can be thought of in terms of STRONG vs WEAK typing, and static v dynamic&lt;/p&gt;
-
-&lt;h1 id=&quot;where-go-is-used&quot;&gt;Where Go is used&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Infra like Kubernetes and Docker&lt;/li&gt;
-  &lt;li&gt;Cloud native devt (writing RESTful [message-based] web apps; gRPC (another service style))&lt;/li&gt;
-  &lt;li&gt;Replacing existing infra such as CoreDNS/Caddy (reverse proxy - nginx is an alternative to Caddy. Chuk likes Caddy bc it just has one binary to deal with)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;go-data-types&quot;&gt;Go Data Types&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;string&lt;/li&gt;
-  &lt;li&gt;rune (equivalent of a char in JS)&lt;/li&gt;
-  &lt;li&gt;number int, uint (no negative numbers), floats&lt;/li&gt;
-  &lt;li&gt;complex&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var name string
-
-var age uint8 = 21
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;arrays--slices-dynamic-arrays&quot;&gt;Arrays &amp;amp; Slices (dynamic arrays)&lt;/h1&gt;
-
-&lt;h2 id=&quot;arrays-fixed-size&quot;&gt;Arrays (fixed size)&lt;/h2&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var name [5]string
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;slices&quot;&gt;Slices&lt;/h2&gt;
-
-&lt;p&gt;Looks like you declare the upper limit of memory it can have (e.g. 5 items) and then append items without necessary using all of the memory allocated&lt;/p&gt;
-
-&lt;p&gt;TODO: look up arrays vs Slices&lt;/p&gt;
-
-&lt;h1 id=&quot;loops&quot;&gt;Loops&lt;/h1&gt;
-
-&lt;h1 id=&quot;pointers&quot;&gt;Pointers&lt;/h1&gt;
-
-&lt;p&gt;Python etc have a concept of a reference - a pointer-like thing to an object&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;in Java, objects arrays etc are references but primitives are not references.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Chuk: “You wont ask an F1 driver to ask slowly right. Sometimes you want the freedom to do stupid things [as an engineer].”&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name := &quot;fred&quot;
-
-&amp;amp;name #gives you the address of a var 
-
-*&amp;amp;name == &quot;fred&quot; # gives you contents of the address 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This allows you to have double pointers that allow “dynamic addressing” (TODO: look up)&lt;/p&gt;
-
-&lt;p&gt;And anything can be passed by reference or value into functions&lt;/p&gt;
-
-&lt;h1 id=&quot;creating-custom-types&quot;&gt;Creating custom types&lt;/h1&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type natural unit32
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;or create objects&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type Customer struct {
-    ...
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Function types&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type Apply[T any] func(T,T)T 
-
-# function takes 2 params of type T, and returns type T. 
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;visibility-of-vars&quot;&gt;Visibility of vars&lt;/h1&gt;
-&lt;p&gt;If a var starts with uppercase it is public, and lowercase is private.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Chuk: “You either see it or you don’t”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;class-like&quot;&gt;Class-like&lt;/h1&gt;
-&lt;p&gt;Can write functions that are only accessible by certain structs&lt;/p&gt;
-
-&lt;p&gt;Receiver function must be in the same module&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Critique of Go: You extend or implement an interface, but there’s no explicit stuff like that in Go. Go handles it implicitly where if your struct has methods of the interface, it is considered implemented.&lt;/p&gt;
-
-  &lt;p&gt;This makes reading code a bit difficult because a param can require a reader but you have to figure out which structs implement a reader, then hunt down the methods in that reader.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;TODO: Find out what’s a thread … Chuk is talking about threads but I don’t know what it’s about&lt;/p&gt;
-
-&lt;h1 id=&quot;communicating-between-routines&quot;&gt;Communicating between routines&lt;/h1&gt;
-
-&lt;p&gt;Use a built-in primitive called channels.&lt;/p&gt;
-
-&lt;p&gt;To read:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/answers/what-are-channels-in-golang&quot;&gt;What are channels in Golang?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;todays-workshop&quot;&gt;Today’s workshop&lt;/h1&gt;
-
-&lt;p&gt;Building a command line tool to search for board games&lt;/p&gt;
-
-&lt;p&gt;If there’s time:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Pretty print results&lt;/li&gt;
-  &lt;li&gt;Cross compile to other platforms e.g. Linux to Windows&lt;/li&gt;
-  &lt;li&gt;Write a multi threaded version if time permits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;initialise-project-as-a-go-project&quot;&gt;Initialise project as a Go project&lt;/h2&gt;
-&lt;p&gt;Run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go mod init&lt;/code&gt; in the directory where your project is. It should create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go.mod&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-first-go-program-&quot;&gt;My first Go program :)&lt;/h2&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;package main
-
-func main() {
-    fmt.Println(&quot;hello, world&quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Run programs with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go run .&lt;/code&gt; in the directory where your go program file is stored.&lt;/p&gt;
-
-&lt;h2 id=&quot;boardgame-api&quot;&gt;Boardgame API&lt;/h2&gt;
-
-&lt;p&gt;We are using the Search endpoint: https://www.boardgameatlas.com/api/docs/search&lt;/p&gt;
-
-&lt;p&gt;We need:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Search term&lt;/li&gt;
-  &lt;li&gt;Client id&lt;/li&gt;
-  &lt;li&gt;Limit (e.g. 10)&lt;/li&gt;
-  &lt;li&gt;Skip (e.g. 0)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;compiling&quot;&gt;Compiling&lt;/h2&gt;
-&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go build .&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go run&lt;/code&gt; is for devt purposes.&lt;/p&gt;
-
-&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
-&lt;p&gt;What are pointers and references?
-What does strong and weak typing mean, and when would someone prefer a language that’s strongly/weakly typed?&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-colors&quot;&gt;Adding colors:&lt;/h2&gt;
-&lt;p&gt;Cool repo to add colors to the command line output: https://github.com/fatih/color
-run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;go get github.com/fatih/color&lt;/code&gt; in your project dir&lt;/p&gt;
-</description>
-        <pubDate>Sat, 03 Sep 2022 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/day-21</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/day-21</guid>
         
         
         <category>days</category>

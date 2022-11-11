@@ -17,3 +17,4 @@ What I'm trying to do more of: Being a perpetual novice, understanding that [pre
 
 What I'm trying to avoid: excessive red tape, meetings that could've been emails, [asking to ask](https://dontasktoask.com/), a job that forces me to work regular office hours.
 
+You can also find me on <a rel="me" href="https://kopiti.am/@nondescryptid">Mastodon</a>.

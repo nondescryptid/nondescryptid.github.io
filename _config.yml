@@ -1,10 +1,10 @@
 # baseurl: ''
 url: "https://tomoe.asia"
-title: Tufte-Jekyll
-subtitle: Content-centric blogging
-author: tomo
+title: Tomoe
+subtitle:
+author: tomoe
 simple_search: http://google.com/search
-description: A Jekyll theme for content-rich sites
+description: A newbie learning to code, who also likes thinking about law / social change / technology
 name: tufte
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"

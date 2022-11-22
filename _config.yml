@@ -7,6 +7,8 @@ simple_search: http://google.com/search
 description: A newbie learning to code, who also likes thinking about law / social change / technology
 name: tufte
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /posts/:title
 timezone: America/New_York

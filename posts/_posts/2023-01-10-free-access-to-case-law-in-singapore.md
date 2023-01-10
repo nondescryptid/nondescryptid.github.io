@@ -1,5 +1,5 @@
 ---
-title: "Random aside: The state of free access to case law in Singapore"
+title: "It shouldn't cost 9 Filet-o-Fish meals to access State Court judgments"
 layout: post
 ---
 This is an overview of the various free sources of legal decisions in Singapore, and some of the limitations surrounding the status quo of access in Singapore. 

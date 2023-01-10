@@ -198,13 +198,14 @@ p, li { line-height: 2.2rem;
         padding-right: 2rem; //removed because,  why?
         vertical-align: baseline; }
 
-blockquote p {  font-size: 1.1rem;
+blockquote p {  font-size: 1.3rem;
                 line-height: 1.78181818;
                 margin-top: 1.78181818rem;
                 margin-bottom: 1.78181818rem;
                 width: 45%;
                 padding-left: 2.5%;
-                padding-right: 2.5%; }
+                padding-right: 2.5%;
+                border-left: 1px solid black }
 
 blockquote p.epigraph {  font-size: 1.1rem;
                 line-height: 1.78181818;
@@ -303,7 +304,8 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 
-ul,ol { width: 45%;
+ul,ol { 
+      width: 50%;
      -webkit-padding-start: 5%;
      -webkit-padding-end: 5%;
       }

@@ -1,8 +1,8 @@
 ---
-title: "It shouldn't cost 9 Filet-o-Fish meals to access State Court judgments"
+title: "Getting judgments for free in Singapore, or: It shouldn't cost 9 Filet-o-Fish meals to access State Court judgments on LawNet"
 layout: post
 ---
-This is an overview of the various free sources of legal decisions in Singapore, and some of the limitations surrounding the status quo of access in Singapore. 
+This is an overview of the various free sources of legal judgments in Singapore, and some of the limitations surrounding the status quo of access in Singapore. 
 
 ## My leanings on this matter 
 I'm highly influenced by the [Free Access to Law Movement](http://www.worldlii.org/worldlii/declaration/) and think that legal information should be accessible to all. This means that all court judgments and legislation should be free for users to access. 
@@ -10,21 +10,47 @@ I'm highly influenced by the [Free Access to Law Movement](http://www.worldlii.o
 Here, I'm just thinking about access in terms of "Can I search, and find the full text of a judgment?".
 
 ## Finding judgments in Singapore
+
 ### Supreme Court (Court of Appeal + High Court) Judgments
 These judgments have the most coverage, and are available through not one, but three sources:
 1. [Official Singapore Courts site](https://www.judiciary.gov.sg/judgments/judgments-case-summaries)
 2. [Singapore Law Watch](https://www.singaporelawwatch.sg/Judgments)
 3. [Lawnet OpenLaw](https://www.lawnet.com/openlaw/singapore/judgments/supreme-court)
 
-### State Courts (District Court + Magistrate Court)
-This is where the bulk of cases are, but coverage for this is a lot worse compared to Supreme Court judgments. I only found one official source, which is restricted by time as it provides access to the latest judgments in the past 3 months:
-1. [Lawnet Free Resources](https://www.lawnet.sg/lawnet/web/lawnet/free-resources?p_p_id=freeresources_WAR_lawnet3baseportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=2&p_p_col_count=3&_freeresources_WAR_lawnet3baseportlet_action=subordinate)
+All of the sources cover Supreme Court judgments from 2000 onwards.
 
-There is a simple keyword search that returns a list of results, but without excerpts of where the keywords are found: 
+### State Courts (District Court + Magistrates' Court)
 
+> Update: This section used to be more dismal, but [@hueyy](https://github.com/hueyy) has pointed out that CommonLII has Singapore judgments! They're linked in the section below. Also, CommonLII (along with AustLII, BAILII, HKLII) is a member of the Free Access to Law Movement. Cool :D 
+
+This is where the bulk of cases are, but coverage for this from the Singapore Courts/Singapore Academy of Law is worse compared to Supreme Court judgments. On the bright side, there's CommonLII.
+   
+1. [Lawnet Free Resources](https://www.lawnet.sg/lawnet/web/lawnet/free-resources?p_p_id=freeresources_WAR_lawnet3baseportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=2&p_p_col_count=3&_freeresources_WAR_lawnet3baseportlet_action=subordinate) - provides judgments released in the past 3 months
+2. [CommonLII's Singaporean Legal Materials](http://www.commonlii.org/sg/) - covers cases from 2006 onwards
+   1. [District Court](http://www.commonlii.org/sg/cases/SGDC/) 
+   2. [Magistrates' Court](http://www.commonlii.org/sg/cases/SGMC/)
+3. Open Government Products' OpenDoc [opendocsg/opendoc-state-court-judgments](https://github.com/opendocsg/opendoc-state-court-judgments)
+   
+**LawNet Free Resources**
+
+There is keyword search functionality that returns a list of results, but without excerpts of where the keywords are found: 
 ![Screenshot of Lawnet's Free Resources page search results for the keyword "drug trafficking"](./assets/lawnet-free-rss-search.png)
 
-There is also an unofficial source in the form of a Github repo by OGP's opendocsg team: [opendocsg/opendoc-state-court-judgments](https://github.com/opendocsg/opendoc-state-court-judgments), which has cases from 2019 onwards. However, they're all in markdown files and the link it used to be hosted at -- [https://state-court-judgments.opendoc.sg/](https://state-court-judgments.opendoc.sg/) -- is no longer working. 
+**CommonLII**
+
+Search functionality is more extensive as they support the following options:
+
+![Screenshot of CommonLII's search options](./assets/commonlii-search-options.png)
+
+Its drawback is the same as LawNet's free resource page -- there are no excerpts of the search results. There are percentage similarity rates on the side (e.g. [100%]), but as a user I don't know what it really means. 
+
+Having an excerpt would help users get an idea of the result's relevance without having to click and open the judgment.
+
+![Screenshot of search results for the term "drug trafficking" in the CommonLII Singapore Magistrate's Court database](./assets/commonlii-search.png)
+
+**OGP's OpenDoc**
+
+The OpenDoc team from Open Government Products has a repo with cases from 2019 onwards. However, they're all in markdown files and the link it used to be hosted at -- [https://state-court-judgments.opendoc.sg/](https://state-court-judgments.opendoc.sg/) -- is no longer working. 
 
 ## What's the use case for organizing judgments by recency?
 It's nice that there's at least a source for State Court judgments, but I'm not sure of why the resource was designed in this way to limit users to the past 3 months of judgments. 
@@ -63,8 +89,10 @@ This access is "free" in the sense that I don't have to pay for it, but comes wi
 Free access should also entail removing non-price barriers to access as much as possible. Sometimes, it looks like removing [image captchas](https://sushant354.blogspot.com/2009/04/letter-to-allahabad-high-court-removing.html?m=1){% sidenote "sidenote-id" "Post written by the creator of IndianKanoon, which is a legal search engine that provides free search and access to Indian court judgments. See also [W3C's comments on inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/)" %} because it can exclude people with visual impairments or struggle with using technology. Sometimes, it looks like not making people physically travel down to access a resource where only one person can access it at a time.
 
 ### Conclusions?
-Idk, it'd be nice to make LawNet available on a freemium model where basic search functions are free. IndianKanoon does that. The fancier research management stuff + precedent access can be left to law firms to pay for. 
+Idk, it'd be nice to make LawNet available on a freemium model where basic search functions are free. IndianKanoon does that. The fancier research management stuff + precedent access can be left to law firms to pay for. Or the Courts could even just provide access (with no search functionality) to judgments in machine-readable format so that devs can build tools for it.
 
 As of 3 Jan 2023, SAL has reorganised its digital services under a new subsidiary called [LawNet Technology Services](https://www.sal.org.sg/newsroom/LawNet-Technology-Services#:~:text=SAL%20to%20reorganise%20its%20digital,subsidiary%20%7C%20Singapore%20Academy%20of%20Law&text=SINGAPORE%2C%203%20January%202023%20%E2%80%94%20The,Services%20(%E2%80%9CLTS%E2%80%9D)). Looking forward to see what they do. 
+
+Until then, I guess...just use CommonLII. And tell your friends about it! I had no clue until huey told me.
 
 

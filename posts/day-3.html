@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>day 3</title>
+  <meta name="description" content="Fiddling with CNAME, working on blackjack, no Hackerrank today">
+  <link rel="icon" href="../assets/img/pixeltree.png">
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+ <!--   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+  
+  <!-- widget for searching on my site from try.catche.co-->
+  <script catche-key="bb085e6f-2914-44d0-9235-eeaf11367173" type="module" crossorigin src="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/index.js"></script>
+<!-- next line is optional to preload modules -->
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/CatcheSearch/catche-search-widget@0.1.1/dist/vendor.js">
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="https://tomoe.asia/posts/day-3">
+
+  <link rel="alternate" type="application/rss+xml" title="Tomoe" href="https://tomoe.asia/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/pixeltree.png" title="i made this too!" alt="CH"></a>
+	
+		
+  	
+		
+		    
+		      <a href="/archive/">archive</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/days/">100 days of code</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/posts/">posts</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/snowflake/">snowflake</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/latex.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+    <article class="group">
+      <h1>day 3</h1>
+<p class="subtitle">April 24, 2022, Sunday</p>
+
+<p>Fiddling with CNAME, working on blackjack, no Hackerrank today
+<!--more--></p>
+<h1 id="website-improvements">Website Improvements</h1>
+
+<p>I was very happy about finally mapping my domain, but then realised it’d return a 404 whenever i try to access tomoe.asia after pushing new changes and deploying.</p>
+
+<p>When you go to your Github Pages site repo &gt; Settings &gt; Pages and type in a custom domain for github pages, it creates this CNAME file in the root of your repo. However, it turns out that static site generators (like Jekyll) can force push changes, which can overwrite the CNAME file (haven’t figured out how exactly it works), which affects whether tomoe.asia resolves to get the content of my site. That was why tomoe.asia wouldn’t work after I push changes and publish my site.</p>
+
+<p>Useful links of the day: 
+https://github.com/tschaub/gh-pages/issues/213</p>
+
+<p>https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe</p>
+
+<p>https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages</p>
+
+<h1 id="blackjack">Blackjack!</h1>
+
+<p>Troubleshooted some parts of the CheckAce function (which checks whether a given user - player or computer - has an ace). Created a div that displays players’ hands. I’m working on this as part of Rocket Academy’s Basics course. <a href="https://2l0fsh.csb.app/project3-blackjack/index.html">You can play some (slightly wonky) blackjack if you want.</a>.</p>
+
+<h1 id="others">Others</h1>
+
+<p>Didn’t do any Hackerrank today. Sundays are my flop era because the few brain cells I have are completely worn out by Japanese class.</p>
+
+<p>I’ve been doing Hackerrank with Python while I work on web dev stuff with Javascript, and I’m wondering if I should just do everything in Javascript to avoid the friction that comes with having to mentally switch languages.</p>
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="nondescryptid/nondescryptid.github.io"
+        data-repo-id="R_kgDOGueTYA"
+        data-category="General"
+        data-category-id="DIC_kwDOGueTYM4CUzfg"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+    </article>
+    <span class="print-footer">day 3 - April 24, 2022 - tomoe</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hi@tomoe.asia"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//www.linkedin.com/in/tomoe"><span class="icon-linkedin"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.twitter.com/nondescryptid"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/nondescryptid"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2023 &nbsp;&nbsp;TOMOE</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+  </body>
+</html>

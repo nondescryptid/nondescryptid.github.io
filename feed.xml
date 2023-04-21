@@ -1,31 +1,378 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Tomoe</title>
+    <description>A newbie learning to code, who also likes thinking about law / social change / technology</description>
+    <link>https://tomoe.asia/</link>
+    <atom:link href="https://tomoe.asia/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 21 Apr 2023 09:25:12 -0400</pubDate>
+    <lastBuildDate>Fri, 21 Apr 2023 09:25:12 -0400</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Hi from Pycon :D</title>
+        <description>&lt;p&gt;Hi! If you’re seeing this you’re probably also at Pycon US (or happen to have my site on your RSS feed).&lt;/p&gt;
+
+&lt;p&gt;I’m here for the first time and am excited about checking out sprints and Open Spaces (and some talks along the way). I’ve got really low energy so if you would like anyone to sit in silence and recharge your social batteries with, I would be 100% down for that.&lt;/p&gt;
+
+&lt;p&gt;I’m headed to SF after this for the first time too, and would love any tips / recommendations on places to visit.&lt;/p&gt;
+
+&lt;p&gt;Have a great time at Pycon!!&lt;/p&gt;
+
+&lt;p&gt;cheers,
+Tomoe&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Apr 2023 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/posts/hi-from-pycon-d</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/hi-from-pycon-d</guid>
+        
+        
+        <category>posts</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>day 62 - midpoint reflection</title>
+        <description>&lt;p&gt;It’s been a while, and I’ve definitely done more than 100 days of coding though I’ve not been writing about it. I’m back in school (studying part-time) and am currently taking a data structures and algorithms class!  I’m not going to pretend that I’m managing well and doing a fantastic job of studying while working, but I think I’ve been putting in a fair amount of effort.&lt;/p&gt;
+
+&lt;p&gt;I’m not very good at DS&amp;amp;A. I’m extremely average in my class – there are people here who can solve problem sets for the week before the lecture even happens, and I am not one of them. But I do like it, and I want to get better at it.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Mar 2023 00:00:00 -0400</pubDate>
+        <link>https://tomoe.asia/posts/day-62-midpoint-reflection</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-62-midpoint-reflection</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>Software that doesn&apos;t want to eat the world</title>
+        <description>&lt;p&gt;Recently, I went to my friend’s office for lunch and joked that these were “reparations for harvesting my personal data since I was 11”. I also remarked that it was kind of impressive as I don’t think I could’ve monetized my personal data like this (to the point of having kombucha on tap, and more lunch options than one could meaningfully try in one meal).&lt;/p&gt;
+
+&lt;p&gt;While somewhat funny, it also reflects the way I’ve been slowly socialised to think about software as in terms of these things:&lt;/p&gt;
+
+&lt;p&gt;Monetization, MRR, ARR. Users. Maximizing. All-consuming, constantly devouring and growing. Extractive. The half-arsed GDPR compliance consent modals where the option that has the least cookies takes the most clicks to get to. Series whatever funding.&lt;/p&gt;
+
+&lt;p&gt;When did things become like this, and when did I start thinking this way about software?&lt;/p&gt;
+
+&lt;p&gt;Part of repairing my relationship with technology and recovering my sense of agency has involved thinking about the joy I felt as a kid online. In my teenage years, I stubbornly believed that I wasn’t quite cut out for computer stuff because I was bad at math (whatever that meant to my younger self). I don’t know how I typecast myself that way. It’s all quite sad, because my kid self loved learning about customising my Neopets page and fiddling with Tumblr themes. I co-hosted a Facebook group for pen spinning with other kids my age, that ended up growing to include people who actually competed in the United Pen Spinning Board Tournament (sadly the message board no longer exists). At some point, my mother realised I was using Facebook as a kid and decided to block it on our home network. In response to that, I learnt how to use Tor after much googling, and willingly waited 5 minutes for pages to load, just because I &lt;em&gt;really&lt;/em&gt; wanted to play Mousehunt (and also because it guaranteed me a failsafe common conversational topic with my classmates). There was a sense of unbridled agency, as a kid growing up online, that I kind of lost along the way.&lt;/p&gt;
+
+&lt;p&gt;Another part of this repair has involved discovering other people online who embody a sense of play and wonder when it comes to technology. Lately, I came across &lt;a href=&quot;https://we-b.site/&quot;&gt;(we)bsite&lt;/a&gt;, which invites people to think about their dreams for the internet. There are opportunities for small, anonymous interactions (seeing others’ cursors), and enjoying non-intrusive collective online presence. (I’ve also just learnt that you can have live cursor chat by pressing “/”, so I’ll try that later at night since most people who’ve been on the site seem to be in US time.)&lt;/p&gt;
+
+&lt;p&gt;Here are some of the things I’ve stumbled upon and have found restorative and joyful:&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;http://feral.earth/&quot;&gt;feral web&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://natto.dev/&quot;&gt;natto.dev&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://twitter.com/soft_networks&quot;&gt;soft networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://jzhao.xyz/cursor-chat/&quot;&gt;cursor chat&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://nadia.xyz/independent-research&quot;&gt;the independent researcher&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://www.spencerchang.me/window/&quot;&gt;wall of windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://sfpc.study/&quot;&gt;society for poetic computation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;// &lt;a href=&quot;https://www.recurse.com/&quot;&gt;recurse center&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dreaming is a powerful thing. I dream of software that doesn’t want to eat the world. I dream of software that can just be enough for me and my community. Software that delights and tends to the better angels of ourselves. I want to make more things to play with even if nobody else uses them, like a little &lt;a href=&quot;https://inmyroom.vercel.app/&quot;&gt;space&lt;/a&gt; where you can drag and drop a few things, and a frontend for &lt;a href=&quot;https://emnlp2022.tomoe.asia/&quot;&gt;viewing papers for a conference&lt;/a&gt;. Dream a little electric dream for me.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Mar 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/software-that-doesnt-want-to-eat-the-world</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/software-that-doesnt-want-to-eat-the-world</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting judgments for free in Singapore, or: It shouldn&apos;t cost 9 Filet-o-Fish meals to access State Court judgments on LawNet</title>
+        <description>&lt;p&gt;This is an overview of the various free sources of legal judgments in Singapore, and some of the limitations surrounding the status quo of access in Singapore.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-leanings-on-this-matter&quot;&gt;My leanings on this matter&lt;/h2&gt;
+&lt;p&gt;I’m highly influenced by the &lt;a href=&quot;http://www.worldlii.org/worldlii/declaration/&quot;&gt;Free Access to Law Movement&lt;/a&gt; and think that legal information should be accessible to all. This means that all court judgments and legislation should be free for users to access.&lt;/p&gt;
+
+&lt;p&gt;Here, I’m just thinking about access in terms of “Can I search, and find the full text of a judgment?”.&lt;/p&gt;
+
+&lt;h2 id=&quot;finding-judgments-in-singapore&quot;&gt;Finding judgments in Singapore&lt;/h2&gt;
+
+&lt;h3 id=&quot;supreme-court-court-of-appeal--high-court-judgments&quot;&gt;Supreme Court (Court of Appeal + High Court) Judgments&lt;/h3&gt;
+&lt;p&gt;These judgments have the most coverage, and are available through not one, but three sources:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.judiciary.gov.sg/judgments/judgments-case-summaries&quot;&gt;Official Singapore Courts site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.singaporelawwatch.sg/Judgments&quot;&gt;Singapore Law Watch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lawnet.com/openlaw/singapore/judgments/supreme-court&quot;&gt;Lawnet OpenLaw&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;All of the sources cover Supreme Court judgments from 2000 onwards.&lt;/p&gt;
+
+&lt;h3 id=&quot;state-courts-district-court--magistrates-court&quot;&gt;State Courts (District Court + Magistrates’ Court)&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Update: This section used to be more dismal, but &lt;a href=&quot;https://github.com/hueyy&quot;&gt;@hueyy&lt;/a&gt; has pointed out that CommonLII has Singapore judgments! They’re linked in the section below. Also, CommonLII (along with AustLII, BAILII, HKLII) is a member of the Free Access to Law Movement. Cool :D&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is where the bulk of cases are, but coverage for this from the Singapore Courts/Singapore Academy of Law is worse compared to Supreme Court judgments. On the bright side, there’s CommonLII.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lawnet.sg/lawnet/web/lawnet/free-resources?p_p_id=freeresources_WAR_lawnet3baseportlet&amp;amp;p_p_lifecycle=0&amp;amp;p_p_state=normal&amp;amp;p_p_mode=view&amp;amp;p_p_col_id=column-1&amp;amp;p_p_col_pos=2&amp;amp;p_p_col_count=3&amp;amp;_freeresources_WAR_lawnet3baseportlet_action=subordinate&quot;&gt;Lawnet Free Resources&lt;/a&gt; - provides judgments released in the past 3 months&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.commonlii.org/sg/&quot;&gt;CommonLII’s Singaporean Legal Materials&lt;/a&gt; - covers cases from 2006 onwards
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.commonlii.org/sg/cases/SGDC/&quot;&gt;District Court&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.commonlii.org/sg/cases/SGMC/&quot;&gt;Magistrates’ Court&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open Government Products’ OpenDoc &lt;a href=&quot;https://github.com/opendocsg/opendoc-state-court-judgments&quot;&gt;opendocsg/opendoc-state-court-judgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;LawNet Free Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is keyword search functionality that returns a list of results, but without excerpts of where the keywords are found: 
+&lt;img src=&quot;./assets/lawnet-free-rss-search.png&quot; alt=&quot;Screenshot of Lawnet&apos;s Free Resources page search results for the keyword &amp;quot;drug trafficking&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CommonLII&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Search functionality is more extensive as they support the following options:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/commonlii-search-options.png&quot; alt=&quot;Screenshot of CommonLII&apos;s search options&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Its drawback is the same as LawNet’s free resource page – there are no excerpts of the search results. There are percentage similarity rates on the side (e.g. [100%]), but as a user I don’t know what it really means.&lt;/p&gt;
+
+&lt;p&gt;Having an excerpt would help users get an idea of the result’s relevance without having to click and open the judgment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/commonlii-search.png&quot; alt=&quot;Screenshot of search results for the term &amp;quot;drug trafficking&amp;quot; in the CommonLII Singapore Magistrate&apos;s Court database&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OGP’s OpenDoc&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The OpenDoc team from Open Government Products has a repo with cases from 2019 onwards. However, they’re all in markdown files and the link it used to be hosted at – &lt;a href=&quot;https://state-court-judgments.opendoc.sg/&quot;&gt;https://state-court-judgments.opendoc.sg/&lt;/a&gt; – is no longer working.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-use-case-for-organizing-judgments-by-recency&quot;&gt;What’s the use case for organizing judgments by recency?&lt;/h2&gt;
+&lt;p&gt;It’s nice that there’s at least a source for State Court judgments, but I’m not sure of why the resource was designed in this way to limit users to the past 3 months of judgments.&lt;/p&gt;
+
+&lt;p&gt;My assumption is that people such as litigants-in-person tend to look for cases based on subject matter such as the area of law, specific fact patterns, statutory provisions etc. If this is true, then their ability to find the information they’re looking for is stunted by the fact that they are only able to search for cases whose judgments have been reported within the past 3 months at the time of querying.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternatives-to-search-for-state-court-cases-are-not-great-either-paying-for-lawnet-nlb-eresources&quot;&gt;Alternatives to search for State Court cases are not great either: Paying for Lawnet, NLB eResources&lt;/h2&gt;
+
+&lt;h3 id=&quot;paying-for-lawnet&quot;&gt;Paying for Lawnet&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Half an hour of Lawnet under the pay-per-use scheme = 9 Filet-o-Fish meals&lt;/strong&gt;.&lt;label for=&quot;sidenote-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I use a Filet-o-Fish meal as my proxy for meals in general. The McDonalds app tells me that it’ll cost $6.20. &lt;/span&gt;  Pay-per-use is SGD57.53 for the first 30 minutes and SGD8 for every subsequent half an hour.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/lawnet-pay-per-use.png&quot; alt=&quot;Screenshot of Lawnet&apos;s pay-per-use rates. It costs SGD57.53 for the first 30 minutes.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m using the pay-per-use rate as it’s the cheapest. Otherwise, the standard monthly subscription is SGD206.92 (~33 FoF meals).&lt;/p&gt;
+
+&lt;p&gt;This honestly doesn’t sound great. Free and open access to law matters because litigants-in-person are already at a disadvantage if their counterparty has counsel – we don’t need to exacerbate this inequality by making them worse-off in terms of access to legal information too. Even out of the litigant-in-person paradigm, I think judgments should be open for public viewing and study as courts are institutions financed by taxpayer money anyway.&lt;/p&gt;
+
+&lt;h3 id=&quot;nlb-eresources&quot;&gt;NLB eResources&lt;/h3&gt;
+&lt;p&gt;NLB eResources gave me some false hope as their eResources are generally great – getting Udemy courses for free through nlbsg.udemy.com and having access to JSTOR is fantastic. However, eResource access to Lawnet is another thing altogether.&lt;/p&gt;
+
+&lt;p&gt;After logging in with myLibrary ID, navigating to eResources and finding “Lawnet”, I realised that Lawnet can only be accessed at the Lee Kong Chian Reference Library. As NLB points out, it’s “limited to 1 user access only”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/nlb-lawnet-resource.png&quot; alt=&quot;Screenshot of the national library&apos;s eResource for Lawnet&quot; /&gt;&lt;label for=&quot;sidenote-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Also what is that colour contrast with yellow-on-cream 😭 &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;This involves quite a few steps:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Making myLibrary ID&lt;/li&gt;
+  &lt;li&gt;Logging in with myLibrary account&lt;/li&gt;
+  &lt;li&gt;Going to eResources and finding “Lawnet”&lt;/li&gt;
+  &lt;li&gt;Realising that there is no online access from my computer, and that I have to go down in person.&lt;/li&gt;
+  &lt;li&gt;Finding library opening times&lt;/li&gt;
+  &lt;li&gt;Finding a day and time to go down to the library&lt;/li&gt;
+  &lt;li&gt;Finally accessing LawNet (and also praying there isn’t already another user there)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This access is “free” in the sense that I don’t have to pay for it, but comes with a lot of other costs. I had to go through steps (1)-(4) only to find out that there’s actually no online access via NLB eResources.&lt;/p&gt;
+
+&lt;p&gt;Free access should also entail removing non-price barriers to access as much as possible. Sometimes, it looks like removing &lt;a href=&quot;https://sushant354.blogspot.com/2009/04/letter-to-allahabad-high-court-removing.html?m=1&quot;&gt;image captchas&lt;/a&gt;&lt;label for=&quot;sidenote-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Post written by the creator of IndianKanoon, which is a legal search engine that provides free search and access to Indian court judgments. See also &lt;a href=&quot;https://www.w3.org/TR/turingtest/&quot;&gt;W3C’s comments on inaccessibility of CAPTCHA&lt;/a&gt; &lt;/span&gt; because it can exclude people with visual impairments or struggle with using technology. Sometimes, it looks like not making people physically travel down to access a resource where only one person can access it at a time.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusions&quot;&gt;Conclusions?&lt;/h3&gt;
+&lt;p&gt;Idk, it’d be nice to make LawNet available on a freemium model where basic search functions are free. IndianKanoon does that. The fancier research management stuff + precedent access can be left to law firms to pay for. Or the Courts could even just provide access (with no search functionality) to judgments in machine-readable format so that devs can build tools for it.&lt;/p&gt;
+
+&lt;p&gt;As of 3 Jan 2023, SAL has reorganised its digital services under a new subsidiary called &lt;a href=&quot;https://www.sal.org.sg/newsroom/LawNet-Technology-Services#:~:text=SAL%20to%20reorganise%20its%20digital,subsidiary%20%7C%20Singapore%20Academy%20of%20Law&amp;amp;text=SINGAPORE%2C%203%20January%202023%20%E2%80%94%20The,Services%20(%E2%80%9CLTS%E2%80%9D)&quot;&gt;LawNet Technology Services&lt;/a&gt;. Looking forward to see what they do.&lt;/p&gt;
+
+&lt;p&gt;Until then, I guess…just use CommonLII. And tell your friends about it! I had no clue until huey told me.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Jan 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/free-access-to-case-law-in-singapore</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/free-access-to-case-law-in-singapore</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>day 61 - github classrooms and check50</title>
+        <description>&lt;p&gt;I must confess that I’ve never written a test, but part of my work involves doing that now. I’m learning more about Github Classrooms and how to do autograding. Currently exploring check50 as it allows students to check their own work (as opposed to checks only occurring at the grading stage), but there’s a tradeoff in the form of not being able to make private test cases as check50 works with public Github repos. Anyway, besides GH classrooms, I might explore &lt;a href=&quot;https://www.codegrade.com/&quot;&gt;CodeGrade&lt;/a&gt; and also look for more reflections from educators like Patrick Totzke, who’s written about &lt;a href=&quot;https://cgi.csc.liv.ac.uk/~patrick/blog/2021/check50/&quot;&gt;Partially Automated Assessment of Programming Assignments with Check50
+&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Jan 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-61-github-classrooms-and-check50</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-61-github-classrooms-and-check50</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 60 - today I will refuse to be useful</title>
+        <description>&lt;p&gt;Today I didn’t want to be ‘useful’ or make something that is a means to an end. I just felt like playing and let myself do that instead. welcome to &lt;a href=&quot;https://inmyroom.vercel.app/&quot;&gt;my room&lt;/a&gt; where like in real life, things are everywhere and somehow rearrange themselves every time you visit.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Jan 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-60</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-60</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 59 - added comments with utterances</title>
+        <description>&lt;p&gt;Small QOL improvement: There is now support on this site for comments with &lt;a href=&quot;https://utteranc.es/&quot;&gt;utterances&lt;/a&gt;. It uses Github Issues for blog comments.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Jan 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-59</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-59</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 58 - not much</title>
+        <description>&lt;p&gt;Worked on one part of the pinhole camera construction calculator. I put the calculation of sensor diagonals into its own component so that I can reuse it across various sections that require sensor diagonal calculation. Using Typescript this time – CS50 has made me appreciate stronger typing.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jan 2023 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-58</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-58</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 57 - setting up my own Docassemble instance</title>
+        <description>&lt;p&gt;I’ve been coding in the intervening month (mostly working on a pinhole camera construction calculator for a friend), but definitely haven’t been diligent about documenting it.&lt;/p&gt;
+
+&lt;p&gt;TL;DR I set up a Docassemble instance using the &lt;a href=&quot;https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/setup-server&quot;&gt;Suffolk LIT Lab Legal Tech Class textbook&lt;/a&gt; (written by Quinten Steenhuis &amp;amp; other contributors), with AWS Lightsail and S3. You can check it out at &lt;a href=&quot;https://docassemble.tomoe.asia&quot;&gt;docassemble.tomoe.asia&lt;/a&gt;. Do back up your docassemble interviews though, because I might not pay for this Lightsail instance forever. :P&lt;/p&gt;
+
+&lt;p&gt;Instead of setting up a nice sensible local install, I decided that I might as well try to learn how to use AWS before my free AWS credits from one of the JuniorDev meetups expired.&lt;/p&gt;
+
+&lt;p&gt;As usual, setting things up is never straightforward, but here are the things I’ve learnt to pay more attention to (in decreasing order of significance):&lt;/p&gt;
+
+&lt;h1 id=&quot;1-learning-how-to-isolate-a-problem&quot;&gt;1. Learning how to isolate a problem.&lt;/h1&gt;
+
+&lt;p&gt;I could not, for the life of me, access my server at the start. Nothing was loading when I accessed the address I’d mapped to it. Logging is an important part of the troubleshooting process as finding out what exactly is going on helps to locate the problem.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-logs-as-the-first-port-of-call&quot;&gt;2. Logs as the first port of call&lt;/h1&gt;
+&lt;p&gt;To get some sense of what’s going on, referring to Docassemble’s documentation helped a lot as it provided advice on &lt;a href=&quot;https://docassemble.org/docs/docker.html#troubleshooting&quot;&gt;troubleshooting through viewing logs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After logging the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initialize&lt;/code&gt; process, I realised that it could not connect to my AWS S3 endpoint URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/debugging-doc-initialize.png&quot; alt=&quot;Logs for initialization process&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where I realised that I had a typo in my env.list file, where I’d typed my server region (ap-southeast-1a) instead of my S3 region (ap-southeast-1). Typos have material consequences here, sometimes more so than law.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-solving-one-problem-sometimes-means-paving-the-way-to-find-another-one&quot;&gt;3. Solving one problem sometimes means paving the way to find another one.&lt;/h1&gt;
+
+&lt;p&gt;After I fixed my env.list config blunder, I checked the logs and everything seemed to be fine (appropriate processes were running/terminated). However, accessing docassemble.tomoe.asia still wasn’t working.&lt;/p&gt;
+
+&lt;p&gt;Why ?????&lt;/p&gt;
+
+&lt;p&gt;To locate the (new) problem, I had to recognise that there are at least 2 points of failure:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The docassemble instance itself&lt;/li&gt;
+  &lt;li&gt;Connecting the docassemble instance to a domain name&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I realised it was (2) after I successfully accessed the site with my static IP address. I can’t remember what exactly I did to fix it though, but I remember it’s where the problem was.&lt;/p&gt;
+
+&lt;h1 id=&quot;4-silly-mistakes-will-happen-so-just-have-a-good-sense-of-humour-about-it-but-also-remember-to-fix-them&quot;&gt;4. Silly mistakes will happen, so just have a good sense of humour about it (but also remember to fix them)&lt;/h1&gt;
+
+&lt;p&gt;After the env.list blunder, something new happened while I was trying to add a HTTPS connection (so I don’t look like a scammer when friends try my server and are told that their connection is not secure). I was setting stuff up with Let’s Encrypt, but HTTPS wasn’t happening.&lt;/p&gt;
+
+&lt;p&gt;There’s no particular method to this, but after staring at the Suffolk LIT guide, I realised that I had accidentally skipped a step in enabling HTTPS connections for my IPv4 Firewall. 🤡&lt;/p&gt;
+
+&lt;p&gt;Sometimes, trying to do things while my eyes are dry and tired means that I skip crucial steps. I will try not to deploy things at 2 in the morning and instead learn to stop, and carry on the next day. &lt;strong&gt;I have to accept that I cannot solve every problem I face in one sitting.&lt;/strong&gt; This will become more true as the size and complexity of problems I face increases. If I can solve every problem in one sitting, it means that I’m probably not pushing my limits in terms of seeking out harder problems to solve.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-57</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-57</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
+      <item>
+        <title>day 56 - accidentally resetting localStorage on refresh, making headers sticky</title>
+        <description>&lt;p&gt;Tried working on 2 issues today: (1) saved papers disappear upon page refresh, and (2) making the header sticky.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(1) Papers disappearing upon page refresh&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This occurred as I would set the state of savedPapers to a blank array, then use set the value of an object in localStorage to savedPapers. I didn’t check if there was already an existing item in localStorage, which was why my saved papers would disappear as the value of “saved” would be reset to the equivalent of a blank array (but stringified, since localStorage only takes strings).&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;savedPapers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setSaved&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([])&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;saved&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;savedPapers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));},&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;savedPapers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To resolve this issue, I used the &lt;a href=&quot;https://usehooks.com/useLocalStorage/&quot;&gt;useLocalstorage&lt;/a&gt; hook, but am still trying to understand &lt;em&gt;how&lt;/em&gt; exactly it works with regard to this part:&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Allow value to be a function so we have same API as useState&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;valueToStore&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;storedValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Save state&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;setStoredValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;valueToStore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// Save to local storage&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;valueToStore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;// A more advanced implementation would handle the error case&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;because I’m not really sure what it means for “Allow value to be a function so we have the same API as useState”. I’ll have to look into the useState API to figure this out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;(2) Making the header sticky&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This was less straightforward than I thought it would be. Making the header itself sticky was relatively simple as the &lt;a href=&quot;https://www.w3schools.com/howto/howto_css_sticky_element.asp&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt; property has a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sticky&lt;/code&gt; attribute&lt;/a&gt;. However, a new problem arose where I realised that the Filter section is inside a container (CardContainer.js). I put the cards and filter in the same file as it’s easy to setState for search and filtering. However, I now need to make the Filter section its own component, so that I can add it to the header instead, such that the filter section persists while people are scrolling.&lt;/p&gt;
+
+&lt;p&gt;Currently, the filter section behaves like this, which is ugly and also not user-friendly:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/sticky-scroll.gif&quot; alt=&quot;GIF showing problems with a sticky div within another div&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I find my understanding of React very rudimentary – I know enough about it to get things to work, but I’m not at the level where I understand all the different approaches to managing State and what exactly the best practices are. However, I can always build on this project by refactoring it when I learn of a better way to do things, so that’s cool. Incremental learning!&lt;/p&gt;
+
+&lt;p&gt;More to-dos / feature wishlist:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Generate routes for individual papers, so that they can be shared with others. Otherwise it’ll just be emnlp2022.tomoe.asia – there’s no way to uniquely identify these resources&lt;/li&gt;
+  &lt;li&gt;Allow users to remove saved papers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also fiddled about with my syntax highlighter for the site today, so apologies if it looks janky :P&lt;/p&gt;
+</description>
+        <pubDate>Sun, 20 Nov 2022 00:00:00 -0500</pubDate>
+        <link>https://tomoe.asia/posts/day-56</link>
+        <guid isPermaLink="true">https://tomoe.asia/posts/day-56</guid>
+        
+        
+        <category>days</category>
+        
+      </item>
+    
   </channel>
 </rss>

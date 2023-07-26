@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on nondescryptid</title><link>https://tomoe.asia/posts/</link><description>Recent content in Posts on nondescryptid</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 27 Jul 2023 00:32:46 +0800</lastBuildDate><atom:link href="https://tomoe.asia/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Jekyll to Hugo: Yet another day of being trapped in the site generator karmic cycle</title><link>https://tomoe.asia/posts/2023-07-27-new-blog/</link><pubDate>Thu, 27 Jul 2023 00:32:46 +0800</pubDate><guid>https://tomoe.asia/posts/2023-07-27-new-blog/</guid><description>I have now joined the legions of people who have started their free Github Pages blog with Jekyll, and moved to Hugo. I originally used the Tufte-Jekyll theme, but realised that my stated preference (sidenotes!!) was very far from my revealed preferences (I hyperlink in my text directly a lot more). I also value having a nice table of contents. I want faster builds because this blog will be pretty image-heavy in time to come, because I&amp;rsquo;ve got a bunch of film cameras to review.</description><content:encoded><![CDATA[<p>I have now joined the legions of people who have started their free Github Pages blog with Jekyll, and moved to Hugo. I originally used the Tufte-Jekyll theme, but realised that my stated preference (sidenotes!!) was very far from my revealed preferences (I hyperlink in my text directly a lot more). I also value having a nice table of contents. I want faster builds because this blog will be pretty image-heavy in time to come, because I&rsquo;ve got a bunch of film cameras to review.</p>
+<p>Hopefully, there won&rsquo;t be a change in my site anytime soon. Sorry if I broke your RSS feed or anything.</p>
+]]></content:encoded></item><item><title>NUS Graduate Certificate in Computing Foundations: How it's going</title><link>https://tomoe.asia/posts/2023-05-19-nus-grad-cert-computing-foundations/</link><pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-05-19-nus-grad-cert-computing-foundations/</guid><description>Note: I originally wrote this on PubPub as I was still in the process of fiddling with my site. I hope this helps someone who&amp;rsquo;s thinking about going back to school too :^)
+Brief overview of the NUS GC-CF 1 This is a part-time programme that&amp;rsquo;s targeted at people who don&amp;rsquo;t have a formal undergraduate background in Computer Science (CS for short). It consists of three courses:
+IT5001 (Introductory programming course that everyone must take)</description><content:encoded><![CDATA[<blockquote>
+<p>Note: I originally wrote this on PubPub as I was still in the process of fiddling with my site. I hope this helps someone who&rsquo;s thinking about going back to school too :^)</p>
+</blockquote>
+<h2 id="brief-overview-of-the-nus-gc-cf-1">Brief overview of the NUS GC-CF 1</h2>
+<p>This is a part-time programme that&rsquo;s targeted at people who don&rsquo;t have a
+formal undergraduate background in Computer Science (CS for short). It
+consists of three courses:</p>
+<ul>
+<li>
+<p>IT5001 (Introductory programming course that everyone must take)</p>
+</li>
+<li>
+<p>2 other modules, out of these 3:</p>
+<ul>
+<li>
+<p>IT5002 Computer Systems and Applications; or</p>
+</li>
+<li>
+<p>IT5003 Data Structures and Algorithms; or</p>
+</li>
+<li>
+<p>IT5004 Enterprise Systems Architecture Fundamentals</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>You can read more about the NUS GC-CF 1 here:
+<a href="https://www.comp.nus.edu.sg/programmes/pg/certcf/.">https://www.comp.nus.edu.sg/programmes/pg/certcf/.</a></p>
+<p>I started this programme in January 2023, and took 2 courses (IT5001 and
+IT5003). I plan to take IT5002 in the semester starting August 2023.</p>
+<h2 id="quick-note-about-taking-it5001--it5003-in-the-same-semester">Quick note about taking IT5001 + IT5003 in the same semester</h2>
+<p>IT5001 is a pre-requisite for IT5003. IT5001 happens in the first 7
+weeks, then IT5003 happens for the 8 weeks after that. The results for
+IT5001 are confirmed about 3 weeks into IT5003.</p>
+<p>This means that there is a risk of failing IT5001, then having to drop
+out after 3 weeks of IT5003. The exact grades are not released to
+students, but we were told that if we don&rsquo;t hear from the IT5001 team
+after our IT5001 final, it means we passed the class overall and could
+continue with IT5003. This was a risk I chose to take.</p>
+<p>Taking both classes in the same semester also means that exams for
+IT5001 will overlap with IT5003. There were some weeks where there was
+class for IT5003 on Wednesday night and Saturday morning, then IT5001
+exams in the afternoon / evening (Practical Exam + Final Exam), and I
+had to prepare for class and also revise for exams.</p>
+<h2 id="how-much-money-did-it-take-about-sgd297866-it5001it5003-after-subsidies">How much money did it take? About SGD2978.66 (IT5001+IT5003) after subsidies.</h2>
+<p><strong>Important context</strong>: <strong>I am a Singapore Citizen. The cost of these
+courses vary depending on citizenship status and age</strong>. If you&rsquo;re a
+Singapore Citizen above 40, that will get you the most subsidies.</p>
+<p>Anyway, after all the relevant Skillsfuture subsidies, it cost SGD
+2978.66 (about the cost of a 14&quot; Macbook Pro in 2023).</p>
+<p><img loading="lazy" src="https://assets.pubpub.org/9p5puuhc/41684511973556.jpg" alt=""  />
+</p>
+<p>For the most updated information, please refer to the Programme Fees
+section of the NUS GC-CF site.</p>
+<h2 id="how-much-time-did-it-take-a-lot">How much time did it take? A lot.</h2>
+<h3 id="personal-context-regarding-the-time-i-spent-for-each-class">Personal context regarding the time I spent for each class</h3>
+<p>I did not enter the GC-CF I programme as a total beginner. I believe
+that is the case for most of my GC-CF I classmates, as quite a few of
+them were already working as software engineers / some sort of technical
+role. For me, I&rsquo;ve had a bit of experience with Python such that the
+content in IT5001 felt familiar, besides Object-Oriented Programming +
+basic search and sorting algorithms, which were new to me.</p>
+<h3 id="class-contact-hours-about-5-hours-a-week">Class contact hours: about 5 hours a week</h3>
+<p>There are 2 sessions per week for the part-time GC-CF I students. This
+usually happens on a weekday from 6.30pm-8.30pm, and on Saturday from
+9am-12pm.</p>
+<p>The part-time GC-CF I students and Masters of Computing (General Track)
+[a.k.a MComp] share the same classes with the same module codes.
+However, the amount of contact hours + syllabus may differ slightly. For
+IT5001, the MComp students had extra assignments in Java that we
+part-timers didn&rsquo;t have. For IT5003, there was a Recitation session on
+Friday afternoons where MComp students could attend, while most of us
+part-timers were at work. These sessions were recorded but there was at
+least one which had its recording corrupted/didn&rsquo;t end up being
+recorded, so we had to rely on the kindness of the MComp students who
+attended to fill us in.</p>
+<h2 id="it5001-software-development-fundamentals">IT5001: Software Development Fundamentals</h2>
+<h3 id="classes-5-hours-a-week">Classes (5 hours a week)</h3>
+<ul>
+<li>
+<p>Wednesday 6.30pm-8.30pm: Lecture</p>
+</li>
+<li>
+<p>Saturday</p>
+<ul>
+<li>
+<p>9am-10am: Lecture</p>
+</li>
+<li>
+<p>10am-12pm: Lab</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Prof Alan Cheng was our lecturer for this semester. He&rsquo;s very funny and
+personable, and doesn&rsquo;t expect us to do pre-lecture reading.</p>
+<h3 id="assessment">Assessment</h3>
+<h4 id="weekly-assignments-20">Weekly Assignments (20%)</h4>
+<p>I found these very manageable &mdash;they should be doable even if you don&rsquo;t
+understand everything about the syllabus inside-out.</p>
+<h4 id="midterm-20">Midterm (20%)</h4>
+<p>You&rsquo;re allowed an A4 cheatsheet for this exam. It&rsquo;s a smaller version of
+the final where you&rsquo;ll have an MCQ section and some short-answer
+questions where you have to fill in blanks, where each blank represents
+a line of code.</p>
+<h4 id="practical-exam-20">Practical Exam (20%)</h4>
+<p>This is an exam conducted on campus where you have to solve a few
+problems within 2 hours. Code has to be submitted via the Coursemology
+platform, and the catch is that you can only submit (i.e. run tests to
+check if your code passes) your code 5 times. This was challenging but
+fun.</p>
+<h4 id="final-exam-40">Final Exam (40%)</h4>
+<p>You&rsquo;re allowed an A4 cheatsheet for this exam.</p>
+<p>I didn&rsquo;t enjoy this a lot as it seems to test more esoteric knowledge,
+like what the following resolves to<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<pre><code>f = lambda a, b: lambda x: b(b(a))
+f('c', lambda a: a * 3)(lambda a: a[:1])
+</code></pre>
+<p>When in reality one would run the code and maybe step through it with a
+debugger if it&rsquo;s not clear (that&rsquo;s what I did anyway, since I&rsquo;m not good
+at lambda functions&hellip;) and realise it gives you &lsquo;ccccccccc&rsquo;.</p>
+<p>Another funny example<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>:</p>
+<pre><code>print(5-+-+-+-5) 
+</code></pre>
+<p>This feels illegal but is actually valid, and evaluates to 10.</p>
+<h3 id="time-spent-outside-of-class-3-hours-a-week">Time spent outside of class (~3 hours a week)</h3>
+<p>I spent about 3 hours outside of class a week (on average) working on
+the assignments and studying, mostly because Prof Alan&rsquo;s lecture style
+doesn&rsquo;t require us to do pre-reading + the content was largely familiar
+except for the stuff at the end about Object-Oriented Programming and
+Binary Search + Merge Sort.</p>
+<h3 id="syllabus-i-got-this-from-my-lecture-slide-titles">Syllabus (I got this from my lecture slide titles)</h3>
+<p>Week 1: Usual intro, course information and what functions are</p>
+<p>Week 2: Selection and Loops, Variable Scope, Recursion</p>
+<p>Week 3: Recursion vs Iterations, Debugging, Sequences</p>
+<p>Week 4: Higher Order Functions, Lists vs Tuples (mutable vs immutable)</p>
+<p>Week 5: Higher Order Functions with Sequences (i.e. Lists) , File
+Input/Output, Multi-dimensional Arrays</p>
+<p>Week 6: Object-Oriented Programming (Multiple-inheritance etc), Image
+Processing, Searching and Sorting</p>
+<p>Week 7: Exceptions, Intro to Order of Growth, Memoization</p>
+<h3 id="unsolicited-advice">Unsolicited advice:</h3>
+<p>I spent more time on the module towards the end as I had not worked on
+my cheatsheet throughout the semester. This was a mistake on my part
+&mdash;just keep a Word document around, and write down any weird quirky
+behaviour about Python that you come across. It&rsquo;ll come in useful for
+your cheatsheet.</p>
+<h2 id="it5003-data-structures-and-algorithms">IT5003: Data Structures and Algorithms</h2>
+<h3 id="classes-5-hours-a-week-1">Classes (5 hours a week)</h3>
+<ul>
+<li>
+<p>Wednesday 6.30pm-8.30pm: Lecture</p>
+</li>
+<li>
+<p>Saturday</p>
+<ul>
+<li>
+<p>9-10am: Lecture</p>
+</li>
+<li>
+<p>10am-12pm: Lab</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Important note:</strong> <strong>This class was taught by Dr Steven Halim, who uses
+the Flipped Classroom</strong> <strong>approach.</strong> This meant that there was a fair
+amount of reading to do each week. The readings came in the form of the
+E-Lecture mode on <a href="https://visualgo.net/en" title="null">Visualgo</a>.</p>
+<p>Please do your readings. I don&rsquo;t think I would&rsquo;ve had a chance of
+surviving if I went into lectures with 0 context, because he runs
+lectures assuming that you&rsquo;ve gone through the content and have some
+basic idea about what&rsquo;s going on, and spends more time focusing on
+complicated/less intuitive parts.</p>
+<h3 id="time-spent-outside-of-class-8-15-hours-a-week">Time spent outside of class (~8-15 hours a week)</h3>
+<p>IT5003 took about 3x or 4x the time that IT5001 took me. I attribute
+this to the content being novel to me, and also the flipped classroom
+approach meant that there was pre-class prep we needed to do.</p>
+<p>Each week kinda ended up looking like this:</p>
+<ul>
+<li>
+<p>Wednesday lecture + weekly problem set (pset) release</p>
+</li>
+<li>
+<p>Thursday - Weekends: Pre-reading for class, doing the pset</p>
+</li>
+<li>
+<p>Monday to Wednesday: If I didn&rsquo;t manage to do the pset by the
+weekend, this was a bad crunch time.</p>
+</li>
+</ul>
+<h3 id="assessment-1">Assessment</h3>
+<h4 id="weekly-problem-sets-24">Weekly Problem Sets (24%)</h4>
+<p>Each problem set consists of 2 problems (A and B). Problem A is easier
+than Problem B. I would say the time I spent on problem sets was split
+25%-75% between Problems A and B.</p>
+<p>These were done on a platform called Kattis, which I would describe as
+&ldquo;Leetcode that&rsquo;s mostly used by universities&rdquo;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. The main challenge
+for this is passing all the test cases, and doing so within the time and
+memory limits of the automated judge.</p>
+<h4 id="visualgo-quiz-1-11">VisuAlgo Quiz 1 (11%)</h4>
+<p>Covered sorting, lists, heaps. This is a quiz on the VisuAlgo platform
+that&rsquo;s multiple choice / short answer with some other topic-specific
+tasks, like drawing a graph and whatnot. This quiz is 15 minutes long.</p>
+<h4 id="visualgo-quiz-2-12">VisuAlgo Quiz 2 (12%)</h4>
+<p>Covers all topics of IT5003. This comes in the final week of class. This
+quiz is 15 minutes long.</p>
+<h4 id="final-exam-50">Final Exam (50%)</h4>
+<p>I came out of this feeling very defeated. I don&rsquo;t think I passed (at the
+time of writing). There&rsquo;s a mix of MCQs, short-answer questions and a
+final problem-solving part. You can check out a past paper
+<a href="https://www.comp.nus.edu.sg/~stevenha/cs2040c/tests/IT5003-2022-23-S1-final.pdf" title="null">here</a>.</p>
+<p><strong>Class participation (3%)</strong></p>
+<h3 id="syllabus">Syllabus</h3>
+<p>Official class site is here, with a detailed week-by-week syllabus:
+<a href="https://www.comp.nus.edu.sg/~stevenha/it5003.html.">https://www.comp.nus.edu.sg/~stevenha/it5003.html.</a> There is no point
+in me repeating it here &mdash;you are better off looking at Dr Steven
+Halim&rsquo;s site instead. He also has a draft schedule for the semester
+starting in August 2023:
+<a href="https://www.comp.nus.edu.sg/~stevenha/it5003.html#lessonplannew">https://www.comp.nus.edu.sg/~stevenha/it5003.html#lessonplannew</a></p>
+<h3 id="unsolicited-advicereflections">Unsolicited Advice/Reflections</h3>
+<p>Block the ranking system on Kattis. Kattis displays rankings for the
+entire class and shows the first 30-ish who solve the problem set. I
+used Brave browser&rsquo;s &ldquo;Block Element&rdquo; feature to prevent me from seeing
+the little banner at the top of every page which shows your ranking for
+the current problem sets. There was also a Rankings page, which I
+generally avoided looking at until <em>after</em> solving the pset. I did this
+because I realised it made me anxious to see that oh, people have solved
+this within 2 hours of the pset being released while I&rsquo;m still
+struggling and failing Test Case 2/45. Perhaps you are more stoic, but
+this is what worked for me as an anxious person.</p>
+<p>Train for the VisuAlgo quizzes by doing the Training modules on
+VisuAlgo. The quizzes have the highest time-to-points ratio. No other
+part of the assessments will let you get 20-ish% of your grade in 30
+minutes (total time for Quiz 1 + Quiz 2). I got blindsided by the weekly
+assignments because I have this bad habit where I get incredibly hung up
+on an unsolved problem, when I should&rsquo;ve optimised for spending more
+time on grinding out practice for the VisuAlgo quizzes instead. Don&rsquo;t
+make my mistake!</p>
+<p>Accept that the 8 weeks are going to be difficult. This was one of the
+most challenging classes I&rsquo;ve taken. Besides the content being new,
+there&rsquo;s a psychological dimension where I had to manage my own feelings
+about work not only being difficult, but also being in a class where
+there are people who are miles ahead. The GC-CF I is not a genuine
+introductory programme where everyone has the same degree of
+inexperience. It feels more like being in a university language class
+where people are like, <em>yeah I never studied this but I&rsquo;ve been
+translating anime subtitles for a few years as a self-taught Japanese
+speaker</em>. I had classmates who would solve the psets for every week
+within the same day they came out (if not, within hours), and they did
+this <em>every week.</em></p>
+<p>The trick, I think, is to view this situation with a sense of awe and
+curiosity rather than turning all these feelings into a way to put
+yourself down like <em>oh I am terrible and so slow at this, I can&rsquo;t ever
+get a job as a SWE</em>. Instead I like to think about stuff like: How did
+they make their code more efficient? How did they think through the
+problem? How can I do this too?</p>
+<p>The good part of this being a classroom environment is that you know
+there <em>is</em> a solution (and other people have found it). This is
+different from research where one can possibly throw thousands of
+dollars in grant money and years down the drain to find a solution which
+may or may not actually exist. It also helps that a lot of people on the
+class Discord are very helpful and generous with their time. I think all
+this suffering throughout the course created a sense of camaraderie
+where we all want to see each other pass test cases on Kattis.</p>
+<p>At the time of writing (20 May 2023), I don&rsquo;t know if I&rsquo;ve passed IT5003
+as we haven&rsquo;t gotten our results. I suspect that even if I have, I&rsquo;ve
+gotten a C or D or something like that because my VisuAlgo quizzes were
+pretty mid, and the Final was horrendous for me. But I&rsquo;ve definitely
+learned a lot, and I&rsquo;m glad that I achieved what I set out to do.
+Earlier in the semester, Dr Steven gave us a list of things to introduce
+ourselves with:</p>
+<p><img loading="lazy" src="https://assets.pubpub.org/59z5xjtt/51684517956677.png" alt=""  />
+</p>
+<p>Here&rsquo;s my response from 18 Feb 2023:</p>
+<p><img loading="lazy" src="https://assets.pubpub.org/zs58dfkj/61684518019463.png" alt=""  />
+</p>
+<p>I think I&rsquo;ve done what my past self was hoping to do. I deal with
+struggling much better now, and also made some memes I was happy with
+along the way:</p>
+<p><img loading="lazy" src="https://assets.pubpub.org/bg11vl8o/51684518103947.jpg" alt=""  />
+</p>
+<p>Hope this helps, and all the best with the GC-CF 1 if you end up doing
+it!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>This one&rsquo;s modelled after a past-year question.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Modelled after another past year question&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Hi Dr Steven, if you are reading this &mdash; I&rsquo;m probably
+misrepresenting Kattis, but this is the impression I have of it 😅&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>Software that doesn't want to eat the world</title><link>https://tomoe.asia/posts/2023-03-11-software-that-doesnt-want-to-eat-the-world/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-03-11-software-that-doesnt-want-to-eat-the-world/</guid><description>Recently, I went to my friend&amp;rsquo;s office for lunch and joked that these were &amp;ldquo;reparations for harvesting my personal data since I was 11&amp;rdquo;. I also remarked that it was kind of impressive as I don&amp;rsquo;t think I could&amp;rsquo;ve monetized my personal data like this (to the point of having kombucha on tap, and more lunch options than one could meaningfully try in one meal).
+While somewhat funny, it also reflects the way I&amp;rsquo;ve been slowly socialised to think about software as in terms of these things:</description><content:encoded><![CDATA[<p>Recently, I went to my friend&rsquo;s office for lunch and joked that these were &ldquo;reparations for harvesting my personal data since I was 11&rdquo;. I also remarked that it was kind of impressive as I don&rsquo;t think I could&rsquo;ve monetized my personal data like this (to the point of having kombucha on tap, and more lunch options than one could meaningfully try in one meal).</p>
+<p>While somewhat funny, it also reflects the way I&rsquo;ve been slowly socialised to think about software as in terms of these things:</p>
+<p>Monetization, MRR, ARR. Users. Maximizing. All-consuming, constantly devouring and growing. Extractive. The half-arsed GDPR compliance consent modals where the option that has the least cookies takes the most clicks to get to. Series whatever funding.</p>
+<p>When did things become like this, and when did I start thinking this way about software?</p>
+<p>Part of repairing my relationship with technology and recovering my sense of agency has involved thinking about the joy I felt as a kid online. In my teenage years, I stubbornly believed that I wasn&rsquo;t quite cut out for computer stuff because I was bad at math (whatever that meant to my younger self). I don&rsquo;t know how I typecast myself that way. It&rsquo;s all quite sad, because my kid self loved learning about customising my Neopets page and fiddling with Tumblr themes. I co-hosted a Facebook group for pen spinning with other kids my age, that ended up growing to include people who actually competed in the United Pen Spinning Board Tournament (sadly the message board no longer exists). At some point, my mother realised I was using Facebook as a kid and decided to block it on our home network. In response to that, I learnt how to use Tor after much googling, and willingly waited 5 minutes for pages to load, just because I <em>really</em> wanted to play Mousehunt (and also because it guaranteed me a failsafe common conversational topic with my classmates). There was a sense of unbridled agency, as a kid growing up online, that I kind of lost along the way.</p>
+<p>Another part of this repair has involved discovering other people online who embody a sense of play and wonder when it comes to technology. Lately, I came across <a href="https://we-b.site/">(we)bsite</a>, which invites people to think about their dreams for the internet. There are opportunities for small, anonymous interactions (seeing others&rsquo; cursors), and enjoying non-intrusive collective online presence. (I&rsquo;ve also just learnt that you can have live cursor chat by pressing &ldquo;/&rdquo;, so I&rsquo;ll try that later at night since most people who&rsquo;ve been on the site seem to be in US time.)</p>
+<p>Here are some of the things I&rsquo;ve stumbled upon and have found restorative and joyful:</p>
+<p>// <a href="http://feral.earth/">feral web</a></p>
+<p>// <a href="https://natto.dev/">natto.dev</a></p>
+<p>// <a href="https://twitter.com/soft_networks">soft networks</a></p>
+<p>// <a href="https://jzhao.xyz/cursor-chat/">cursor chat</a></p>
+<p>// <a href="https://nadia.xyz/independent-research">the independent researcher</a></p>
+<p>// <a href="https://www.spencerchang.me/window/">wall of windows</a></p>
+<p>// <a href="https://sfpc.study/">society for poetic computation</a></p>
+<p>// <a href="https://www.recurse.com/">recurse center</a></p>
+<p>Dreaming is a powerful thing. I dream of software that doesn&rsquo;t want to eat the world. I dream of software that can just be enough for me and my community. Software that delights and tends to the better angels of ourselves. I want to make more things to play with even if nobody else uses them, like a little <a href="https://inmyroom.vercel.app/">space</a> where you can drag and drop a few things, and a frontend for <a href="https://emnlp2022.tomoe.asia/">viewing papers for a conference</a>. Dream a little electric dream for me.</p>
+]]></content:encoded></item><item><title>Getting judgments for free in Singapore, or: It shouldn't cost 9 Filet-o-Fish meals to access State Court judgments on LawNet</title><link>https://tomoe.asia/posts/2023-01-10-free-access-to-case-law-in-singapore/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-01-10-free-access-to-case-law-in-singapore/</guid><description>This is an overview of the various free sources of legal judgments in Singapore, and some of the limitations surrounding the status quo of access in Singapore.
+My leanings on this matter I&amp;rsquo;m highly influenced by the Free Access to Law Movement and think that legal information should be accessible to all. This means that all court judgments and legislation should be free for users to access.
+Here, I&amp;rsquo;m just thinking about access in terms of &amp;ldquo;Can I search, and find the full text of a judgment?</description><content:encoded><![CDATA[<p>This is an overview of the various free sources of legal judgments in Singapore, and some of the limitations surrounding the status quo of access in Singapore.</p>
+<h2 id="my-leanings-on-this-matter">My leanings on this matter</h2>
+<p>I&rsquo;m highly influenced by the <a href="http://www.worldlii.org/worldlii/declaration/">Free Access to Law Movement</a> and think that legal information should be accessible to all. This means that all court judgments and legislation should be free for users to access.</p>
+<p>Here, I&rsquo;m just thinking about access in terms of &ldquo;Can I search, and find the full text of a judgment?&rdquo;.</p>
+<h2 id="finding-judgments-in-singapore">Finding judgments in Singapore</h2>
+<h3 id="supreme-court-court-of-appeal--high-court-judgments">Supreme Court (Court of Appeal + High Court) Judgments</h3>
+<p>These judgments have the most coverage, and are available through not one, but three sources:</p>
+<ol>
+<li><a href="https://www.judiciary.gov.sg/judgments/judgments-case-summaries">Official Singapore Courts site</a></li>
+<li><a href="https://www.singaporelawwatch.sg/Judgments">Singapore Law Watch</a></li>
+<li><a href="https://www.lawnet.com/openlaw/singapore/judgments/supreme-court">Lawnet OpenLaw</a></li>
+</ol>
+<p>All of the sources cover Supreme Court judgments from 2000 onwards.</p>
+<h3 id="state-courts-district-court--magistrates-court">State Courts (District Court + Magistrates&rsquo; Court)</h3>
+<blockquote>
+<p>Update: This section used to be more dismal, but <a href="https://github.com/hueyy">@hueyy</a> has pointed out that CommonLII has Singapore judgments! They&rsquo;re linked in the section below. Also, CommonLII (along with AustLII, BAILII, HKLII) is a member of the Free Access to Law Movement. Cool :D</p>
+</blockquote>
+<p>This is where the bulk of cases are, but coverage for this from the Singapore Courts/Singapore Academy of Law is worse compared to Supreme Court judgments. On the bright side, there&rsquo;s CommonLII.</p>
+<ol>
+<li><a href="https://www.lawnet.sg/lawnet/web/lawnet/free-resources?p_p_id=freeresources_WAR_lawnet3baseportlet&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-1&amp;p_p_col_pos=2&amp;p_p_col_count=3&amp;_freeresources_WAR_lawnet3baseportlet_action=subordinate">Lawnet Free Resources</a> - provides judgments released in the past 3 months</li>
+<li><a href="http://www.commonlii.org/sg/">CommonLII&rsquo;s Singaporean Legal Materials</a> - covers cases from 2006 onwards
+<ol>
+<li><a href="http://www.commonlii.org/sg/cases/SGDC/">District Court</a></li>
+<li><a href="http://www.commonlii.org/sg/cases/SGMC/">Magistrates&rsquo; Court</a></li>
+</ol>
+</li>
+<li>Open Government Products&rsquo; OpenDoc <a href="https://github.com/opendocsg/opendoc-state-court-judgments">opendocsg/opendoc-state-court-judgments</a></li>
+</ol>
+<p><strong>LawNet Free Resources</strong></p>
+<p>There is keyword search functionality that returns a list of results, but without excerpts of where the keywords are found:
+<img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/lawnet-posts/lawnet-free-rss-search" alt="Screenshot of Lawnet&amp;rsquo;s Free Resources page search results for the keyword &amp;ldquo;drug trafficking&amp;rdquo;"  />
+</p>
+<p><strong>CommonLII</strong></p>
+<p>Search functionality is more extensive as they support the following options:</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/lawnet-posts/commonlii-search-options" alt="Screenshot of CommonLII&amp;rsquo;s search options"  />
+</p>
+<p>Its drawback is the same as LawNet&rsquo;s free resource page &ndash; there are no excerpts of the search results. There are percentage similarity rates on the side (e.g. [100%]), but as a user I don&rsquo;t know what it really means.</p>
+<p>Having an excerpt would help users get an idea of the result&rsquo;s relevance without having to click and open the judgment.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/lawnet-posts/commonlii-search" alt="Screenshot of search results for the term &amp;ldquo;drug trafficking&amp;rdquo; in the CommonLII Singapore Magistrate&amp;rsquo;s Court database"  />
+</p>
+<p><strong>OGP&rsquo;s OpenDoc</strong></p>
+<p>The OpenDoc team from Open Government Products has a repo with cases from 2019 onwards. However, they&rsquo;re all in markdown files and the link it used to be hosted at &ndash; <a href="https://state-court-judgments.opendoc.sg/">https://state-court-judgments.opendoc.sg/</a> &ndash; is no longer working.</p>
+<h2 id="whats-the-use-case-for-organizing-judgments-by-recency">What&rsquo;s the use case for organizing judgments by recency?</h2>
+<p>It&rsquo;s nice that there&rsquo;s at least a source for State Court judgments, but I&rsquo;m not sure of why the resource was designed in this way to limit users to the past 3 months of judgments.</p>
+<p>My assumption is that people such as litigants-in-person tend to look for cases based on subject matter such as the area of law, specific fact patterns, statutory provisions etc. If this is true, then their ability to find the information they&rsquo;re looking for is stunted by the fact that they are only able to search for cases whose judgments have been reported within the past 3 months at the time of querying.</p>
+<h2 id="alternatives-to-search-for-state-court-cases-are-not-great-either-paying-for-lawnet-nlb-eresources">Alternatives to search for State Court cases are not great either: Paying for Lawnet, NLB eResources</h2>
+<h3 id="paying-for-lawnet">Paying for Lawnet</h3>
+<p><strong>Half an hour of Lawnet under the pay-per-use scheme = 9 Filet-o-Fish meals</strong>.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+Pay-per-use is SGD57.53 for the first 30 minutes and SGD8 for every subsequent half an hour.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/lawnet-posts/lawnet-pay-per-use" alt="Screenshot of Lawnet&amp;rsquo;s pay-per-use rates. It costs SGD57.53 for the first 30 minutes."  />
+</p>
+<p>I&rsquo;m using the pay-per-use rate as it&rsquo;s the cheapest. Otherwise, the standard monthly subscription is SGD206.92 (~33 FoF meals).</p>
+<p>This honestly doesn&rsquo;t sound great. Free and open access to law matters because litigants-in-person are already at a disadvantage if their counterparty has counsel &ndash; we don&rsquo;t need to exacerbate this inequality by making them worse-off in terms of access to legal information too. Even out of the litigant-in-person paradigm, I think judgments should be open for public viewing and study as courts are institutions financed by taxpayer money anyway.</p>
+<h3 id="nlb-eresources">NLB eResources</h3>
+<p>NLB eResources gave me some false hope as their eResources are generally great &ndash; getting Udemy courses for free through nlbsg.udemy.com and having access to JSTOR is fantastic. However, eResource access to Lawnet is another thing altogether.</p>
+<p>After logging in with myLibrary ID, navigating to eResources and finding &ldquo;Lawnet&rdquo;, I realised that Lawnet can only be accessed at the Lee Kong Chian Reference Library. As NLB points out, it&rsquo;s &ldquo;limited to 1 user access only&rdquo;.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/lawnet-posts/nlb-lawnet-resource" alt="Screenshot of the national library&amp;rsquo;s eResource for Lawnet"  />
+</p>
+<p>This involves quite a few steps:</p>
+<ol>
+<li>Making myLibrary ID</li>
+<li>Logging in with myLibrary account</li>
+<li>Going to eResources and finding &ldquo;Lawnet&rdquo;</li>
+<li>Realising that there is no online access from my computer, and that I have to go down in person.</li>
+<li>Finding library opening times</li>
+<li>Finding a day and time to go down to the library</li>
+<li>Finally accessing LawNet (and also praying there isn&rsquo;t already another user there)</li>
+</ol>
+<p>This access is &ldquo;free&rdquo; in the sense that I don&rsquo;t have to pay for it, but comes with a lot of other costs. I had to go through steps (1)-(4) only to find out that there&rsquo;s actually no online access via NLB eResources.</p>
+<p>Free access should also entail removing non-price barriers to access as much as possible. Sometimes, it looks like removing <a href="https://sushant354.blogspot.com/2009/04/letter-to-allahabad-high-court-removing.html?m=1">image captchas</a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Sometimes, it looks like not making people physically travel down to access a resource where only one person can access it at a time.</p>
+<h3 id="conclusions">Conclusions?</h3>
+<p>Idk, it&rsquo;d be nice to make LawNet available on a freemium model where basic search functions are free. IndianKanoon does that. The fancier research management stuff + precedent access can be left to law firms to pay for. Or the Courts could even just provide access (with no search functionality) to judgments in machine-readable format so that devs can build tools for it.</p>
+<p>As of 3 Jan 2023, SAL has reorganised its digital services under a new subsidiary called <a href="https://www.sal.org.sg/newsroom/LawNet-Technology-Services#:~:text=SAL%20to%20reorganise%20its%20digital,subsidiary%20%7C%20Singapore%20Academy%20of%20Law&amp;text=SINGAPORE%2C%203%20January%202023%20%E2%80%94%20The,Services%20(%E2%80%9CLTS%E2%80%9D)">LawNet Technology Services</a>. Looking forward to see what they do.</p>
+<p>Until then, I guess&hellip;just use CommonLII. And tell your friends about it! I had no clue until huey told me.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I use a Filet-o-Fish meal as my proxy for meals in general. The McDonalds app tells me that it&rsquo;ll cost $6.20.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Post written by the creator of IndianKanoon, which is a legal search engine that provides free search and access to Indian court judgments. See also <a href="https://www.w3.org/TR/turingtest/">W3C&rsquo;s comments on inaccessibility of CAPTCHA</a>&quot; because it can exclude people with visual impairments or struggle with using technology.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>day 61 - github classrooms and check50</title><link>https://tomoe.asia/posts/2023-01-08-day-61---github-classrooms-and-check50/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-01-08-day-61---github-classrooms-and-check50/</guid><description>I must confess that I&amp;rsquo;ve never written a test, but part of my work involves doing that now. I&amp;rsquo;m learning more about Github Classrooms and how to do autograding. Currently exploring check50 as it allows students to check their own work (as opposed to checks only occurring at the grading stage), but there&amp;rsquo;s a tradeoff in the form of not being able to make private test cases as check50 works with public Github repos.</description><content:encoded><![CDATA[<p>I must confess that I&rsquo;ve never written a test, but part of my work involves doing that now. I&rsquo;m learning more about Github Classrooms and how to do autograding. Currently exploring check50 as it allows students to check their own work (as opposed to checks only occurring at the grading stage), but there&rsquo;s a tradeoff in the form of not being able to make private test cases as check50 works with public Github repos. Anyway, besides GH classrooms, I might explore <a href="https://www.codegrade.com/">CodeGrade</a> and also look for more reflections from educators like Patrick Totzke, who&rsquo;s written about <a href="https://cgi.csc.liv.ac.uk/~patrick/blog/2021/check50/">Partially Automated Assessment of Programming Assignments with Check50
+</a>.</p>
+]]></content:encoded></item><item><title>day 60 - today I will refuse to be useful</title><link>https://tomoe.asia/posts/2023-01-05-day-60/</link><pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-01-05-day-60/</guid><description>Today I didn&amp;rsquo;t want to be &amp;lsquo;useful&amp;rsquo; or make something that is a means to an end. I just felt like playing and let myself do that instead. welcome to my room where like in real life, things are everywhere and somehow rearrange themselves every time you visit.</description><content:encoded><![CDATA[<p>Today I didn&rsquo;t want to be &lsquo;useful&rsquo; or make something that is a means to an end. I just felt like playing and let myself do that instead. welcome to <a href="https://inmyroom.vercel.app/">my room</a> where like in real life, things are everywhere and somehow rearrange themselves every time you visit.</p>
+]]></content:encoded></item><item><title>day 59 - added comments with utterances</title><link>https://tomoe.asia/posts/2023-01-03-day-59/</link><pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-01-03-day-59/</guid><description>Small QOL improvement: There is now support on this site for comments with utterances. It uses Github Issues for blog comments.</description><content:encoded>&lt;p>Small QOL improvement: There is now support on this site for comments with &lt;a href="https://utteranc.es/">utterances&lt;/a>. It uses Github Issues for blog comments.&lt;/p></content:encoded></item><item><title>day 58 - not much</title><link>https://tomoe.asia/posts/2023-01-02-day-58/</link><pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2023-01-02-day-58/</guid><description>Worked on one part of the pinhole camera construction calculator. I put the calculation of sensor diagonals into its own component so that I can reuse it across various sections that require sensor diagonal calculation. Using Typescript this time &amp;ndash; CS50 has made me appreciate stronger typing.</description><content:encoded>&lt;p>Worked on one part of the pinhole camera construction calculator. I put the calculation of sensor diagonals into its own component so that I can reuse it across various sections that require sensor diagonal calculation. Using Typescript this time &amp;ndash; CS50 has made me appreciate stronger typing.&lt;/p></content:encoded></item><item><title>day 57 - setting up my own Docassemble instance</title><link>https://tomoe.asia/posts/2022-12-19-day-57/</link><pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-12-19-day-57/</guid><description>I&amp;rsquo;ve been coding in the intervening month (mostly working on a pinhole camera construction calculator for a friend), but definitely haven&amp;rsquo;t been diligent about documenting it.
+TL;DR I set up a Docassemble instance using the Suffolk LIT Lab Legal Tech Class textbook (written by Quinten Steenhuis &amp;amp; other contributors), with AWS Lightsail and S3. You can check it out at docassemble.tomoe.asia. Do back up your docassemble interviews though, because I might not pay for this Lightsail instance forever.</description><content:encoded><![CDATA[<p>I&rsquo;ve been coding in the intervening month (mostly working on a pinhole camera construction calculator for a friend), but definitely haven&rsquo;t been diligent about documenting it.</p>
+<p>TL;DR I set up a Docassemble instance using the <a href="https://suffolklitlab.org/legal-tech-class/docs/practical-guide-docassemble/setup-server">Suffolk LIT Lab Legal Tech Class textbook</a> (written by Quinten Steenhuis &amp; other contributors), with AWS Lightsail and S3. You can check it out at <a href="https://docassemble.tomoe.asia">docassemble.tomoe.asia</a>. Do back up your docassemble interviews though, because I might not pay for this Lightsail instance forever. :P</p>
+<p>Instead of setting up a nice sensible local install, I decided that I might as well try to learn how to use AWS before my free AWS credits from one of the JuniorDev meetups expired.</p>
+<p>As usual, setting things up is never straightforward, but here are the things I&rsquo;ve learnt to pay more attention to (in decreasing order of significance):</p>
+<h1 id="1-learning-how-to-isolate-a-problem">1. Learning how to isolate a problem.</h1>
+<p>I could not, for the life of me, access my server at the start. Nothing was loading when I accessed the address I&rsquo;d mapped to it. Logging is an important part of the troubleshooting process as finding out what exactly is going on helps to locate the problem.</p>
+<h1 id="2-logs-as-the-first-port-of-call">2. Logs as the first port of call</h1>
+<p>To get some sense of what&rsquo;s going on, referring to Docassemble&rsquo;s documentation helped a lot as it provided advice on <a href="https://docassemble.org/docs/docker.html#troubleshooting">troubleshooting through viewing logs</a></p>
+<p>After logging the <code>initialize</code> process, I realised that it could not connect to my AWS S3 endpoint URL.</p>
+<p><img loading="lazy" src="/assets/debugging-doc-initialize.png" alt="Logs for initialization process"  />
+</p>
+<p>This is where I realised that I had a typo in my env.list file, where I&rsquo;d typed my server region (ap-southeast-1a) instead of my S3 region (ap-southeast-1). Typos have material consequences here, sometimes more so than law.</p>
+<h1 id="3-solving-one-problem-sometimes-means-paving-the-way-to-find-another-one">3. Solving one problem sometimes means paving the way to find another one.</h1>
+<p>After I fixed my env.list config blunder, I checked the logs and everything seemed to be fine (appropriate processes were running/terminated). However, accessing docassemble.tomoe.asia still wasn&rsquo;t working.</p>
+<p>Why ?????</p>
+<p>To locate the (new) problem, I had to recognise that there are at least 2 points of failure:</p>
+<ol>
+<li>The docassemble instance itself</li>
+<li>Connecting the docassemble instance to a domain name</li>
+</ol>
+<p>I realised it was (2) after I successfully accessed the site with my static IP address. I can&rsquo;t remember what exactly I did to fix it though, but I remember it&rsquo;s where the problem was.</p>
+<h1 id="4-silly-mistakes-will-happen-so-just-have-a-good-sense-of-humour-about-it-but-also-remember-to-fix-them">4. Silly mistakes will happen, so just have a good sense of humour about it (but also remember to fix them)</h1>
+<p>After the env.list blunder, something new happened while I was trying to add a HTTPS connection (so I don&rsquo;t look like a scammer when friends try my server and are told that their connection is not secure). I was setting stuff up with Let&rsquo;s Encrypt, but HTTPS wasn&rsquo;t happening.</p>
+<p>There&rsquo;s no particular method to this, but after staring at the Suffolk LIT guide, I realised that I had accidentally skipped a step in enabling HTTPS connections for my IPv4 Firewall. 🤡</p>
+<p>Sometimes, trying to do things while my eyes are dry and tired means that I skip crucial steps. I will try not to deploy things at 2 in the morning and instead learn to stop, and carry on the next day. <strong>I have to accept that I cannot solve every problem I face in one sitting.</strong> This will become more true as the size and complexity of problems I face increases. If I can solve every problem in one sitting, it means that I&rsquo;m probably not pushing my limits in terms of seeking out harder problems to solve.</p>
+]]></content:encoded></item><item><title>day 56 - accidentally resetting localStorage on refresh, making headers sticky</title><link>https://tomoe.asia/posts/2022-11-20-day-56/</link><pubDate>Sun, 20 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-20-day-56/</guid><description>Tried working on 2 issues today: (1) saved papers disappear upon page refresh, and (2) making the header sticky.
+(1) Papers disappearing upon page refresh
+This occurred as I would set the state of savedPapers to a blank array, then use set the value of an object in localStorage to savedPapers. I didn&amp;rsquo;t check if there was already an existing item in localStorage, which was why my saved papers would disappear as the value of &amp;ldquo;saved&amp;rdquo; would be reset to the equivalent of a blank array (but stringified, since localStorage only takes strings).</description><content:encoded><![CDATA[<p>Tried working on 2 issues today: (1) saved papers disappear upon page refresh, and (2) making the header sticky.</p>
+<p><strong>(1) Papers disappearing upon page refresh</strong></p>
+<p>This occurred as I would set the state of savedPapers to a blank array, then use set the value of an object in localStorage to savedPapers. I didn&rsquo;t check if there was already an existing item in localStorage, which was why my saved papers would disappear as the value of &ldquo;saved&rdquo; would be reset to the equivalent of a blank array (but stringified, since localStorage only takes strings).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> [<span style="color:#a6e22e">savedPapers</span>, <span style="color:#a6e22e">setSaved</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">useState</span>([])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">useEffect</span>(() =&gt; {<span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">setItem</span>(<span style="color:#e6db74">&#39;saved&#39;</span>, <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">savedPapers</span>));}, [<span style="color:#a6e22e">savedPapers</span>]);
+</span></span></code></pre></div><p>To resolve this issue, I used the <a href="https://usehooks.com/useLocalStorage/">useLocalstorage</a> hook, but am still trying to understand <em>how</em> exactly it works with regard to this part:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">setValue</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">value</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span> {
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// Allow value to be a function so we have same API as useState
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">valueToStore</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">value</span> <span style="color:#66d9ef">instanceof</span> Function <span style="color:#f92672">?</span> <span style="color:#a6e22e">value</span>(<span style="color:#a6e22e">storedValue</span>) <span style="color:#f92672">:</span> <span style="color:#a6e22e">value</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// Save state
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">setStoredValue</span>(<span style="color:#a6e22e">valueToStore</span>);
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// Save to local storage
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">typeof</span> window <span style="color:#f92672">!==</span> <span style="color:#e6db74">&#34;undefined&#34;</span>) {
+</span></span><span style="display:flex;"><span>        window.<span style="color:#a6e22e">localStorage</span>.<span style="color:#a6e22e">setItem</span>(<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">stringify</span>(<span style="color:#a6e22e">valueToStore</span>));
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">catch</span> (<span style="color:#a6e22e">error</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// A more advanced implementation would handle the error case
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">error</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>because I&rsquo;m not really sure what it means for &ldquo;Allow value to be a function so we have the same API as useState&rdquo;. I&rsquo;ll have to look into the useState API to figure this out.</p>
+<p><strong>(2) Making the header sticky</strong></p>
+<p>This was less straightforward than I thought it would be. Making the header itself sticky was relatively simple as the <a href="https://www.w3schools.com/howto/howto_css_sticky_element.asp"><code>position</code> property has a <code>sticky</code> attribute</a>. However, a new problem arose where I realised that the Filter section is inside a container (CardContainer.js). I put the cards and filter in the same file as it&rsquo;s easy to setState for search and filtering. However, I now need to make the Filter section its own component, so that I can add it to the header instead, such that the filter section persists while people are scrolling.</p>
+<p>Currently, the filter section behaves like this, which is ugly and also not user-friendly:</p>
+<p><img loading="lazy" src="/assets/sticky-scroll.gif" alt="GIF showing problems with a sticky div within another div"  />
+</p>
+<p>I find my understanding of React very rudimentary &ndash; I know enough about it to get things to work, but I&rsquo;m not at the level where I understand all the different approaches to managing State and what exactly the best practices are. However, I can always build on this project by refactoring it when I learn of a better way to do things, so that&rsquo;s cool. Incremental learning!</p>
+<p>More to-dos / feature wishlist:</p>
+<ul>
+<li>Generate routes for individual papers, so that they can be shared with others. Otherwise it&rsquo;ll just be emnlp2022.tomoe.asia &ndash; there&rsquo;s no way to uniquely identify these resources</li>
+<li>Allow users to remove saved papers</li>
+</ul>
+<p>I also fiddled about with my syntax highlighter for the site today, so apologies if it looks janky :P</p>
+]]></content:encoded></item><item><title>day 55 - retrieving stuff from localStorage, and updating state from child components</title><link>https://tomoe.asia/posts/2022-11-13-day-55/</link><pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-13-day-55/</guid><description>Spent today figuring out how to load things from localStorage. I would try to declare a variable where variable = JSON.parse(localStorage.getItem(&amp;quot;saved&amp;quot;)) (where &amp;ldquo;saved&amp;rdquo; is an array) or something like that, then use it in my component where I&amp;rsquo;d map it, but I would get an error stating that there is no such variable.
+Server-side rendering v client-side rendering This issue exists due to a difference between server and client-side rendering (Next.</description><content:encoded><![CDATA[<p>Spent today figuring out how to load things from localStorage. I would try to declare a variable where <code>variable = JSON.parse(localStorage.getItem(&quot;saved&quot;))</code> (where &ldquo;saved&rdquo; is an array) or something like that, then use it in my component where I&rsquo;d map it, but I would get an error stating that there is no such variable.</p>
+<p><strong>Server-side rendering v client-side rendering</strong>
+This issue exists due to a difference between server and client-side rendering (Next.js uses server-side rendering). localStorage is available as part of the browser API which only exists on the client&rsquo;s browser. This is something I don&rsquo;t entirely understand <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, but I resolved this issue by getting items from localStorage within the useEffect() hook thanks to this article: <a href="https://www.freecodecamp.org/news/how-to-use-localstorage-with-react-hooks-to-set-and-get-items/">How to Use localStorage with React Hooks to Set and Get Items</a>.</p>
+<p><strong>Updating saved papers from the individual card components</strong></p>
+<p>My web app has 2 main components when it comes to showing cards (containing details about papers):</p>
+<pre tabindex="0"><code>CardContainer.js (Parent)
+|
+|- Card.js (Child)
+</code></pre><p>CardContainer contains the array of papers from EMNLP&rsquo;s Excel sheet, and maps each of these papers to a corresponding Card component. It also contains the array of papers that have been saved in localStorage.</p>
+<p>However, the act of &ldquo;saving&rdquo; occurs when one clicks on the &ldquo;Save&rdquo; button in a Card component. Then, how do I update CardContainer&rsquo;s (parent) state from the Card (child) component?</p>
+<p>After checking out bobbyhadz&rsquo;s &ldquo;<a href="https://bobbyhadz.com/blog/react-pass-function-as-prop#:~:text=Define%20the%20function%20in%20the,function%20in%20the%20child%20component.">How to pass a Function as props in React</a>&rdquo;, I passed my CardContainer&rsquo;s setSaved() function as a prop into the Card component:</p>
+<p>CardContainer:</p>
+<pre tabindex="0"><code>    const [savedPapers, setSaved] = useState([])
+    ...
+    papers.map(paper =&gt; (&lt;Card paper={paper} setSaved={setSaved}/&gt;
+</code></pre><p>Card:</p>
+<pre tabindex="0"><code>const Card = ({paper, setSaved}) =&gt; {
+    ...
+    function savePaper(){
+        setSaved(items =&gt; [...items, paper])
+    }
+    return (
+        &lt;&gt; {paper &amp;&amp;  &lt;div className={styles.card}&gt;
+        &lt;button onClick={savePaper}&gt;Save&lt;/button&gt;
+}
+</code></pre><p>I used a spread operator to create a copy of the existing array into a new array where I can add other elements. This works, but I wonder if I should just try passing the entire &ldquo;Saved&rdquo; array as a prop and then .push() to it. I used this current solution as I didn&rsquo;t feel like adding another prop, but that&rsquo;s not really a technically informed choice&hellip;</p>
+<p><strong>Progress/Reflections:</strong></p>
+<p>Papers can now be saved, but the UI isn&rsquo;t very user-friendly at the moment as there&rsquo;s no feedback on when you&rsquo;re viewing the Saved papers or just browsing the original array of papers. It&rsquo;s possible to deactivate the &ldquo;saved&rdquo; view by clicking &ldquo;View Saved&rdquo; again, but it&rsquo;s not intuitive &ndash; I know how to use this because I wrote it, but I don&rsquo;t think it&rsquo;d be friendly for people who are using it for the first time.</p>
+<ul>
+<li>I might want to change the &ldquo;View Saved&rdquo; button&rsquo;s text to &ldquo;Return to Browsing&rdquo; when Saved Papers are being shown.</li>
+</ul>
+<p>There is also no validation for duplicate saved papers, so it is possible to show multiples of the same paper in the Saved Papers view by clicking one paper&rsquo;s Save button several times. I should implement validation next.</p>
+<p>Also, I think I should use modals for showing abstracts instead of replacing the cards&rsquo; contents on click &ndash; it&rsquo;s not a nice viewing experience on desktop (with 2 columns) and isn&rsquo;t a good utilisation of space as the paper&rsquo;s abstract is contained within the column that the card is in. This means that only half the viewport&rsquo;s being used. :\</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I roughly know enough about React to make it work, but I don&rsquo;t think I truly understand things like component lifecycles (render, constructor, componentDidMount etc) or what the difference between client and server-side rendering is.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded></item><item><title>day 54 - localStorage woes</title><link>https://tomoe.asia/posts/2022-11-09-day-54---localstorage-woes/</link><pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-09-day-54---localstorage-woes/</guid><description>Wanted to try to create an array in localStorage, then push saved papers to it. This failed when I realised that localStorage stores everything as strings, so localStorage.getItem(&amp;ldquo;saved&amp;rdquo;).push(paper) wouldn&amp;rsquo;t work.
+https://catalins.tech/store-array-in-localstorage/#:~:text=Get%20Array%20From%20localStorage,a%20string%20to%20an%20array.</description><content:encoded><![CDATA[<p>Wanted to try to create an array in localStorage, then push saved papers to it. This failed when I realised that localStorage stores everything as strings, so localStorage.getItem(&ldquo;saved&rdquo;).push(paper) wouldn&rsquo;t work.</p>
+<p><a href="https://catalins.tech/store-array-in-localstorage/#:~:text=Get%20Array%20From%20localStorage,a%20string%20to%20an%20array">https://catalins.tech/store-array-in-localstorage/#:~:text=Get%20Array%20From%20localStorage,a%20string%20to%20an%20array</a>.</p>
+]]></content:encoded></item><item><title>day 53 - EMNLP 2022 search + making mobile look better</title><link>https://tomoe.asia/posts/2022-11-08-day-53---emnlp-2022-search-+-making-mobile-look-better/</link><pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-08-day-53---emnlp-2022-search-+-making-mobile-look-better/</guid><description>Implemented search by title &amp;ndash; filtering by track got me to learn how to use .filter(), search made me learn how to use .include(). Fixed some styling issues by adding text-wrap to my labels for each card, which was causing a horizontal overflow problem on mobile (esp for conference tracks with very long names) earlier on. My div with the filter+search elements was also way outside the viewport, which made me realise that divs don&amp;rsquo;t inherit the dimensions of parents.</description><content:encoded><![CDATA[<p>Implemented search by title &ndash; filtering by track got me to learn how to use .filter(), search made me learn how to use .include(). Fixed some styling issues by adding text-wrap to my labels for each card, which was causing a horizontal overflow problem on mobile (esp for conference tracks with very long names) earlier on. My div with the filter+search elements was also way outside the viewport, which made me realise that divs don&rsquo;t inherit the dimensions of parents. So I ended up using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content"><code>fit-content</code></a> to get my <code>div</code> to fit the container. Frontend is fun, but it also makes my head hurt because there are so many kinds of behaviours to learn (don&rsquo;t even mention flexbox / grid).</p>
+<p>But anyway, I&rsquo;m glad that it kinda works now. There are a few more things I would like to learn to implement:</p>
+<ul>
+<li>saving papers, and viewing them with localStorage</li>
+<li>chaining multiple filters (e.g. filtering by submission type + track)</li>
+<li>allow multi-select for conference tracks, so that I can view several tracks&rsquo; papers at once, as opposed to one track at a time (which is the case with my current dropdown)</li>
+<li>automating the generation of unique values for each type of filter (to get the array of conference tracks, I went to some random website that helps you remove duplicates from lists&hellip; not my best moment to be honest). The idea here, I guess, is to create something I can easily use for another kind of entity that I want to view and filter.</li>
+<li>make header sticky so my header doesn&rsquo;t jump about depending on the number of search results</li>
+</ul>
+]]></content:encoded></item><item><title>day 52 - adding filtering to the EMNLP 2022 paper view</title><link>https://tomoe.asia/posts/2022-11-07-day-52/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-07-day-52/</guid><description>Added filtering by conference track. I stored the list of unique tracks in a file called track.js and exported it to components that needed it. Mapped values in tracks to their own &amp;lt;option&amp;gt;&amp;lt;/option&amp;gt; elements in a dropdown, and then added conditions to check whether any option was selected (if not I would just show all papers). Added labels for each card to show conference track, submission type and acceptance status.</description><content:encoded><![CDATA[<p>Added filtering by conference track. I stored the list of unique tracks in a file called track.js and exported it to components that needed it. Mapped values in tracks to their own <code>&lt;option&gt;&lt;/option&gt;</code> elements in a dropdown, and then added conditions to check whether any option was selected (if not I would just show all papers). Added labels for each card to show conference track, submission type and acceptance status.</p>
+]]></content:encoded></item><item><title>day 46 - day 51</title><link>https://tomoe.asia/posts/2022-11-05-day-46--day-51/</link><pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-11-05-day-46--day-51/</guid><description>Nov: [1, 2, 3, 4, 5]
+Finished CS50&amp;rsquo;s final pset which involved learning about Flask. I&amp;rsquo;ve just started on my final project &amp;ndash; a site that displays accepted papers for EMNLP 2022. You can check it my work so far at emnlp2022.tomoe.asia I&amp;rsquo;m doing this as it&amp;rsquo;s a good opportunity to work with some real-world data and also respond to a problem I&amp;rsquo;m having &amp;ndash; the list of accepted papers is currently only available in this massive Excel which is incredibly hard to read.</description><content:encoded><![CDATA[<p>Nov: [1, 2, 3, 4, 5]</p>
+<p>Finished CS50&rsquo;s final pset which involved learning about Flask. I&rsquo;ve just started on my final project &ndash; a site that displays accepted papers for EMNLP 2022. You can check it my work so far at <a href="https://emnlp2022.tomoe.asia">emnlp2022.tomoe.asia</a> I&rsquo;m doing this as it&rsquo;s a good opportunity to work with some real-world data and also respond to a problem I&rsquo;m having &ndash; the list of accepted papers is currently only available in this massive Excel which is incredibly hard to read.</p>
+<h1 id="things-i-expect-to-learn">Things I expect to learn</h1>
+<ul>
+<li>How to build components, and pass props</li>
+<li>Managing state: how do I pass information from a filter component to the cards components, and update the card components (which show papers) accordingly?</li>
+</ul>
+<h1 id="progress-so-far">Progress so far:</h1>
+<ul>
+<li>Display all papers, and show abstracts on click.</li>
+<li>Experimented a bit with filtering and checked out <a href="https://www.radix-ui.com/">Radix UI</a>, but have decided to try to build my components as much as possible so that I know what&rsquo;s going on.</li>
+</ul>
+]]></content:encoded></item><item><title>day 25 - day 45</title><link>https://tomoe.asia/posts/2022-10-28-day-25/</link><pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-10-28-day-25/</guid><description>&lt;p>This month I&amp;rsquo;ve been working through CS50. I&amp;rsquo;ve also managed to get into a semi-routine, which is a big first and surprise to me. I learn/code for the first 1.5h of my day (whenever my waking time might be) before moving on to my work obligations. This might not work for everyone as I happen to be privileged enough to work from home + have a really understanding supervisor who gives me autonomy regarding work hours and recognises that learning is part of my job.&lt;/p>
+&lt;p>This month I&amp;rsquo;ve coded on the following days in Oct: a = [6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]. The dev console tells me that means it&amp;rsquo;s been 21 days (used a.length because I was too lazy to count it manually). Which means I&amp;rsquo;m almost halfway through the 100 days (in total, not in a row).&lt;/p></description><content:encoded><![CDATA[<p>This month I&rsquo;ve been working through CS50. I&rsquo;ve also managed to get into a semi-routine, which is a big first and surprise to me. I learn/code for the first 1.5h of my day (whenever my waking time might be) before moving on to my work obligations. This might not work for everyone as I happen to be privileged enough to work from home + have a really understanding supervisor who gives me autonomy regarding work hours and recognises that learning is part of my job.</p>
+<p>This month I&rsquo;ve coded on the following days in Oct: a = [6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]. The dev console tells me that means it&rsquo;s been 21 days (used a.length because I was too lazy to count it manually). Which means I&rsquo;m almost halfway through the 100 days (in total, not in a row).</p>
+<p>I restarted CS50 for 2 main reasons:</p>
+<p>(1) closure</p>
+<p>Partially to get closure on the fact that it was the first thing I ever touched relating to code, but I never finished it because I was very new and not at a state where I have the kind of will and faith to finish it. But it&rsquo;s been a good month so far &ndash; I&rsquo;ve learnt a lot, and also feel like I can see how I&rsquo;m very different from the kid 4 years ago touching Scratch and C for the first time.</p>
+<p>(2) improving my foundations</p>
+<p>My data structures &amp; algo knowledge is really weak and I wanted to get a better handle on things like pointers, hash tables. After going through the first 5 weeks of content in C, I can appreciate why they force us to use C &ndash; you&rsquo;ll understand memory allocation and the relevance of linked lists a lot better when you understand the kinds of problems faced by storing stuff in contiguous slots of memory.</p>
+<p>Anyway, strongly recommend doing the course. And also would like to remind anyone who&rsquo;s been discouraged by the course that it&rsquo;s okay to take a step back and learn other things, then return to it.</p>
+<p>Things work out in the fullness of time.</p>]]></content:encoded></item><item><title>day 23</title><link>https://tomoe.asia/posts/2022-10-05-day-23/</link><pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-10-05-day-23/</guid><description>Learnt more about Chrome extensions by updating the manifest of a Chrome extension that wasn&amp;rsquo;t working for me. Was chatting with a friend (@kiittsuune) about how SimplyGo doesn&amp;rsquo;t total up transactions for you, and they put together a Chrome extension in a night. However, it wasn&amp;rsquo;t working for me (i.e. when I clicked the extension icon, nothing would happen) until I modified the manifest in line with Chrome&amp;rsquo;s dev documentation. You can check it out here</description><content:encoded><![CDATA[<p>Learnt more about Chrome extensions by updating the manifest of a Chrome extension that wasn&rsquo;t working for me. Was chatting with a friend (<a href="https://github.com/kiittsunne">@kiittsuune</a>) about how SimplyGo doesn&rsquo;t total up transactions for you, and they put together a <a href="https://gist.github.com/kiittsunne/ff4a5b6faba000fff4fbbd02c4d640d6">Chrome extension</a> in a night. However, it wasn&rsquo;t working for me (i.e. when I clicked the extension icon, nothing would happen) until I modified the manifest in line with Chrome&rsquo;s dev documentation. You can check it out <a href="https://gist.github.com/nondescryptid/78504cab609dc189620736745f829e2a">here</a></p>
+]]></content:encoded></item><item><title>day 24</title><link>https://tomoe.asia/posts/2022-10-05-day-24/</link><pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-10-05-day-24/</guid><description>I returned to CS50 after a long time. I have a minor regret about not having finished it, so I&amp;rsquo;m going to try and get it done this time round. I usually feel terrible about my skills, but I&amp;rsquo;ve realised that I&amp;rsquo;ve grown a lot after attempting Mario (more) and realising I got it a lot faster than my younger self would have back then (although I had to keep looking up C syntax and dealing with the missing ;s).</description><content:encoded><![CDATA[<p>I returned to CS50 after a long time. I have a minor regret about not having finished it, so I&rsquo;m going to try and get it done this time round. I usually feel terrible about my skills, but I&rsquo;ve realised that I&rsquo;ve grown a lot after attempting Mario (more) and realising I got it a lot faster than my younger self would have back then (although I had to keep looking up C syntax and dealing with the missing ;s).</p>
+]]></content:encoded></item><item><title>How to think about work such that it doesn't suck</title><link>https://tomoe.asia/posts/2022-09-27-thinking-about-work/</link><pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-09-27-thinking-about-work/</guid><description>&lt;p>I&amp;rsquo;ve found myself sending similar screenshots/quotes to friends that I found helpful, so now I&amp;rsquo;m trying to park everything in one place.&lt;/p></description><content:encoded><![CDATA[<p>I&rsquo;ve found myself sending similar screenshots/quotes to friends that I found helpful, so now I&rsquo;m trying to park everything in one place.</p>
+<p>These are the pieces of writing I&rsquo;ve found myself returning to, and referring others to over time, accompanied by my own random comments. They mostly relate to thinking about labour, time and everyday decision-making.</p>
+<h3 id="work-is-infinite-but-its-not-a-bad-thing"><strong>Work is infinite but it&rsquo;s not a bad thing</strong></h3>
+<blockquote>
+<p>Many people seem to think the &lsquo;good&rsquo; state of being, the &lsquo;ground&rsquo;
+state, is a relaxed state, a state with lots of rest and very little
+action. Because they think the ground state is the relaxed state, they
+act like maintaining any other state requires effort, requires
+suffering.</p>
+</blockquote>
+<blockquote>
+<p>This is a failure mode that I used to fall into pretty regularly. I
+would model my work as a finite stream of tasks that needed doing. I&rsquo;d
+think &ldquo;once I&rsquo;ve done the laundry and bought new shoes and finished the
+grocery shopping and fixed the bugs in my code and finished the big
+refactor, everything will be in order, and I&rsquo;ll be able to rest.&rdquo; And in
+that state of mind, every new email that hit my inbox, every new bug
+discovered in my code, every tool of mine that wore down and needed
+repair, would deal me damage.</p>
+</blockquote>
+<blockquote>
+<p>I was modeling my work as finite, with the rest state being the state
+where all tasks were completed, and so every new task would push me
+further from that precious rest state and wear me down.</p>
+</blockquote>
+<blockquote>
+<p>But the work that needs to be done is not a finite list of tasks, it
+is a neverending stream. Clothes are always getting worn down, food is
+always getting eaten, code is always in motion. <strong>The goal is not to
+finish all the work before you; for that is impossible. The goal is
+simply to move through the work. Instead of struggling to reach the end of the stream, simply focus on moving along it.</strong></p>
+</blockquote>
+<blockquote>
+<p>&ndash; Nate Soares, <a href="https://mindingourway.com/rest-in-motion/">Rest in Motion</a></p>
+</blockquote>
+<p>The magical property of work is that there is always more of it. It&rsquo;s there when you sleep, and it&rsquo;s there when you wake up. Go to sleep and stop punishing yourself. Resting is part of the work.</p>
+<h3 id="problems-dont-have-to-be-technically-challenging-for-them-to-be-worthwhile"><strong>Problems don&rsquo;t have to be technically challenging for them to be worthwhile</strong></h3>
+<p>&ldquo;Difficult&rdquo; tends to equate to &ldquo;prestigious&rdquo; in school because it&rsquo;s used as a proxy for your ability to suffer and also deal with technically hard things. But as Ben Kuhn points out in <a href="https://www.benkuhn.net/hard/">&ldquo;You don&rsquo;t need to work on hard problems&rdquo;</a>:</p>
+<blockquote>
+<p>School is a closed-world domain—you are solving crisply-defined puzzles (multiply these two numbers, implement this algorithm, write a book report by this rubric), your solution is evaluated on one dimension (letter grade), and the performance ceiling (an A+) is low. The only form of progression is to take harder courses. If you try to maximize your rewards under this reward function, you’ll end up looking for trickier and trickier puzzles that you can get an A+ on.</p>
+</blockquote>
+<blockquote>
+<p>The real world is the polar opposite. You’ll have some ultra-vague end goal, like “help people in sub-Saharan Africa solve their money problems,” based on which you’ll need to prioritize many different sub-problems. A solution’s performance has many different dimensions (speed, reliability, usability, repeatability, cost, …)—you probably don’t even know what all the dimensions are, let alone which are the most important. The range of plausible outcomes covers orders of magnitude and the ceiling is saving billions of lives. The habits you learn by working on problem sets won’t help you here.</p>
+</blockquote>
+<p>Leaving school presents you with a lot of agency, which is terrifying in its own right. I graduated a few months back and find that I&rsquo;m mainly chewing over (1) What should I be optimizing for? and (2) How do I cultivate my ability to deal with the higher-order question of what problems I should be working on, as opposed to finding ways to work on problems that have already been presented to me? I don&rsquo;t really have great answers for them yet.</p>
+<h3 id="being-clear-on-trade-offs"><strong>Being clear on trade-offs</strong></h3>
+<p><strong>Being clear on your motivations</strong></p>
+<p>R.W. Hamming&rsquo;s <a href="https://www.cs.utexas.edu/users/dahlin/bookshelf/hamming.html">&ldquo;You and your research&rdquo;</a> has a nice heuristic for this:</p>
+<ol>
+<li>What are the important problems in your field?</li>
+<li>What important problems are you working on / might lead to important results?</li>
+<li>If what you are working on is not important and is not likely to lead to important things, why are you working on them?</li>
+</ol>
+<p>This doesn&rsquo;t mean that everything has to be instrumental, just that it&rsquo;s a good exercise to clarify what your motivations for doing different things are. Sometimes the answer is &ldquo;I just find it fun&rdquo; and that&rsquo;s okay.</p>
+<p><strong>Purpose vs curiosity</strong></p>
+<p>There&rsquo;s this piece by Scott Young (<a href="https://www.scotthyoung.com/blog/2009/02/02/the-power-of-curiosity/">The Power of Curiosity</a>) where he states that actions can mainly be thought of as motivated by 2 things: purpose and curiosity.</p>
+<blockquote>
+<p>There are essentially two different modes of thought you can apply when deciding what to do: purpose and curiosity. Acting through purpose means accomplishing a project or task because you have a known outcome. Writing this article is an act of purpose, I want to update my blog with new content, so I’m writing with the intent of finishing an article.</p>
+</blockquote>
+<blockquote>
+<p>Curiosity, however, is a more interesting perspective that is often underused. In taking on an activity because of curiosity, you aren’t taking on a task despite an uncertain outcome. You’re taking on a task or project, because the result is uncertain. While acting from purpose comes from the need to achieve something known, curiosity drives us to learn something new.</p>
+</blockquote>
+<p>This drove me to think about how much my actions have been skewed towards purpose more than curiosity &ndash; I studied to pass and get my degree, I worked a bunch of jobs to make a living, etc etc. But I hadn&rsquo;t really been deliberately thinking about how to make space for curiosity and play in my life &ndash; things I do just because I like them. Some people thrive off purpose, but I realise I feel better when I&rsquo;ve made space for something curious and playful, because I am the type that can&rsquo;t really be prodded to do things I don&rsquo;t like. I&rsquo;ve realised that when I am forced to do things I dislike, it is bad for me and anyone else involved.</p>
+<p>When it comes to programming, I used to have this frame of mind that placed a lot of pressure on myself to come up with something <em>portfolio-worthy</em>, something that would get me a software engineering job and feel like all the uncertainty etc paid off. It&rsquo;s not the best mindset to have, and continuing to place that pressure on myself would&rsquo;ve killed my will to keep making. I realise that there&rsquo;s a tradeoff as my history/experience looks very haphazard (re: my 100 days of code log), but I think giving myself the space to just be curious and sniff about like a dog is better in the long run. Right now, I don&rsquo;t have to optimize for getting a SWE job ASAP because I&rsquo;ve already got a day job in legal research that involves some programming, and have enough time in the evenings and weekends to do random stuff I find fun. Sometimes it&rsquo;s trying to fiddle with SimplyGo&rsquo;s website to add up my transactions because they won&rsquo;t do that (idk why), sometimes it&rsquo;s fiddling with p5.js to make little circles.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/v1690386117/ztfi6xc948sdgtysjoxn.gif" alt=""  />
+<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>As a random aside, things seem to become cool when people are deeply interested in them. It&rsquo;s the kind of commitment and deep attention that craftmanship has that makes it fascinating, more so than the actual subject matter. Am I a serious coffee drinker / have opinions about coffee? No. But will I watch James Hoffman look into Nespresso&rsquo;s patents in his review of the Nespresso Vertuo? Yes.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><strong>Noting when past beliefs haven&rsquo;t caught up with present reality</strong></p>
+<p>It takes a while for attitudes to update. One of the big beliefs I have that isn&rsquo;t really reflective of reality is my scarcity mindset. For a while I felt like I had to work a lot to earn money, and it continued to endure even when those circumstances weren&rsquo;t really present anymore. I felt like I didn&rsquo;t really have options, and that scarcity mindset translated to non-monetary opportunities too where I felt like I should just take on whatever I can get. At some point, I started getting multiple things at once, but hadn&rsquo;t let go of that mindset. This led me to overcommit, underdeliver and kind of fail to be selective about the things I was doing.</p>
+<p>We constantly trade our time for various things like convenience or purpose or maintaining our relationships or saving/making money. It&rsquo;s important to make sure our beliefs about where our time should go are up-to-date.</p>
+<p>I recently had a chat with a friend about him wanting to do a computer vision side project, but needing a better laptop for it. He could save a few hundred dollars if he bought it when he comes to visit Singapore next year, but it&rsquo;d mean delaying that project by about 3 months.</p>
+<p>The question(s) kinda become:</p>
+<ul>
+<li>Is a few hundred dollars worth 3 months that you could&rsquo;ve spent working on your side project? (Question of personal opinion)</li>
+<li>In partially deciding the above: Does it take you more than 3 months to make a few hundred dollars? (Factual - answer is no)</li>
+</ul>
+<p>I often think the same way, so I try to pause whenever I feel seized by this sudden fear and feeling of urgency to save / choose the thing that costs the least and ask myself if it&rsquo;s informed by my current circumstances, or if it&rsquo;s like a reflex that responds to problems that don&rsquo;t exist anymore.</p>
+<p>Stuff that I like reading to help with these trade-offs:</p>
+<p>Dwarkesh Patel, <a href="https://www.dwarkeshpatel.com/p/barbell-strategies">&ldquo;Examples of barbell strategies&rdquo;</a></p>
+<p>Katja Grace, <a href="https://meteuphoric.com/2014/03/25/how-to-trade-money-and-time/">&ldquo;How to trade money and time&rdquo;</a></p>
+<p>Milan Cvitkovic, <a href="https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/">&ldquo;Things you&rsquo;re allowed to do&rdquo;</a></p>
+<p><strong>Your time is finite and not all of it is fungible</strong></p>
+<p>Our time is finite. As Death says in Vol. 7 (<em>Brief Lives</em>) of The Sandman: &lsquo;You lived what anybody gets, Bernie. You got a lifetime. No more. No less&rsquo;. I have this Chrome extension called <a href="https://chrome.google.com/webstore/detail/the-last-sunday-reminder/aiojhapcgfgmiacbbjfgedhlcchmpelh?hl=en#:~:text=This%20extension%20shows%20you%20a,name%20and%20date%20of%20birth.">The Last Sunday</a> that counts down how many weeks you have left and displays them whenever you open a new tab, assuming that your lifespan ends at 80. I have 2949 Sundays left at the time of writing.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<p>As much as the fact that time being finite should make us be more selective with how we spend our time, it also shouldn&rsquo;t invite this toxic urge to treat all time as fungible for work &ndash; like oh, I shouldn&rsquo;t have taken that nap / gone out with friends / done something fun because I could&rsquo;ve been working or studying or Getting Ahead. When you feel tired or bad about yourself, that time is not realistically free for working.</p>
+<p>&ndash;</p>
+<p>Anyway, that&rsquo;s about it for now. If you&rsquo;ve read this far - I&rsquo;d love to hear what your personal canon is like as I&rsquo;m always on the lookout for new things to read.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Reminds me of Rainer Maria Rilke&rsquo;s &lsquo;I live my life in widening circles&rsquo;&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Things with similar energy include Lindsay Ellis&rsquo; <a href="https://www.youtube.com/watch?v=zhWWcWtAUoY">Into the Omegaverse: How a Fanfic Trope Landed in Federal Court</a> and Solar Sands&rsquo; <a href="https://www.youtube.com/watch?v=lFb7BOI_QFc">Why do 'Corporate Art Styles' Feel Fake?</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>This is a very divisive extension as people have either found it quite sensible, or deeply morbid&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></content:encoded></item><item><title>Streaming from your Oculus Quest 2 to Zoom while using Air Link, but your PC also has no WiFi</title><link>https://tomoe.asia/posts/2022-09-23-streaming-from-your-oculus-quest-2-while-using-air-link/</link><pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-09-23-streaming-from-your-oculus-quest-2-while-using-air-link/</guid><description>&lt;p>I don&amp;rsquo;t know why you&amp;rsquo;d want to do this too, or have the same combination of problems. But if you do, here you go.&lt;/p></description><content:encoded><![CDATA[<p>I don&rsquo;t know why you&rsquo;d want to do this too, or have the same combination of problems. But if you do, here you go.</p>
+<h1 id="context">Context</h1>
+<p>I was helping with organising a conference that involved an experiential VR component, where conference participants could try out apps on the Oculus Quest 2. However, one of the applications featured was a game on Steam that had no native Oculus app to install.</p>
+<p>This meant that we had to:</p>
+<ul>
+<li>Download the Oculus app for PC (btw it has no Mac support)</li>
+<li>Pair the Oculus with the PC via a wired connection (USB-C) or Air Link (wireless, via WiFi)</li>
+<li>Start the game in Steam and choose &ldquo;Launch with Steam VR&rdquo;</li>
+</ul>
+<p>And the conference was a hybrid conference, so we also had to:</p>
+<ul>
+<li>Figure out how to stream what was happening on the Oculus to Zoom</li>
+</ul>
+<h2 id="why-not-just-connect-it-with-a-wired-connection">Why not just connect it with a wired connection?</h2>
+<p>We could&rsquo;ve used a wired connection, but there was a concern about the experience being suboptimal (range of movement being limited by the length of the USB-C cable) and also risking participants tripping over wires.</p>
+<h2 id="problems-with-air-link-and-knock-on-problems-with-streaming">Problems with Air Link and knock-on problems with streaming</h2>
+<p>The PC we were using had no WiFi, and Oculus Air Link needs WiFi to work.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The casting feature in Oculus (not in Air Link/wired mode) lets you show what the Oculus user is seeing if you log in on <a href="https://www.oculus.com/casting/">oculus.com/casting</a> on Chromium browsers, when both the browser&rsquo;s device and the Oculus headset are on the same network. This feature is not available if you&rsquo;re connected to a PC, so you need to find some other way to show what&rsquo;s going on.</p>
+<p>For the conference, we were sharing the screen of a monitor that had 5 different Chrome windows logged on to the headsets&rsquo; accounts. The 6th headset was the one that was linked to a PC, that couldn&rsquo;t be shown with the same method.</p>
+<h2 id="solutionwhat-we-ended-up-doing-wifi-adapter--obs-virtual-camera">Solution/What We Ended Up Doing: WiFi Adapter + OBS Virtual Camera</h2>
+<ol>
+<li>Acquire WiFi Adapter (We used an <a href="https://www.edimax.com/edimax/merchandise/merchandise_detail/data/edimax/global/wireless_adapters_ac1750_dual-band/ew-7833uac">Edimax AC1750</a>)</li>
+<li>Set it up - install driver and whatnot</li>
+<li>Go to Settings &gt; Network &amp; Internet &gt; Mobile hotspot</li>
+<li>Turn on Mobile Hotspot</li>
+<li>Connect your Oculus headset to the PC&rsquo;s hotspot</li>
+<li>Turn on Airlink -&gt; select your PC from the list of devices -&gt; click Launch</li>
+<li>Launch your Steam game with Steam VR</li>
+<li>Use OBS Virtual Camera to do Window Capture of the Steam game&rsquo;s window, then Start Virtual Camera</li>
+<li>Join Zoom Meeting and change camera output to OBS Camera</li>
+</ol>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.oculus.com/blog/introducing-oculus-air-link-a-wireless-way-to-play-pc-vr-games-on-oculus-quest-2-plus-infinite-office-updates-support-for-120-hz-on-quest-2-and-more/">Oculus Blog, Introducing Oculus Air Link</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></content:encoded></item><item><title>day 22</title><link>https://tomoe.asia/posts/2022-09-09-day-22/</link><pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-09-09-day-22/</guid><description>Tried out implementing a UI for question-answering with BERT (using functions written by Chris McCormick) on Streamlit at bert.tomoe.asia but it crashes when there are long spans of text entered &amp;ndash; not sure if it&amp;rsquo;s due to memory constraints (free tier has 800MB of memory) or what. I&amp;rsquo;ll try using a smaller BERT model tomorrow and see if it makes a difference.</description><content:encoded><![CDATA[<p>Tried out implementing a UI for question-answering with BERT (using functions written by Chris McCormick) on Streamlit at <a href="https://bert.tomoe.asia">bert.tomoe.asia</a> but it crashes when there are long spans of text entered &ndash; not sure if it&rsquo;s due to memory constraints (free tier has 800MB of memory) or what. I&rsquo;ll try using a smaller BERT model tomorrow and see if it makes a difference.</p>
+]]></content:encoded></item><item><title>day 21</title><link>https://tomoe.asia/posts/2022-09-03-day-21/</link><pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-09-03-day-21/</guid><description>&lt;p>Took part in a Go workshop by Chuk organised by GeeksHacking, where we made a command line tool that interacts with the Boardgame Atlas API to search for board games.&lt;/p></description><content:encoded><![CDATA[<p>Took part in a Go workshop by Chuk organised by GeeksHacking, where we made a command line tool that interacts with the Boardgame Atlas API to search for board games.</p>
+<p><a href="bit.ly/golang_for_programmers">Slides can be found here</a></p>
+<p><a href="https://docs.google.com/presentation/d/1S2bS0Wvevd3_Cb8DwDXYD4Swwq_3IDlfVuFY1V2lesg/edit#slide=id.p">alt link</a></p>
+<h1 id="go">Go</h1>
+<p>Languages can be thought of in terms of STRONG vs WEAK typing, and static v dynamic</p>
+<h1 id="where-go-is-used">Where Go is used</h1>
+<ul>
+<li>Infra like Kubernetes and Docker</li>
+<li>Cloud native devt (writing RESTful [message-based] web apps; gRPC (another service style))</li>
+<li>Replacing existing infra such as CoreDNS/Caddy (reverse proxy - nginx is an alternative to Caddy. Chuk likes Caddy bc it just has one binary to deal with)</li>
+</ul>
+<h1 id="go-data-types">Go Data Types</h1>
+<ul>
+<li>string</li>
+<li>rune (equivalent of a char in JS)</li>
+<li>number int, uint (no negative numbers), floats</li>
+<li>complex</li>
+</ul>
+<pre tabindex="0"><code>var name string
+
+var age uint8 = 21
+</code></pre><h1 id="arrays--slices-dynamic-arrays">Arrays &amp; Slices (dynamic arrays)</h1>
+<h2 id="arrays-fixed-size">Arrays (fixed size)</h2>
+<pre tabindex="0"><code>var name [5]string
+</code></pre><h2 id="slices">Slices</h2>
+<p>Looks like you declare the upper limit of memory it can have (e.g. 5 items) and then append items without necessary using all of the memory allocated</p>
+<p>TODO: look up arrays vs Slices</p>
+<h1 id="loops">Loops</h1>
+<h1 id="pointers">Pointers</h1>
+<p>Python etc have a concept of a reference - a pointer-like thing to an object</p>
+<ul>
+<li>in Java, objects arrays etc are references but primitives are not references.</li>
+</ul>
+<p>Chuk: &ldquo;You wont ask an F1 driver to ask slowly right. Sometimes you want the freedom to do stupid things [as an engineer].&rdquo;</p>
+<pre tabindex="0"><code>name := &#34;fred&#34;
+
+&amp;name #gives you the address of a var 
+
+*&amp;name == &#34;fred&#34; # gives you contents of the address 
+</code></pre><p>This allows you to have double pointers that allow &ldquo;dynamic addressing&rdquo; (TODO: look up)</p>
+<p>And anything can be passed by reference or value into functions</p>
+<h1 id="creating-custom-types">Creating custom types</h1>
+<pre tabindex="0"><code>type natural unit32
+</code></pre><p>or create objects</p>
+<pre tabindex="0"><code>type Customer struct {
+    ...
+}
+</code></pre><p>Function types</p>
+<pre tabindex="0"><code>type Apply[T any] func(T,T)T 
+
+# function takes 2 params of type T, and returns type T. 
+</code></pre><h1 id="visibility-of-vars">Visibility of vars</h1>
+<p>If a var starts with uppercase it is public, and lowercase is private.</p>
+<blockquote>
+<p>Chuk: &ldquo;You either see it or you don&rsquo;t&rdquo;</p>
+</blockquote>
+<h1 id="class-like">Class-like</h1>
+<p>Can write functions that are only accessible by certain structs</p>
+<p>Receiver function must be in the same module</p>
+<blockquote>
+<p>Critique of Go: You extend or implement an interface, but there&rsquo;s no explicit stuff like that in Go. Go handles it implicitly where if your struct has methods of the interface, it is considered implemented.</p>
+<p>This makes reading code a bit difficult because a param can require a reader but you have to figure out which structs implement a reader, then hunt down the methods in that reader.</p>
+</blockquote>
+<p>TODO: Find out what&rsquo;s a thread &hellip; Chuk is talking about threads but I don&rsquo;t know what it&rsquo;s about</p>
+<h1 id="communicating-between-routines">Communicating between routines</h1>
+<p>Use a built-in primitive called channels.</p>
+<p>To read:</p>
+<ul>
+<li><a href="https://www.educative.io/answers/what-are-channels-in-golang">What are channels in Golang?</a></li>
+</ul>
+<h1 id="todays-workshop">Today&rsquo;s workshop</h1>
+<p>Building a command line tool to search for board games</p>
+<p>If there&rsquo;s time:</p>
+<ul>
+<li>Pretty print results</li>
+<li>Cross compile to other platforms e.g. Linux to Windows</li>
+<li>Write a multi threaded version if time permits</li>
+</ul>
+<h2 id="initialise-project-as-a-go-project">Initialise project as a Go project</h2>
+<p>Run <code>go mod init</code> in the directory where your project is. It should create a file called <code>go.mod</code>.</p>
+<h2 id="my-first-go-program-">My first Go program :)</h2>
+<pre tabindex="0"><code>package main
+
+func main() {
+    fmt.Println(&#34;hello, world&#34;)
+}
+</code></pre><p>Run programs with <code>go run .</code> in the directory where your go program file is stored.</p>
+<h2 id="boardgame-api">Boardgame API</h2>
+<p>We are using the Search endpoint: <a href="https://www.boardgameatlas.com/api/docs/search">https://www.boardgameatlas.com/api/docs/search</a></p>
+<p>We need:</p>
+<ul>
+<li>Search term</li>
+<li>Client id</li>
+<li>Limit (e.g. 10)</li>
+<li>Skip (e.g. 0)</li>
+</ul>
+<h2 id="compiling">Compiling</h2>
+<p>Use <code>go build .</code></p>
+<p><code>go run</code> is for devt purposes.</p>
+<h2 id="questions">Questions</h2>
+<p>What are pointers and references?
+What does strong and weak typing mean, and when would someone prefer a language that&rsquo;s strongly/weakly typed?</p>
+<h2 id="adding-colors">Adding colors:</h2>
+<p>Cool repo to add colors to the command line output: <a href="https://github.com/fatih/color">https://github.com/fatih/color</a>
+run <code>go get github.com/fatih/color</code> in your project dir</p>]]></content:encoded></item><item><title>day 20</title><link>https://tomoe.asia/posts/2022-08-10-day-20/</link><pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-08-10-day-20/</guid><description>&lt;p>Started learning Django out of necessity for work.&lt;/p></description><content:encoded><![CDATA[<p>Started learning Django out of necessity for work.</p>
+<p>I only managed to spend 30 minutes today on learning Django (got started with virtual env and setting up a django project + understanding the settings file), but I&rsquo;m glad I spent that time instead of spending no time at all. Putting my learning at the start of the day before other work tasks was nice as it gave me the security of knowing that I&rsquo;d done some learning by lunchtime, and that I didn&rsquo;t have to learn stuff at the end of the work day at night when my energy&rsquo;s depleted.</p>]]></content:encoded></item><item><title>day 19</title><link>https://tomoe.asia/posts/2022-08-05-day-19/</link><pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-08-05-day-19/</guid><description>Touched more server-side stuff. Learned to use screen on a server to manage sessions and update sites.</description><content:encoded>&lt;p>Touched more server-side stuff. Learned to use &lt;code>screen&lt;/code> on a server to manage sessions and update sites.&lt;/p></content:encoded></item><item><title>day 18</title><link>https://tomoe.asia/posts/2022-08-02-day-18/</link><pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-08-02-day-18/</guid><description>&lt;p>Created reusable components in React for a volunteering project.&lt;/p></description><content:encoded><![CDATA[<p>Created reusable components in React for a volunteering project.</p>
+<p>This project involved some really tight timelines, so I was really just doing stuff manually (i.e. copy-pasting and tweaking things slightly) because it took less effort than thinking through how to add props and make a component reusable. However, I finally got some time to think about and implement it, which was worth the time as it means that we won&rsquo;t be clogging up the <code>src</code> folder with lots of different files in the future.</p>]]></content:encoded></item><item><title>day 17</title><link>https://tomoe.asia/posts/2022-07-20-day-17/</link><pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-07-20-day-17/</guid><description>&lt;p>Joys of pair programming and fiddling with Liquid + Shopify metafields&lt;/p></description><content:encoded><![CDATA[<p>Joys of pair programming and fiddling with Liquid + Shopify metafields</p>
+<p>I debugged something with a coworker today, which was nice. A html element wasn&rsquo;t showing up on a Shopify dev store page (e.g. instead of (0/6) it&rsquo;d just show (0/ )), and we were trying to figure out why. We compared the HTML of the live store versus the dev store and realised that the value attribute of that element on the dev store was missing altogether. After digging into the Liquid file that the page was generated from, we realised that the value attribute was retrieving its value from an object (a Shopify metafield &ndash; like product.metafields.namespace.key) that didn&rsquo;t exist on the dev store, as it wasn&rsquo;t copied over when we copied products over to the dev store. Thinking out loud, figuring out the bug and fixing it together was quite fun.</p>
+<p>Also had to work more with Liquid today as I was changing a template for invoices.</p>]]></content:encoded></item><item><title>day 16</title><link>https://tomoe.asia/posts/2022-07-19-day-16/</link><pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-07-19-day-16/</guid><description>&lt;p>Using .filter(), and thinking about reusable components&lt;/p></description><content:encoded><![CDATA[<p>Using .filter(), and thinking about reusable components</p>
+<h1 id="volunteering">Volunteering</h1>
+<p>Learned to use .filter() to filter messages for various recipients from a larger array of messages. This is quite a rushed job so I&rsquo;ve been writing a lot of inelegant code. One improvement I want to make is to create a reusable components that I can pass props into, because a lot of the things I&rsquo;m making have the same template but with a few variables that are tweaked.</p>
+<h1 id="work">Work</h1>
+<p>Conducted a demo/training on how to use Git to collaborate. I realise I quite enjoy writing documentation and teaching, although how skilled I am is another question altogether.</p>
+<h1 id="inter-alia">Inter alia</h1>
+<p>I&rsquo;ve also disappeared for a month and have done programming in the interim, just that I wasn&rsquo;t very diligent about recording it. :P</p>]]></content:encoded></item><item><title>day 15</title><link>https://tomoe.asia/posts/2022-06-11-day-15/</link><pubDate>Sat, 11 Jun 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-06-11-day-15/</guid><description>Wrote documentation on how to use git (e.g. using branches, making pull requests, setting remote repos) for my workplace. It&amp;rsquo;s on Notion, titled Working with Git</description><content:encoded><![CDATA[<p>Wrote documentation on how to use git (e.g. using branches, making pull requests, setting remote repos) for my workplace. It&rsquo;s on Notion, titled <a href="https://wakeful-table-63f.notion.site/Working-with-Git-c4e3c3d335884ed2987f81f99b8835aa">Working with Git</a></p>
+]]></content:encoded></item><item><title>day 14</title><link>https://tomoe.asia/posts/2022-06-08-day-14/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-06-08-day-14/</guid><description>&lt;p>Set cookies for JSON Web Tokens with Flask and added support for the use of credentials in cross-origin requests.&lt;/p></description><content:encoded><![CDATA[<p>Set cookies for JSON Web Tokens with Flask and added support for the use of credentials in cross-origin requests.</p>
+<p>Got nerfed by a cough (probably caught it on the plane) and fell off the wagon &ndash; inertia is very real, and the longer I put off setting up a routine + updating my blog regularly the harder it becomes to start again.</p>]]></content:encoded></item><item><title>day 13</title><link>https://tomoe.asia/posts/2022-05-29-day-13/</link><pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-29-day-13/</guid><description>&lt;p>Set up node to communicate with a Flask backend that someone else built for a volunteering project.&lt;/p></description><content:encoded><![CDATA[<p>Set up node to communicate with a Flask backend that someone else built for a volunteering project.</p>
+<p>Reorganised code to place the frontend I built and the backend someone else built in the same repo, so I can use relative routes like &ldquo;/login&rdquo; instead of exposing the server address of what I&rsquo;m working on like XX.XX.XX:XXXX/login.</p>
+<p>Also had to figure out why env variables couldn&rsquo;t be accessed by Flask, then I realised I needed to use the dotenv library to retrieve variables from an .env file.</p>
+<p>I found the following articles useful:
+<a href="https://medium.com/zero-equals-false/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb">Easiest Way to Connect a React Frontend with Node.js</a></p>
+<p><a href="https://medium.com/javarevisited/connecting-flask-with-node-js-7b9d823ca923">Connecting Flask with Node.js</a></p>
+<p><a href="https://www.nylas.com/blog/making-use-of-environment-variables-in-python/">Making Use of Environment Variables in Python</a></p>
+<p>I didn&rsquo;t work on my projects for a while as I made the mistake of going out to meet friends too many times in a week when I don&rsquo;t really have the social batteries for it. Looking forward to pacing myself better in the future, and hibernating + hacking away at my own stuff for the next week!!</p>]]></content:encoded></item><item><title>day 12</title><link>https://tomoe.asia/posts/2022-05-18-day-12/</link><pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-18-day-12/</guid><description>&lt;p>Figured out how to use asdf (it&amp;rsquo;s a version manager!) to manage different versions of Ruby and Python on my laptop.&lt;/p></description><content:encoded><![CDATA[<p>Figured out how to use asdf (it&rsquo;s a version manager!) to manage different versions of Ruby and Python on my laptop.</p>
+<p>Had to do it because I was struggling to install Shopify&rsquo;s CLI when my ruby version kept pointing to the ancient Mac OSX system one instead of the one I actually wanted.</p>
+<p>Lighthouse says my site could use ARIA and better contrast.</p>]]></content:encoded></item><item><title>day 11</title><link>https://tomoe.asia/posts/2022-05-17-day-11/</link><pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-17-day-11/</guid><description>&lt;p>Did half an hour of Javascript exercises on &lt;a href="jschallenger.com">jschallenger.com&lt;/a>.&lt;/p></description><content:encoded><![CDATA[<p>Did half an hour of Javascript exercises on <a href="jschallenger.com">jschallenger.com</a>.</p>
+<h1 id="javascript">Javascript</h1>
+<p>One of the more interesting things I learned today was that you can use the ternary operator (a.k.a question mark) to make code more succinct.</p>
+<p>Instead of</p>
+<pre tabindex="0"><code>function returnLarger(a, b) {
+    if (a &gt; b) {
+        return a 
+    } else {
+        return b
+    }
+}
+</code></pre><p>You could just write</p>
+<pre tabindex="0"><code>function returnLarger(a, b) {
+    return a &gt; b ? a : b 
+}    
+</code></pre><h1 id="career-stuff">Career stuff</h1>
+<p>Attended a talk today that featured a software engineer who had no formal CS background, which was pretty heartening. She mentioned a really good way of thinking about your career, namely the importance of developing these 4 things: skillset (functional, conscious competence), mindset (self beliefs and self-awareness), teamwork, and network (influence and relationships). A lot of software engineering comprises of things that aren&rsquo;t just your technical skill (unless you&rsquo;re some kind of very monastic individual contributor who never has to interact with people).</p>
+<p>Now that COVID measures are easing up a bit, I&rsquo;m trying to push myself to attend more meetups and meet new people. I was incredibly nervous at my first meetup and probably committed some kind of social faux pas, but never mind. It&rsquo;ll get better with practice.</p>]]></content:encoded></item><item><title>day 10</title><link>https://tomoe.asia/posts/2022-05-16-day-10/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-16-day-10/</guid><description>&lt;p>Flexbox shenanigans!&lt;/p></description><content:encoded><![CDATA[<p>Flexbox shenanigans!</p>
+<p><strong><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></strong> &ndash; completed this today!  it&rsquo;s a great resource that teaches you about the differences between various properties that work with flex, like align-content and align-items. Highly recommend. Doesn&rsquo;t take long to complete.</p>
+<p><strong>Volunteering project</strong>: Got a component to take JSON data (messages) from an API, set state and use the state to generate divs for each message. So if there are 5 messages, 5 divs are generated. Used media query + flex to display 2 columns only when screen size is above a certain threshold, so that it isn&rsquo;t awfully small on mobile. No demo as it&rsquo;s a private repo :(</p>
+<p>Side note: Today&rsquo;s a public holiday and I&rsquo;m glad I managed to sit down for 1.5h to focus on learning the stuff needed to build my component. I&rsquo;m usually very drained on other days as I have to be out of the house.</p>]]></content:encoded></item><item><title>day 9</title><link>https://tomoe.asia/posts/2022-05-15-day-9/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-15-day-9/</guid><description>&lt;p>More working with objects: Object.keys(obj) and &lt;code>for (let item in items)&lt;/code>on freecodecamp.&lt;/p></description><content:encoded><![CDATA[<p>More working with objects: Object.keys(obj) and <code>for (let item in items)</code>on freecodecamp.</p>
+<p>Short update as I was out the whole day.</p>]]></content:encoded></item><item><title>day 8</title><link>https://tomoe.asia/posts/2022-05-14-day-8/</link><pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-14-day-8/</guid><description>&lt;p>Bits of progress - did some regex exercises + learnt about array + object methods&lt;/p></description><content:encoded><![CDATA[<p>Bits of progress - did some regex exercises + learnt about array + object methods</p>
+<p>I&rsquo;ve been pretty tired lately but I&rsquo;m glad that I made a bit of time (45 minutes) today to learn something new for my own interest, as opposed to learning something for my paid work (I guess it can improve my work, but it&rsquo;s not a very direct benefit considering that I&rsquo;m doing more of working with third party apps on Shopify and troubleshooting them). That was fun. I&rsquo;m trying to get out of the mindset that I need to have particularly noteworthy things to talk about every day, and just focus on building up <em>consistency</em> &ndash; any daily exercise/learning is good learning and any post is a good post. The main point is to be more consistent, and trust the process a bit more.</p>
+<p>Method of the day: .splice()
+.splice() takes in 3 params: the starting index, number of items to remove, and what to replace the starting index&rsquo;s contents with.<br>
+Besides modifying the array that it is used on, it also returns an array containing the items that have been removed</p>
+<p>Example:
+Take that we let arr = [&lsquo;We&rsquo;, &lsquo;are&rsquo;, &rsquo;looking&rsquo;, &lsquo;for&rsquo;, &lsquo;Blue's&rsquo;, &lsquo;Clues&rsquo;]</p>
+<p>arr.splice(3, 3) would remove arr[3], arr[4] and arr[5] from arr, and return an array containing those 3 removed elements.</p>
+<p>arr.splice(3, 3, &lsquo;young&rsquo;) would remove the 3 items mentioned above but also replace them with &lsquo;young&rsquo; at index 3 in the original arr to give us &ldquo;We are looking young&rdquo;, while returning an array containing the 3 removed elements.</p>]]></content:encoded></item><item><title>day 7</title><link>https://tomoe.asia/posts/2022-05-13-day-7/</link><pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-13-day-7/</guid><description>&lt;p>Starting to think about whether this site is accessible, how to test if it is accessible, and how to make it accessible if it isn&amp;rsquo;t&lt;/p></description><content:encoded><![CDATA[<p>Starting to think about whether this site is accessible, how to test if it is accessible, and how to make it accessible if it isn&rsquo;t</p>
+<h1 id="thinking-about-my-personal-sites-accessibility">Thinking about my personal site&rsquo;s accessibility</h1>
+<p>I attended a StackX meetup yesterday and decided to poke about GovTech&rsquo;s github repos. Seeing the SGDS provoked me to think about <em>my</em> own site&rsquo;s accessibility. There&rsquo;s some tech debt in the sense that I&rsquo;m using Jekyll, and need to figure out how the html in my site is generated. If I were coding everything by myself with HTML+CSS+JS, it&rsquo;d probably be a lot easier to just tweak the site&rsquo;s html directly. So this is the main todo.</p>
+<p>Resources:</p>
+<ul>
+<li><a href="http://www.goring.org/resources/accessibility.html">Accessibility with Jekyll Pages</a></li>
+</ul>
+<p>Also finished FreeCodeCamp&rsquo;s regex section, although regex still feels very mind-bending to me. Should look for more exercises so it becomes a matter of muscle memory.</p>]]></content:encoded></item><item><title>day 6</title><link>https://tomoe.asia/posts/2022-05-10-day-6/</link><pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-10-day-6/</guid><description>&lt;p>from May 6 - May 10 just a lot of Shopify stuff&lt;/p></description><content:encoded><![CDATA[<p>from May 6 - May 10 just a lot of Shopify stuff</p>
+<h1 id="shopify">Shopify</h1>
+<p>i&rsquo;ve been spending most of my time familiarising myself with Shopify because of work. My tasks can generally be grouped into the following:</p>
+<ol>
+<li>Theme customisation</li>
+<li>Updating information (like product tags / changing HTML templates for certain pages)</li>
+<li>Writing tests &ndash; I&rsquo;m learning to use UI-licious to automate testing of stores&rsquo; Uis</li>
+<li>Working with Shopify&rsquo;s third party apps for doing a variety of things, like setting up logic for shipping, build-your-own-box products, etc.</li>
+</ol>
+<p>I want to spend some time outside of work becoming more familiar with Liquid and the structure of Shopify themes so that I can do more complex customisation work. There&rsquo;s also some really cool-looking stuff like Hydrogen (Shopify&rsquo;s framework for building custom storefronts) that I want to explore. In this vein, I&rsquo;ve signed up for a Udemy course to learn how to make themes (esp learning how to use the Shopify CLI, Liquid, Tailwind and also the JSON templates that themes have).</p>
+<h1 id="soft-skills-and-learning-about-my-own-preferences">Soft skills and learning about my own preferences</h1>
+<p>One thing I&rsquo;ve learnt lately is that I don&rsquo;t really enjoy meetings. I&rsquo;m on a contract to do about 20h of work a week, but find that meetings (standups, client meetings etc) tend to take close to 20% of that time, which is a lot of time to me. Moving forward, I&rsquo;m going to try to not attend client meetings where my presence is just good to have but not actually necessary. However, since I&rsquo;m new, I&rsquo;m going to treat these meetings like part of the necessary learning curve to get to know clients&rsquo; usual pain points and what features they tend to need.</p>
+<p>Coming to my own preferences &ndash; I realised that when I look for full-time dev opportuntiies, I&rsquo;d prefer to work on things that have a longer time frame. Ideally, this would be a company where devs build the company&rsquo;s own product as opposed to having to answer to external clients. With agency work, meetings can be last minute as unexpected problems crop up (e.g. client reports that some feature of their site is down and it&rsquo;s an important) quite often. I enjoy more long-term, less urgent work that I can do asynchronously most of the time. I think that&rsquo;s why I liked my undergrad research jobs so much, because it&rsquo;s about chipping away at this One Project until it&rsquo;s done. There also aren&rsquo;t a lot of meetings or last-minute requests.</p>
+<h1 id="setting-boundaries">Setting boundaries</h1>
+<p>Working as a freelancer for an agency has really tested my ability to set boundaries, mostly because I have an overextended sense of responsibility. Like, when someone asks me &ldquo;Can you do this by tomorrow&rdquo;, I think of it as &ldquo;Can I do this if I stay up late&rdquo; and tend to say yes if I think it is physically possible to do it, and not so much of whether I <em>should</em> be exerting myself to that point where I&rsquo;m up till 1 working on something.</p>
+<p>This is an issue to do with setting boundaries, and I think it&rsquo;s time for me to properly set some. I will keep myself available in the day for work, but won&rsquo;t do it after 5pm because I&rsquo;ve got other parts of my life to tend to. If I keep responding to people&rsquo;s requests whenever they come in, it means I&rsquo;m living a lot less of my life. My contract is for 4 hours a day, but quite a lot of time goes to things outside of dev work like doing time tracking, responding to colleagues etc, client meetings that aren&rsquo;t always billable.</p>
+<p>These boundaries are important because I realised that I&rsquo;ve not been focusing much on my own learning and growth for things outside of stuff related to my paid work &ndash; e.g. learning data structures and algorithms, learning more about backend.</p>
+<h1 id="random-update-some-free-camp">Random update: some free camp</h1>
+<p>I signed up for this -redacted tech company - Youth Camp thing that involves 2-3h classes every weekday from last Wednesday to this Friday (run by SWEs from that company), but am realising that it&rsquo;s not for me. 2-3h hours every weekday on top of work is making me way more tired than I expected. I also don&rsquo;t fare well with long lectures. I&rsquo;ll look for this sort of thing and vet the opportunities I want to sign up for more judiciously in the future.</p>]]></content:encoded></item><item><title>day 5???</title><link>https://tomoe.asia/posts/2022-05-06-day-5/</link><pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-05-06-day-5/</guid><description>&lt;p>Falling off the face of the earth; drinking from a firehose.&lt;/p></description><content:encoded><![CDATA[<p>Falling off the face of the earth; drinking from a firehose.</p>
+<p>It&rsquo;s been more than a week. I&rsquo;m definitely not fantastic at staying updated &ndash; honestly each day is more of &ldquo;a day where I remembered to document what I was doing&rdquo;. I think 100daysofcode is a nice guide and symbol of consistency, but it&rsquo;s not something that I can realistically do. Some days, you just need a clean break from coding. And that&rsquo;s fine.</p>
+<h1 id="drinking-from-the-firehose">Drinking from the firehose</h1>
+<p>But anyway, the past week has felt like a blender. I started working on the frontend for a volunteer project, and had to touch React for the first time (or maybe the 1.5th time). Working with another volunteer (a much more experienced dev who I&rsquo;ve never met and whose actual identity I have no clue of - such is the internet :P) who wrote the backend meant that I had to figure out how to work with Flask (to test locally), and also set up Node. They wanted me to get some experience deploying apps and dealing with real world concerns like load balancing, but I haven&rsquo;t managed to get it up yet&hellip;</p>
+<h1 id="shes-in-her-freelance-era">She&rsquo;s in her freelance era</h1>
+<p>On 4 May, Wednesday, I started my first day of working for a web design + dev agency that focuses on Shopify sites. I&rsquo;ve never touched Shopify in my life (besides checking things out). I&rsquo;m learning to accept the discomfort of starting a new job, learning a whole new set of norms + tech stack for managing work + syntax (Shopify does use Liquid [ok actually they made it], which I have touched a little bit because Jekyll uses it too). I&rsquo;m blundering and hopefully reducing my learning:doing ratio (in favour of spending more time doing) over time. But anyway, it&rsquo;s 4 hours a day and pays me twice as much as any of my law internships ever did (which is more of a testament to how poorly law interns are paid).</p>
+<h1 id="changing-lanes">Changing lanes</h1>
+<p>After finishing 4 years of university, picking up this freelance thing felt like the first step in confirming my change of paths. I studied law, but won&rsquo;t be practicing as a lawyer as I genuinely don&rsquo;t think I can hack it. Some people can handle constant stress and 12-hour days, but not me. I&rsquo;ve got other priorities like my health and possible family caregiving stuff.</p>
+<p>Ideally, I&rsquo;ll be able to do dev work that also taps on my legal training &ndash; like building tools for legal ecosystem folks (research, practice managements, blahblah). But for now, I&rsquo;m just going to focus on getting my foot in the door, feeding myself, and learning.</p>
+<p>There&rsquo;s a kind of shame associated with not doing what you were trained for, but it&rsquo;s kind of natural to change. Optimistically viewed, it means that my time in university was genuinely transformative. I&rsquo;m a very different person from my 19 year old self now. The version of me 4 years from now will also probably feel like a whole different person.</p>]]></content:encoded></item><item><title>day 4</title><link>https://tomoe.asia/posts/2022-04-25-day-4/</link><pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-04-25-day-4/</guid><description>&lt;p>Not much from me today.&lt;/p></description><content:encoded><![CDATA[<p>Not much from me today.</p>
+<p>I&rsquo;m going to move away from grinding Hackerrank and devote my time to studying data structures and algorithms by going through an online course before I move to stuff like leetcode/hackerrank.</p>
+<p>Added buttons to the Blackjack game where players can choose to hit or stand with, instead of typing &ldquo;hit&rdquo; and &ldquo;stand&rdquo; into the input bar.</p>
+<p>Small win of the day: Graduated from the Rocket Academy Basics course today. I&rsquo;ll sort of miss seeing my classmates around now that we aren&rsquo;t meeting twice a week.</p>]]></content:encoded></item><item><title>day 3</title><link>https://tomoe.asia/posts/2022-04-24-day-3/</link><pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-04-24-day-3/</guid><description>&lt;p>Fiddling with CNAME, working on blackjack, no Hackerrank today&lt;/p></description><content:encoded><![CDATA[<p>Fiddling with CNAME, working on blackjack, no Hackerrank today</p>
+<h1 id="website-improvements">Website Improvements</h1>
+<p>I was very happy about finally mapping my domain, but then realised it&rsquo;d return a 404 whenever i try to access tomoe.asia after pushing new changes and deploying.</p>
+<p>When you go to your Github Pages site repo &gt; Settings &gt; Pages and type in a custom domain for github pages, it creates this CNAME file in the root of your repo. However, it turns out that static site generators (like Jekyll) can force push changes, which can overwrite the CNAME file (haven&rsquo;t figured out how exactly it works), which affects whether tomoe.asia resolves to get the content of my site. That was why tomoe.asia wouldn&rsquo;t work after I push changes and publish my site.</p>
+<p>Useful links of the day:
+<a href="https://github.com/tschaub/gh-pages/issues/213">https://github.com/tschaub/gh-pages/issues/213</a></p>
+<p><a href="https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe">https://medium.com/@xiang_zhou/how-to-add-custom-domain-to-your-jekyll-blog-provided-that-you-built-your-site-using-github-6e1c8bf20afe</a></p>
+<p><a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages">https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/troubleshooting-custom-domains-and-github-pages</a></p>
+<h1 id="blackjack">Blackjack!</h1>
+<p>Troubleshooted some parts of the CheckAce function (which checks whether a given user - player or computer - has an ace). Created a div that displays players&rsquo; hands. I&rsquo;m working on this as part of Rocket Academy&rsquo;s Basics course. <a href="https://2l0fsh.csb.app/project3-blackjack/index.html">You can play some (slightly wonky) blackjack if you want.</a>.</p>
+<h1 id="others">Others</h1>
+<p>Didn&rsquo;t do any Hackerrank today. Sundays are my flop era because the few brain cells I have are completely worn out by Japanese class.</p>
+<p>I&rsquo;ve been doing Hackerrank with Python while I work on web dev stuff with Javascript, and I&rsquo;m wondering if I should just do everything in Javascript to avoid the friction that comes with having to mentally switch languages.</p>]]></content:encoded></item><item><title>day 2</title><link>https://tomoe.asia/posts/2022-04-23-day2/</link><pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-04-23-day2/</guid><description>&lt;p>Website improvements, hackerrank&lt;/p></description><content:encoded><![CDATA[<p>Website improvements, hackerrank</p>
+<h1 id="website-improvements">Website improvements:</h1>
+<p>Added <a href="https://try.catche.co/">Catche</a> to my site. It adds instant search. Click on the magnifying glass in the lower right of the screen!</p>
+<p>Mapped domain (tomoe.asia) to my current Github Pages site.</p>
+<h1 id="hackerrank">Hackerrank</h1>
+<h2 id="time-conversionhttpswwwhackerrankcomchallengesone-month-preparation-kit-time-conversionproblemisfullscreentrue"><a href="https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?isFullScreen=true">Time conversion</a></h2>
+<p>Inelegant solution, but it works. It&rsquo;s quite late now so I&rsquo;ll think of a more elegant solution another day:</p>
+<pre tabindex="0"><code>def timeConversion(s):
+    # Write your code
+    if s[-2:] == &#34;PM&#34;:
+        s = s.replace(&#34;PM&#34;, &#34;&#34;)
+        digits = int(s[0:2])
+        if digits != 12:
+            digits += 12
+            digits = str(digits)
+            s = digits + s[2:]
+        else:
+            pass
+
+    else:
+        s = s.replace(&#34;AM&#34;, &#34;&#34;)
+        if s[0:2] == &#34;12&#34;:
+            s = &#34;00&#34; + s[2:]
+    return s
+</code></pre><h2 id="sparse-arrays">Sparse Arrays</h2>
+<p>Inelegant attempt that didn&rsquo;t work (it&rsquo;s like 2 now so I&rsquo;m going to just sleep and do this again tomorrow)</p>
+<pre tabindex="0"><code>def matchingStrings(strings, queries):
+    # initialise array to track results
+    results = []
+    # Make results arr as long as queries
+    results = [0 for i in range(len(queries))]
+    for query in queries:
+        for string in strings:
+            if query == string:
+                results[queries.index(query)] += 1 
+            else: 
+                pass
+    return results 
+</code></pre><p>Better solutions from <a href="https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/forum/comments/1028765?isFullScreen=true&amp;h_l=interview&amp;playlist_slugs%5B%5D=preparation-kits&amp;playlist_slugs%5B%5D=one-month-preparation-kit&amp;playlist_slugs%5B%5D=one-month-week-one&amp;h_r=next-challenge&amp;h_v=zen">syedshahid821721 and VictorSGhosh</a></p>
+<p>{% marginnote &ldquo;margin-noteid&rdquo; &ldquo;I should get a lot more familiar with Python methods. Knowing .count() would&rsquo;ve saved me so much time.&rdquo; %}</p>
+<pre tabindex="0"><code>def matchingStrings(strings, queries):
+    # Write your code here
+    results=[] 
+    count=0
+    for i in queries:
+        results.append(strings.count(i)) 
+    return results
+</code></pre><pre tabindex="0"><code>def matchingStrings(strings, queries):
+    return [strings.count (q) for q in queries]
+</code></pre>]]></content:encoded></item><item><title>day1</title><link>https://tomoe.asia/posts/2022-04-22-day1/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://tomoe.asia/posts/2022-04-22-day1/</guid><description>&lt;p>Handling rejection, rake tasks and hackerrank&lt;/p></description><content:encoded><![CDATA[<p>Handling rejection, rake tasks and hackerrank</p>
+<p>Got the news that I was rejected for Build@Mercari.</p>
+<p>Kind of a bummer, but I expected it as I did poorly for the Hackerrank test. I haven&rsquo;t been exposed to enough types of problems (and solutions/approaches), and need to continue working on it.</p>
+<p>What I did today:</p>
+<ul>
+<li>Made a 100 days section for my website. I&rsquo;ll use this as a journal of sorts.</li>
+<li>Hackerrank: Plus-Minus; Mini-Max Sum</li>
+<li>Site reorganisation: added 100daysofcode directory + its own _posts directory; moved _posts out of the root directory to its own directory (posts/_posts).</li>
+<li>Wrote rake task to create new post in 100daysofcode</li>
+<li>Useful link of the day: <a href="https://stackoverflow.com/questions/41660514/pulling-from-specific-subfolders-using-for-post-in-site-posts">Pulling from specific subfolders using {% for post in site.posts %}</a></li>
+</ul>]]></content:encoded></item></channel></rss>

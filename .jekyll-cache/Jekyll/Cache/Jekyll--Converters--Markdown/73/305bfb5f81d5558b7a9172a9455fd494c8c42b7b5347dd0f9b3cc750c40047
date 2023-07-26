@@ -1,7 +1,0 @@
-I"�<p>Joys of pair programming and fiddling with Liquid + Shopify metafields 
-<!--more--></p>
-
-<p>I debugged something with a coworker today, which was nice. A html element wasn’t showing up on a Shopify dev store page (e.g. instead of (0/6) it’d just show (0/ )), and we were trying to figure out why. We compared the HTML of the live store versus the dev store and realised that the value attribute of that element on the dev store was missing altogether. After digging into the Liquid file that the page was generated from, we realised that the value attribute was retrieving its value from an object (a Shopify metafield – like product.metafields.namespace.key) that didn’t exist on the dev store, as it wasn’t copied over when we copied products over to the dev store. Thinking out loud, figuring out the bug and fixing it together was quite fun.</p>
-
-<p>Also had to work more with Liquid today as I was changing a template for invoices.</p>
-:ET

@@ -1,0 +1,43 @@
+baseURL: https://tomoe.asia
+disablePathToLower: true
+languageCode: en-us
+title: nondescryptid
+theme: PaperMod
+params:
+    assets:
+      favicon: "https://res.cloudinary.com/dezwnhp01/image/upload/v1690391047/pixeltree.png"
+    homeInfoParams:
+        Title: reporting live from localhost
+        Content: Depending on where you've met me, I'm Tomoe or @nondescryptid. My interests morph a lot but tend to revolve around the archival and governance of digital resources, repairing things, being a beginner, building community and writing with curiosity. Right now, I'm trying to treat my site like a scrapbook rather than a resumé.
+    socialIcons:
+      - name: github
+        url: "https://github.com/nondescryptid"
+      - name: mastodon
+        url: "https://kopiti.am/@nondescryptid"
+      - name: rss
+        url: "/index.xml"
+    showReadingTime: true
+    showFullTextinRSS: true
+menu:
+    main:
+      - identifier: home
+        name: Home
+        url: /
+        weight: 1
+      - identifier: archives
+        name: Archives
+        url: /archives/
+        weight: 2        
+      - identifier: tags
+        name: Tags
+        url: /tags/
+        weight: 3
+      - identifier: search
+        name: Search
+        url: /search
+        weight: 4
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON

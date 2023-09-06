@@ -36,6 +36,10 @@ menu:
         name: Search
         url: /search
         weight: 4
+      - identifier: lol
+        name: LOL
+        url: /lol
+        weight: 5
 outputs:
     home:
         - HTML

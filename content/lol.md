@@ -16,11 +16,17 @@ Or I could use this as a teaching tool too -- an easy site to practice scraping 
 How I decide to post a link: Does it make me feel curious OR happy? If yes, I'll post it. 
 
 ---
-2023-09-08 [What Adults Forget About Friendship](https://www.theatlantic.com/family/archive/2023/08/childhood-friendship-benefits-play/675158/) | Good reminder about the importance of unstructured time to just be silly
+2023-09-1$: [Nougat: Neural Optical Understanding for Academic Documents](https://facebookresearch.github.io/nougat/) | Preserving mathematical expressions while turning things from PDF to LaTeX 
+
+2023-09-10:[Chess-Analytica: chess analytics made easy](https://pypi.org/project/chess-analytica) | Came across this on Reddit. It lets you get data from the chess.com API and analyse past/current games of a given player. 
+
+2023-09-09:[Meet Rivet, An Open Source Visual Programming Environment for Generative AI](https://ironcladapp.com/blog/meet-rivet/) | Enjoying node-based interfaces, similar to natto.dev and Puredata. Also cheers to Ironclad for open-sourcing.
+
+2023-09-08: [What Adults Forget About Friendship](https://www.theatlantic.com/family/archive/2023/08/childhood-friendship-benefits-play/675158/) | Good reminder about the importance of unstructured time to just be silly
 
 2023-09-08: [Sanctuary Working Cats](https://bestfriends.org/adopt-and-foster/adopt-our-sanctuary/sanctuary-working-cats) | Cats with jobs!! The Best Friends Sanctuary targets adopters who are looking for cats to deter rodents (e.g. warehouses, churches etc). So cute :0 
 
-2023-09-06: [Karel Kubicek et al., Checking Websites’ GDPR Consent Compliance for Marketing Emails](https://karelkubicek.github.io/post/reg-pets) | I like questions that care about not just what the law is, but how agents actually respond to it. Also props for creating a unique email address for every service they signed up for, so they could track the sources of marketing emails...the other projects supervised by Karel Kubicek also look really cool (one is a Master's thesis about GDPR-related Github Issues)
+2023-09-06: [Checking Websites’ GDPR Consent Compliance for Marketing Emails](https://karelkubicek.github.io/post/reg-pets) | I like questions that care about not just what the law is, but how agents actually respond to it. Also props for creating a unique email address for every service they signed up for, so they could track the sources of marketing emails...the other projects supervised by Karel Kubicek also look really cool (one is a Master's thesis about GDPR-related Github Issues)
 
 2023-09-05: [Casual Birder is an Endearing Game About Photographing Birds](https://casualphotophile.com/2023/07/26/casual-birder-a-video-game-about-photographing-birds/) |  Sroyon recommended this review to me and it's delightful. A handheld game where you take photos of birds. Done by the same folks that published Untitled Goose Game.  
 

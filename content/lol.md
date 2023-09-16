@@ -16,11 +16,15 @@ Or I could use this as a teaching tool too -- an easy site to practice scraping 
 How I decide to post a link: Does it make me feel curious OR happy? If yes, I'll post it. 
 
 ---
-2023-09-1$: [Nougat: Neural Optical Understanding for Academic Documents](https://facebookresearch.github.io/nougat/) | Preserving mathematical expressions while turning things from PDF to LaTeX 
+2023-09-17: [csvbase](https://csvbase.com/blog/5) | Easier interactions with csvs. Small, flexible software is delightful :-) Also TIL that the European Central Bank distributes its data about the value of the Euro vis-a-vis other currencies with [PDF, CSV (.zip), XML and RSS feeds](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
 
-2023-09-10:[Chess-Analytica: chess analytics made easy](https://pypi.org/project/chess-analytica) | Came across this on Reddit. It lets you get data from the chess.com API and analyse past/current games of a given player. 
+2023-09-15: [How I Started Coding](https://ines.io/blog/how-i-started-coding/) | I like reading stories about developers' journeys that span years and happen outside of formal schooling. I really like this one by Ines (co-founder of spaCy). Funnily enough, I also worked part-time at LUSH...
 
-2023-09-09:[Meet Rivet, An Open Source Visual Programming Environment for Generative AI](https://ironcladapp.com/blog/meet-rivet/) | Enjoying node-based interfaces, similar to natto.dev and Puredata. Also cheers to Ironclad for open-sourcing.
+2023-09-14: [Nougat: Neural Optical Understanding for Academic Documents](https://facebookresearch.github.io/nougat/) | Preserving mathematical expressions while turning things from PDF to LaTeX 
+
+2023-09-10: [Chess-Analytica: chess analytics made easy](https://pypi.org/project/chess-analytica) | Came across this on Reddit. It lets you get data from the chess.com API and analyse past/current games of a given player. 
+
+2023-09-09: [Meet Rivet, An Open Source Visual Programming Environment for Generative AI](https://ironcladapp.com/blog/meet-rivet/) | Enjoying node-based interfaces, similar to natto.dev and Puredata. Also cheers to Ironclad for open-sourcing.
 
 2023-09-08: [What Adults Forget About Friendship](https://www.theatlantic.com/family/archive/2023/08/childhood-friendship-benefits-play/675158/) | Good reminder about the importance of unstructured time to just be silly
 

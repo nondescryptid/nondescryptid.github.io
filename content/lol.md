@@ -16,6 +16,17 @@ Or I could use this as a teaching tool too -- an easy site to practice scraping 
 How I decide to post a link: Does it make me feel curious OR happy? If yes, I'll post it. 
 
 ---
+
+2023-09-19: [Altair 8800 Simulator](https://s2js.com/altair/sim.html) | Flip lots of switches... online! 
+
+2023-09-19: [GenLaw Resources](https://genlaw.github.io/resources.html) | Great list of readings from the Workshop on Generative AI and Law '23. I learnt about this from Prof Elettra Bietti's course syllabus linked below.
+
+2023-09-19: [The Regulation of Technology in the Digital Platform Economy - Syllabus by Prof Elettra Bietti](https://www.elettrabietti.com/syllabi/the-regulation-of-technology-in-the-digital-platform-economy) | Can't really articulate why, but I really liked this reading list. Another thing to work through when I'm funemployed :) 
+
+2023-09-19: [Website Carbon Calculator](https://www.websitecarbon.com/) | According to this, my site emits about 0.3kg of CO2 assuming that I get 10,000 views a month, which is a very generous assumption. Anyway, I wouldn't know because I don't run analytics here...
+
+2023-09-18: [Research Software Engineering with Python](https://merely-useful.tech/py-rse/index.html) | Am curious about testing, and making code + research reproducible and this seems like a great resource. I wanna work through this during my funemployment. [Software Design by Example](https://third-bit.com/sdxjs/introduction/) is something I wanna do too. 
+
 2023-09-17: [csvbase](https://csvbase.com/blog/5) | Easier interactions with csvs. Small, flexible software is delightful :-) Also TIL that the European Central Bank distributes its data about the value of the Euro vis-a-vis other currencies with [PDF, CSV (.zip), XML and RSS feeds](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
 
 2023-09-15: [How I Started Coding](https://ines.io/blog/how-i-started-coding/) | I like reading stories about developers' journeys that span years and happen outside of formal schooling. I really like this one by Ines (co-founder of spaCy). Funnily enough, I also worked part-time at LUSH...

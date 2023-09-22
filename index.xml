@@ -1073,4 +1073,17 @@ Take that we let arr = [&lsquo;We&rsquo;, &lsquo;are&rsquo;, &rsquo;looking&rsqu
 <p>2023-09-05: <a href="https://casualphotophile.com/2023/07/26/casual-birder-a-video-game-about-photographing-birds/">Casual Birder is an Endearing Game About Photographing Birds</a> |  Sroyon recommended this review to me and it&rsquo;s delightful. A handheld game where you take photos of birds. Done by the same folks that published Untitled Goose Game.</p>
 <p>2023-09-05: <a href="https://arxiv.org/abs/2307.12108">An Empirical Study &amp; Evaluation of Modern CAPTCHAs</a> | CAPTCHAs kinda suck for accessibility, and now it appears that bots solve CAPTCHAs faster and more accurately than humans (see Page 10, Table 3). I think we should just throw the whole CAPTCHA thing away.</p>
 <p>2023-09-03 : <a href="https://ohmygit.org/">ohmygit</a> | So cute, you get to learn git with a game and watch your git timeline grow as you make commits. I wish I could&rsquo;ve started learning git with this instead of whatever I was doing back in 2020&hellip;</p>
+]]></content:encoded></item><item><title>Singpass for Work Permit / Special Pass holders</title><link>https://tomoe.asia/singpass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tomoe.asia/singpass/</guid><description>singpass</description><content:encoded><![CDATA[<h2 id="quick-links">Quick Links</h2>
+<p><a href="https://www.singpass.gov.sg/home/ui/online-reset-password/user-detail">Reset password</a></p>
+<p><a href="https://www.singpass.gov.sg/home/ui/register/instructions">Create a new account</a></p>
+<h2 id="if-you-have-a-work-permit--special-pass">If you have a Work Permit / Special pass</h2>
+<p>You will need the <strong>SG Workpass</strong> app to scan the QR code on the back of your pass to retrieve your pass&rsquo; Date of Issue.</p>
+<p>Android: <a href="https://play.google.com/store/apps/details?id=sg.gov.mom.sgworkpass&amp;hl=en&amp;gl=US&amp;pli=1">download from Google Play</a></p>
+<p>iOS: <a href="https://apps.apple.com/sg/app/sgworkpass/id1274061632">download from the App Store</a></p>
+<h2 id="if-you-have-a-special-pass-and-could-not-reset-password--create-a-new-account">If you have a Special Pass and could not reset password / create a new account:</h2>
+<ol>
+<li>Scan your Special Pass with the SG Workpass App</li>
+<li>Take a screenshot of that page (it shows that your pass is valid)</li>
+<li>Email <a href="mailto:support@singpass.gov.sg">support@singpass.gov.sg</a> and attach the screenshot</li>
+</ol>
 ]]></content:encoded></item></channel></rss>

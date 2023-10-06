@@ -1057,6 +1057,12 @@ Take that we let arr = [&lsquo;We&rsquo;, &lsquo;are&rsquo;, &rsquo;looking&rsqu
 <p>Or I could use this as a teaching tool too &ndash; an easy site to practice scraping where consent&rsquo;s not an issue. If you want to scrape this page, just go ahead. You can also visit this page&rsquo;s <code>.md</code> file in my site&rsquo;s <a href="https://github.com/nondescryptid/nondescryptid.github.io">Github repo</a> if you want to work with markdown files instead. If you do something with it, please email me at <code>hi [at] this domain name</code> as I&rsquo;d love to hear about it :)</p>
 <p>How I decide to post a link: Does it make me feel curious OR happy? If yes, I&rsquo;ll post it.</p>
 <hr>
+<p>2023-10-06: <a href="https://www.youtube.com/watch?v=3mw_RZwM2Zs">The Complicated History of the Downtown Line</a> | Train history is always fun</p>
+<p>2023-09-28: <a href="https://www.npr.org/2023/09/28/1202113376/next-time-you-read-a-food-nutrition-label-pour-one-out-for-burkey-belser">Next time you read a food nutrition label, pour one out for Burkey Belser</a> | His quote that &ldquo;When design works, it looks like it&rsquo;s always been there&rdquo; is one that describes his work really well. I never thought about who designed those nutrition information labels because they just felt like they belonged there. RIP</p>
+<p>2023-09-26: <a href="https://clig.dev/">Command line interface guidelines</a> | I&rsquo;m trying to learn more about CLIs as I&rsquo;m trying to write one to help me do site-specific Google searches but with fewer keystrokes</p>
+<p>2023-09-24: <a href="https://desfontain.es/privacy/real-world-differential-privacy.html">A list of real-world uses of differential privacy by Ted Desfontaines</a> | I struggle a lot with trying to bridge the gaps in my understanding regarding privacy enhancing technologies in theory, and understanding when to use them. This piece (and Ted&rsquo;s differential privacy series in general) is a lifesaver.</p>
+<p>2023-09-22: <a href="https://hachyderm.io/@floreani/111107335349498915">sam floreani&rsquo;s list of recommended reading</a> | Blood in the Machine; Extremely Online, Your Face Belong to Us etc</p>
+<p>2023-09-21: <a href="https://sli.dev/">slidev</a> | Generating slides with markdown</p>
 <p>2023-09-19: <a href="https://s2js.com/altair/sim.html">Altair 8800 Simulator</a> | Flip lots of switches&hellip; online!</p>
 <p>2023-09-19: <a href="https://genlaw.github.io/resources.html">GenLaw Resources</a> | Great list of readings from the Workshop on Generative AI and Law &lsquo;23. I learnt about this from Prof Elettra Bietti&rsquo;s course syllabus linked below.</p>
 <p>2023-09-19: <a href="https://www.elettrabietti.com/syllabi/the-regulation-of-technology-in-the-digital-platform-economy">The Regulation of Technology in the Digital Platform Economy - Syllabus by Prof Elettra Bietti</a> | Can&rsquo;t really articulate why, but I really liked this reading list. Another thing to work through when I&rsquo;m funemployed :)</p>
@@ -1076,6 +1082,7 @@ Take that we let arr = [&lsquo;We&rsquo;, &lsquo;are&rsquo;, &rsquo;looking&rsqu
 ]]></content:encoded></item><item><title>Singpass for Work Permit / Special Pass holders</title><link>https://tomoe.asia/singpass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tomoe.asia/singpass/</guid><description>singpass</description><content:encoded><![CDATA[<h2 id="quick-links">Quick Links</h2>
 <p><a href="https://www.singpass.gov.sg/home/ui/online-reset-password/user-detail">Reset password</a></p>
 <p><a href="https://www.singpass.gov.sg/home/ui/register/instructions">Create a new account</a></p>
+<p><a href="https://www.singpass.gov.sg/home/ui/update-mobile">Update your phone number if your phone number is different from the one registered in Singpass</a></p>
 <h2 id="if-you-have-a-work-permit--special-pass">If you have a Work Permit / Special pass</h2>
 <p>You will need the <strong>SG Workpass</strong> app to scan the QR code on the back of your pass to retrieve your pass&rsquo; Date of Issue.</p>
 <p>Android: <a href="https://play.google.com/store/apps/details?id=sg.gov.mom.sgworkpass&amp;hl=en&amp;gl=US&amp;pli=1">download from Google Play</a></p>
@@ -1085,5 +1092,11 @@ Take that we let arr = [&lsquo;We&rsquo;, &lsquo;are&rsquo;, &rsquo;looking&rsqu
 <li>Scan your Special Pass with the SG Workpass App</li>
 <li>Take a screenshot of that page (it shows that your pass is valid)</li>
 <li>Email <a href="mailto:support@singpass.gov.sg">support@singpass.gov.sg</a> and attach the screenshot</li>
+</ol>
+<h1 id="where-to-get-help">Where to get help</h1>
+<ol>
+<li>Email <a href="mailto:singpass@singpass.gov.sg">singpass@singpass.gov.sg</a></li>
+<li>Call 6335 3533</li>
+<li>Go to a Singpass Counter: you can find one <a href="https://www.singpass.gov.sg/home/ui/counter-locations">here</a>. They are located in Community Clubs.</li>
 </ol>
 ]]></content:encoded></item></channel></rss>

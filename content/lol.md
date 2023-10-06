@@ -16,6 +16,17 @@ Or I could use this as a teaching tool too -- an easy site to practice scraping 
 How I decide to post a link: Does it make me feel curious OR happy? If yes, I'll post it. 
 
 ---
+2023-10-06: [The Complicated History of the Downtown Line](https://www.youtube.com/watch?v=3mw_RZwM2Zs) | Train history is always fun 
+
+2023-09-28: [Next time you read a food nutrition label, pour one out for Burkey Belser](https://www.npr.org/2023/09/28/1202113376/next-time-you-read-a-food-nutrition-label-pour-one-out-for-burkey-belser) | His quote that "When design works, it looks like it's always been there" is one that describes his work really well. I never thought about who designed those nutrition information labels because they just felt like they belonged there. RIP
+
+2023-09-26: [Command line interface guidelines](https://clig.dev/) | I'm trying to learn more about CLIs as I'm trying to write one to help me do site-specific Google searches but with fewer keystrokes
+
+2023-09-24: [A list of real-world uses of differential privacy by Ted Desfontaines](https://desfontain.es/privacy/real-world-differential-privacy.html) | I struggle a lot with trying to bridge the gaps in my understanding regarding privacy enhancing technologies in theory, and understanding when to use them. This piece (and Ted's differential privacy series in general) is a lifesaver.
+
+2023-09-22: [sam floreani's list of recommended reading](https://hachyderm.io/@floreani/111107335349498915) | Blood in the Machine; Extremely Online, Your Face Belong to Us etc 
+
+2023-09-21: [slidev](https://sli.dev/) | Generating slides with markdown 
 
 2023-09-19: [Altair 8800 Simulator](https://s2js.com/altair/sim.html) | Flip lots of switches... online! 
 

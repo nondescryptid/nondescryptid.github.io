@@ -10,6 +10,8 @@ summary: singpass
 
 [Create a new account](https://www.singpass.gov.sg/home/ui/register/instructions)
 
+[Update your phone number if your phone number is different from the one registered in Singpass](https://www.singpass.gov.sg/home/ui/update-mobile)
+
 ## If you have a Work Permit / Special pass
 
 You will need the **SG Workpass** app to scan the QR code on the back of your pass to retrieve your pass' Date of Issue. 
@@ -23,3 +25,9 @@ iOS: [download from the App Store](https://apps.apple.com/sg/app/sgworkpass/id12
 1. Scan your Special Pass with the SG Workpass App
 2. Take a screenshot of that page (it shows that your pass is valid)
 3. Email support@singpass.gov.sg and attach the screenshot
+
+# Where to get help
+
+1. Email singpass@singpass.gov.sg
+2. Call 6335 3533
+3. Go to a Singpass Counter: you can find one [here](https://www.singpass.gov.sg/home/ui/counter-locations). They are located in Community Clubs.

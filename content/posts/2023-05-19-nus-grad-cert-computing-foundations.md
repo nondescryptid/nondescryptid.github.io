@@ -4,7 +4,7 @@ title: "NUS Graduate Certificate in Computing Foundations: How it's going"
 
 ---
 > Note: I originally wrote this on PubPub as I was still in the process of fiddling with my site. I hope this helps someone who's thinking about going back to school too :^)
-> 
+
 ## Brief overview of the NUS GC-CF 1
 
 This is a part-time programme that's targeted at people who don't have a
@@ -42,22 +42,7 @@ continue with IT5003. This was a risk I chose to take.
 Taking both classes in the same semester also means that exams for
 IT5001 will overlap with IT5003. There were some weeks where there was
 class for IT5003 on Wednesday night and Saturday morning, then IT5001
-exams in the afternoon / evening (Practical Exam + Final Exam), and I
-had to prepare for class and also revise for exams.
-
-## How much money did it take? About SGD2978.66 (IT5001+IT5003) after subsidies.  
-
-**Important context**: **I am a Singapore Citizen. The cost of these
-courses vary depending on citizenship status and age**. If you're a
-Singapore Citizen above 40, that will get you the most subsidies.
-
-Anyway, after all the relevant Skillsfuture subsidies, it cost SGD
-2978.66 (about the cost of a 14" Macbook Pro in 2023).
-
-![](https://assets.pubpub.org/9p5puuhc/41684511973556.jpg)
-
-For the most updated information, please refer to the Programme Fees
-section of the NUS GC-CF site.
+exams in the afternoon / evening (Practical Exam + Final Exam).
 
 ## How much time did it take? A lot.  
 
@@ -68,7 +53,7 @@ that is the case for most of my GC-CF I classmates, as quite a few of
 them were already working as software engineers / some sort of technical
 role. For me, I've had a bit of experience with Python such that the
 content in IT5001 felt familiar, besides Object-Oriented Programming +
-basic search and sorting algorithms, which were new to me.
+basic search and sorting algorithms, which were new to me. However, I don't think my prior experience did anything for me in IT5003 and IT5002. 
 
 ### Class contact hours: about 5 hours a week 
 
@@ -82,12 +67,9 @@ However, the amount of contact hours + syllabus may differ slightly. For
 IT5001, the MComp students had extra assignments in Java that we
 part-timers didn't have. For IT5003, there was a Recitation session on
 Friday afternoons where MComp students could attend, while most of us
-part-timers were at work. These sessions were recorded but there was at
-least one which had its recording corrupted/didn't end up being
-recorded, so we had to rely on the kindness of the MComp students who
-attended to fill us in.
+part-timers were at work. 
 
-## IT5001: Software Development Fundamentals
+## IT5001: Software Development Fundamentals (Jan-Mar 2023)
 
 ### Classes (5 hours a week)
 
@@ -178,7 +160,7 @@ my cheatsheet throughout the semester. This was a mistake on my part
 behaviour about Python that you come across. It'll come in useful for
 your cheatsheet.
 
-## IT5003: Data Structures and Algorithms 
+## IT5003: Data Structures and Algorithms (Mar-May 2023)
 
 ### Classes (5 hours a week) 
 
@@ -289,8 +271,7 @@ introductory programme where everyone has the same degree of
 inexperience. It feels more like being in a university language class
 where people are like, *yeah I never studied this but I've been
 translating anime subtitles for a few years as a self-taught Japanese
-speaker*. I had classmates who would solve the psets for every week
-within the same day they came out (if not, within hours), and they did
+speaker*. I had classmates who would solve the psets within the same day they came out (if not, within hours), and they did
 this *every week.*
 
 The trick, I think, is to view this situation with a sense of awe and
@@ -332,9 +313,92 @@ along the way:
 Hope this helps, and all the best with the GC-CF 1 if you end up doing
 it!
 
+[Update 27 May 2024: I forgot to update about this, but I somehow passed the class]
+
+
+## IT5002: Computer Systems and Applications (Aug-Dec 2023)
+
+I had talked a bit about this class on the [Project Intern](https://t.me/projectintern/20681) chat, but here's the full review! 
+
+This class aims to cover 2 parts: (1) Computer Organisation and (2) Operating Systems. In the NUS CS undergrad curriculum, each part is covered by its own module, namely CS2100 (Computer Organisation) and CS2106 (Intro to Operating Systems). The undergrad equivalents cover these topics in a lot more depth. You can refer to materials for these classes too :D 
+
+The most useful thing I can contribute would probably be recommendations for external resources, because I spent a lot of time scurrying about online finding alternative things to read. 
+
+### Course outline: 
+
+According to my notes on Obsidian: 
+
+Week 1 - Intro 
+
+Week 2 - Number systems 
+
+Week 3 - MIPS Instructions I
+
+Week 4 - MIPS Instructions II
+
+Week 5 - Datapath 
+
+Week 6 - Control Unit
+
+Week 7 - Pipelining and Caching 
+
+Week 8 - ??? (My notes somehow don't have this LOL)
+
+Week 9 - Process Management and Scheduling
+
+Week 10 - Scheduling and Inter-process Communication
+
+Week 11 - Memory Management & File Systems
+
+### Class hours (4 hours a week) 
+
+- Tuesdays 6.30pm-9.30pm: Lecture
+- Saturday: 1 hour tutorial (timing depends on which group you get assigned to)
+
+### Time spent outside of class (on average 4-6 hours a week)
+
+I had to spend quite a lot of time outside of class catching up because I found it hard to absorb content in 3 hour lectures after work. I spent less time overall on this class compared to IT5003, but it subjectively felt worse because I was just tired and confused after lectures because my attention span is quite short. I spent the bulk of my time outside of class consulting external resources and sometimes rewatching lectures.  
+
+### Assessments
+
+#### Tutorials/Labs (5%)
+
+We get a weekly tutorial sheet to work on, but I was mostly really confused and not fully caught-up by the time the tutorial rolled around (on the bright side, tutorials were online). I've got to confess that I was profoundly silent on Zoom. Most of my participation in this module happened on the class Canvas forum where I tried to answer classmates' questions closer to finals, which was when things started clicking a bit more for me. 
+
+#### Mid-term (25%)
+
+This is heavy on number systems, tracing MIPS instructions and caching stuff. I did horrendous for this, and was relieved to find out that I had only failed the midterm by half a mark. There was something along the lines of "how many bytes will you need in total for a 48KB direct-mapped write-through cache (including tag and other bits)" and I was just like... huh ??
+
+#### Take-home assignment (15%) 
+
+The assignment concerns multithreading & multiprocessing in 
+Python (this language choice probably occurs because most of the grad cert is taught in Python). Very doable (even by my standards). 
+
+#### Final exam (55%)
+
+I found this difficult to complete within the time limit (2 hours?). I didn't finish the paper. I frankly don't remember most of it because I felt really disoriented. There was a question that involved writing down the block numbers that a certain file's inode pointers would point to given that a particular thing has X sectors with Y blocks that are Z MB each or something.
+
+### Unsolicited Advice / Resources I recommend 
+
+Out of the 3 classes, I referred to external resources the most for this one. I didn't really use the recommended textbook(Computer Organization and Design by Patterson and Hennessy).
+
+#### General: 
+- Bernard Teo's reference sheets (may the traffic light always be green for you 🫡)
+  - [CS2100 (Computer Organisation)](https://bernardteo.me/nus/CS2100%20Reference.pdf)
+  - [CS2106 (Intro to Operating Systems)](https://bernardteo.me/nus/CS2106%20Reference.pdf)
+
+#### Computer Organisation
+- [NUS CS2100's extended notes site](https://www.comp.nus.edu.sg/~adi-yoga/CS2100/)
+- [MIPS Assembly Language Programming Using QtSpim](https://open.umn.edu/opentextbooks/textbooks/734) - Specifically liked this for its explanations for number systems. In particular, the IEEE 754 32-bit floating representation.
+- [this youtube video about Instruction Breakdown/Datapath](https://www.youtube.com/watch?v=oETOwVBzu1s&list=PLXVpmv0P_31NEAxXOW7KYCZ0P3YfFL76g&index=6)
+- [Ep 074: Fully Associative Caches and Replacement Algorithms](https://www.youtube.com/watch?v=A0vR-ks3hsQ&list=PLXVpmv0P_31NEAxXOW7KYCZ0P3YfFL76g&index=3) and the next 2 videos in this series about Direct Mapped and Set-Associative Caches
+
+#### Operating Systems
+- [Operating Systems: Three Easy Pieces (OSTEP)](https://pages.cs.wisc.edu/~remzi/OSTEP/) - I used this for most of the course
+- [Berkeley's CS162 lecture slides](https://cs162.org/) - I mostly relied on their slides for filesystems 
+- [Quick overview of scheduling approaches and the priority inversion problem](https://pages.cs.wisc.edu/~bart/537/lecturenotes/s11.html)
+  
 [^1]: This one's modelled after a past-year question.
 
 [^2]: Modelled after another past year question
 
-[^3]: Hi Dr Steven, if you are reading this --- I'm probably
-    misrepresenting Kattis, but this is the impression I have of it 😅

@@ -284,18 +284,7 @@ continue with IT5003. This was a risk I chose to take.</p>
 <p>Taking both classes in the same semester also means that exams for
 IT5001 will overlap with IT5003. There were some weeks where there was
 class for IT5003 on Wednesday night and Saturday morning, then IT5001
-exams in the afternoon / evening (Practical Exam + Final Exam), and I
-had to prepare for class and also revise for exams.</p>
-<h2 id="how-much-money-did-it-take-about-sgd297866-it5001it5003-after-subsidies">How much money did it take? About SGD2978.66 (IT5001+IT5003) after subsidies.</h2>
-<p><strong>Important context</strong>: <strong>I am a Singapore Citizen. The cost of these
-courses vary depending on citizenship status and age</strong>. If you&rsquo;re a
-Singapore Citizen above 40, that will get you the most subsidies.</p>
-<p>Anyway, after all the relevant Skillsfuture subsidies, it cost SGD
-2978.66 (about the cost of a 14&quot; Macbook Pro in 2023).</p>
-<p><img loading="lazy" src="https://assets.pubpub.org/9p5puuhc/41684511973556.jpg" alt=""  />
-</p>
-<p>For the most updated information, please refer to the Programme Fees
-section of the NUS GC-CF site.</p>
+exams in the afternoon / evening (Practical Exam + Final Exam).</p>
 <h2 id="how-much-time-did-it-take-a-lot">How much time did it take? A lot.</h2>
 <h3 id="personal-context-regarding-the-time-i-spent-for-each-class">Personal context regarding the time I spent for each class</h3>
 <p>I did not enter the GC-CF I programme as a total beginner. I believe
@@ -303,7 +292,7 @@ that is the case for most of my GC-CF I classmates, as quite a few of
 them were already working as software engineers / some sort of technical
 role. For me, I&rsquo;ve had a bit of experience with Python such that the
 content in IT5001 felt familiar, besides Object-Oriented Programming +
-basic search and sorting algorithms, which were new to me.</p>
+basic search and sorting algorithms, which were new to me. However, I don&rsquo;t think my prior experience did anything for me in IT5003 and IT5002.</p>
 <h3 id="class-contact-hours-about-5-hours-a-week">Class contact hours: about 5 hours a week</h3>
 <p>There are 2 sessions per week for the part-time GC-CF I students. This
 usually happens on a weekday from 6.30pm-8.30pm, and on Saturday from
@@ -314,11 +303,8 @@ However, the amount of contact hours + syllabus may differ slightly. For
 IT5001, the MComp students had extra assignments in Java that we
 part-timers didn&rsquo;t have. For IT5003, there was a Recitation session on
 Friday afternoons where MComp students could attend, while most of us
-part-timers were at work. These sessions were recorded but there was at
-least one which had its recording corrupted/didn&rsquo;t end up being
-recorded, so we had to rely on the kindness of the MComp students who
-attended to fill us in.</p>
-<h2 id="it5001-software-development-fundamentals">IT5001: Software Development Fundamentals</h2>
+part-timers were at work.</p>
+<h2 id="it5001-software-development-fundamentals-jan-mar-2023">IT5001: Software Development Fundamentals (Jan-Mar 2023)</h2>
 <h3 id="classes-5-hours-a-week">Classes (5 hours a week)</h3>
 <ul>
 <li>
@@ -389,7 +375,7 @@ my cheatsheet throughout the semester. This was a mistake on my part
 &mdash;just keep a Word document around, and write down any weird quirky
 behaviour about Python that you come across. It&rsquo;ll come in useful for
 your cheatsheet.</p>
-<h2 id="it5003-data-structures-and-algorithms">IT5003: Data Structures and Algorithms</h2>
+<h2 id="it5003-data-structures-and-algorithms-mar-may-2023">IT5003: Data Structures and Algorithms (Mar-May 2023)</h2>
 <h3 id="classes-5-hours-a-week-1">Classes (5 hours a week)</h3>
 <ul>
 <li>
@@ -439,7 +425,7 @@ weekend, this was a bad crunch time.</p>
 than Problem B. I would say the time I spent on problem sets was split
 25%-75% between Problems A and B.</p>
 <p>These were done on a platform called Kattis, which I would describe as
-&ldquo;Leetcode that&rsquo;s mostly used by universities&rdquo;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. The main challenge
+&ldquo;Leetcode that&rsquo;s mostly used by universities&rdquo;[^3]. The main challenge
 for this is passing all the test cases, and doing so within the time and
 memory limits of the automated judge.</p>
 <h4 id="visualgo-quiz-1-11">VisuAlgo Quiz 1 (11%)</h4>
@@ -490,8 +476,7 @@ introductory programme where everyone has the same degree of
 inexperience. It feels more like being in a university language class
 where people are like, <em>yeah I never studied this but I&rsquo;ve been
 translating anime subtitles for a few years as a self-taught Japanese
-speaker</em>. I had classmates who would solve the psets for every week
-within the same day they came out (if not, within hours), and they did
+speaker</em>. I had classmates who would solve the psets within the same day they came out (if not, within hours), and they did
 this <em>every week.</em></p>
 <p>The trick, I think, is to view this situation with a sense of awe and
 curiosity rather than turning all these feelings into a way to put
@@ -526,6 +511,65 @@ along the way:</p>
 </p>
 <p>Hope this helps, and all the best with the GC-CF 1 if you end up doing
 it!</p>
+<p>[Update 27 May 2024: I forgot to update about this, but I somehow passed the class]</p>
+<h2 id="it5002-computer-systems-and-applications-aug-dec-2023">IT5002: Computer Systems and Applications (Aug-Dec 2023)</h2>
+<p>I had talked a bit about this class on the <a href="https://t.me/projectintern/20681">Project Intern</a> chat, but here&rsquo;s the full review!</p>
+<p>This class aims to cover 2 parts: (1) Computer Organisation and (2) Operating Systems. In the NUS CS undergrad curriculum, each part is covered by its own module, namely CS2100 (Computer Organisation) and CS2106 (Intro to Operating Systems). The undergrad equivalents cover these topics in a lot more depth. You can refer to materials for these classes too :D</p>
+<p>The most useful thing I can contribute would probably be recommendations for external resources, because I spent a lot of time scurrying about online finding alternative things to read.</p>
+<h3 id="course-outline">Course outline:</h3>
+<p>According to my notes on Obsidian:</p>
+<p>Week 1 - Intro</p>
+<p>Week 2 - Number systems</p>
+<p>Week 3 - MIPS Instructions I</p>
+<p>Week 4 - MIPS Instructions II</p>
+<p>Week 5 - Datapath</p>
+<p>Week 6 - Control Unit</p>
+<p>Week 7 - Pipelining and Caching</p>
+<p>Week 8 - ??? (My notes somehow don&rsquo;t have this LOL)</p>
+<p>Week 9 - Process Management and Scheduling</p>
+<p>Week 10 - Scheduling and Inter-process Communication</p>
+<p>Week 11 - Memory Management &amp; File Systems</p>
+<h3 id="class-hours-4-hours-a-week">Class hours (4 hours a week)</h3>
+<ul>
+<li>Tuesdays 6.30pm-9.30pm: Lecture</li>
+<li>Saturday: 1 hour tutorial (timing depends on which group you get assigned to)</li>
+</ul>
+<h3 id="time-spent-outside-of-class-on-average-4-6-hours-a-week">Time spent outside of class (on average 4-6 hours a week)</h3>
+<p>I had to spend quite a lot of time outside of class catching up because I found it hard to absorb content in 3 hour lectures after work. I spent less time overall on this class compared to IT5003, but it subjectively felt worse because I was just tired and confused after lectures because my attention span is quite short. I spent the bulk of my time outside of class consulting external resources and sometimes rewatching lectures.</p>
+<h3 id="assessments">Assessments</h3>
+<h4 id="tutorialslabs-5">Tutorials/Labs (5%)</h4>
+<p>We get a weekly tutorial sheet to work on, but I was mostly really confused and not fully caught-up by the time the tutorial rolled around (on the bright side, tutorials were online). I&rsquo;ve got to confess that I was profoundly silent on Zoom. Most of my participation in this module happened on the class Canvas forum where I tried to answer classmates&rsquo; questions closer to finals, which was when things started clicking a bit more for me.</p>
+<h4 id="mid-term-25">Mid-term (25%)</h4>
+<p>This is heavy on number systems, tracing MIPS instructions and caching stuff. I did horrendous for this, and was relieved to find out that I had only failed the midterm by half a mark. There was something along the lines of &ldquo;how many bytes will you need in total for a 48KB direct-mapped write-through cache (including tag and other bits)&rdquo; and I was just like&hellip; huh ??</p>
+<h4 id="take-home-assignment-15">Take-home assignment (15%)</h4>
+<p>The assignment concerns multithreading &amp; multiprocessing in
+Python (this language choice probably occurs because most of the grad cert is taught in Python). Very doable (even by my standards).</p>
+<h4 id="final-exam-55">Final exam (55%)</h4>
+<p>I found this difficult to complete within the time limit (2 hours?). I didn&rsquo;t finish the paper. I frankly don&rsquo;t remember most of it because I felt really disoriented. There was a question that involved writing down the block numbers that a certain file&rsquo;s inode pointers would point to given that a particular thing has X sectors with Y blocks that are Z MB each or something.</p>
+<h3 id="unsolicited-advice--resources-i-recommend">Unsolicited Advice / Resources I recommend</h3>
+<p>Out of the 3 classes, I referred to external resources the most for this one. I didn&rsquo;t really use the recommended textbook(Computer Organization and Design by Patterson and Hennessy).</p>
+<h4 id="general">General:</h4>
+<ul>
+<li>Bernard Teo&rsquo;s reference sheets (may the traffic light always be green for you 🫡)
+<ul>
+<li><a href="https://bernardteo.me/nus/CS2100%20Reference.pdf">CS2100 (Computer Organisation)</a></li>
+<li><a href="https://bernardteo.me/nus/CS2106%20Reference.pdf">CS2106 (Intro to Operating Systems)</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="computer-organisation">Computer Organisation</h4>
+<ul>
+<li><a href="https://www.comp.nus.edu.sg/~adi-yoga/CS2100/">NUS CS2100&rsquo;s extended notes site</a></li>
+<li><a href="https://open.umn.edu/opentextbooks/textbooks/734">MIPS Assembly Language Programming Using QtSpim</a> - Specifically liked this for its explanations for number systems. In particular, the IEEE 754 32-bit floating representation.</li>
+<li><a href="https://www.youtube.com/watch?v=oETOwVBzu1s&amp;list=PLXVpmv0P_31NEAxXOW7KYCZ0P3YfFL76g&amp;index=6">this youtube video about Instruction Breakdown/Datapath</a></li>
+<li><a href="https://www.youtube.com/watch?v=A0vR-ks3hsQ&amp;list=PLXVpmv0P_31NEAxXOW7KYCZ0P3YfFL76g&amp;index=3">Ep 074: Fully Associative Caches and Replacement Algorithms</a> and the next 2 videos in this series about Direct Mapped and Set-Associative Caches</li>
+</ul>
+<h4 id="operating-systems">Operating Systems</h4>
+<ul>
+<li><a href="https://pages.cs.wisc.edu/~remzi/OSTEP/">Operating Systems: Three Easy Pieces (OSTEP)</a> - I used this for most of the course</li>
+<li><a href="https://cs162.org/">Berkeley&rsquo;s CS162 lecture slides</a> - I mostly relied on their slides for filesystems</li>
+<li><a href="https://pages.cs.wisc.edu/~bart/537/lecturenotes/s11.html">Quick overview of scheduling approaches and the priority inversion problem</a></li>
+</ul>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -534,10 +578,6 @@ it!</p>
 </li>
 <li id="fn:2">
 <p>Modelled after another past year question&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:3">
-<p>Hi Dr Steven, if you are reading this &mdash; I&rsquo;m probably
-misrepresenting Kattis, but this is the impression I have of it 😅&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

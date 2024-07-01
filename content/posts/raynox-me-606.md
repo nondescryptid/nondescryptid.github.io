@@ -4,6 +4,7 @@ draft: false
 title: 'Raynox ME-606: Great for people, or simulating astigmatism'
 tags: ["35mm"]
 ---
+[updated 2 Jul with an additional photo]
 
 I got the Raynox ME-606 in a random Hard-Off junk section (more precisely, Hard-Off at Hirata in Matsumoto) for the princely sum of 300 yen, with no real guarantees about whether it would work. This was before I wisened up and started bringing my own batteries for thrifting cameras, so all I knew was that it had corroded battery contacts and a battery flap that wouldn't shut. 
 
@@ -32,6 +33,10 @@ Photo of the wall at The Projector's Cineleisure outlet, with messages from vari
 ![Photo of a person with long hair smiling next to a wall of autographs](https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/raynox%20me-606/001639740031)
 
 This photo was taken about 1.5m away. Things are still quite clear here. 
+
+![Photo of a person wearing a blue shirt seated behind a table, taking a sip from a wine glass](https://res.cloudinary.com/dezwnhp01/image/upload/v1719856703/raynox%20me-606/IMG_0725.jpg)
+
+This was about 1m away at most, since it was taken across a table. 
 
 ## Not so clear on landscapes (but this is a matter of personal taste)
 

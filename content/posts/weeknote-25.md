@@ -59,7 +59,7 @@ I did not have binoculars and ended up taking in everything with my raw, astigma
 
 I really want to know what the lore behind this memorial bench is. Wanted to put it on OpenBenches, but realised [someone had already beaten me to it by a year](https://openbenches.org/bench/29522). Hope Samuel Jackson Daly is having a good giggle wherever they might be.
 
-No photos for the next thing, but I went to see the [Angel Comedy Club's free shows[(https://www.angelcomedy.co.uk/whats-on/)]. Technically free, but more precisely, it's pay-as-you-wish with a £15 suggested contribution. I try to go whenever I'm around. You get to see a variety of material (each night has about 6 folks), and honestly I've paid more for worse experiences at some ticketed shows elsewhere so I'd happily pay the suggested £15 for Angel anytime.  
+No photos for the next thing, but I went to see the [Angel Comedy Club's free shows](https://www.angelcomedy.co.uk/whats-on/). Technically free, but more precisely, it's pay-as-you-wish with a £15 suggested contribution. I try to go whenever I'm around. You get to see a variety of material (each night has about 6 folks), and honestly I've paid more for worse experiences at some ticketed shows elsewhere so I'd happily pay the suggested £15 for Angel anytime.  
 
 Anyway, this is what my version of London looks like. Consider this my attempt at travel blogging. The next step is to actually catch up on my weeknote backlog and ritualise the act of actually writing things on Sunday night, instead of 2 weeks later. 
 

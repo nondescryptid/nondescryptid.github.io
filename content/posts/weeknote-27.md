@@ -8,7 +8,7 @@ title: 'Weeknote 27'
 
 I was reading a piece lately about [Why it feels like everyone in the world is heading to Japan right now](https://www.japantimes.co.jp/news/2024/06/29/japan/japan-tourism-focus/) and would like to recommend not going to Tokyo/Osaka/Kyoto (or rather, not staying there for too long). 
 
-Instead, if you try some food that you really like, see where it's from and think about whether you'd like to viist. This happened because I got some [soba](https://tamayaseimen.co.jp/en/archives/products/gassan-soba-70) last year from my grandfather (who lives in Nagoya). He volunteers to walk kids to school, and the parents of one of the kids he walked with gave him this whole load of soba as a gift to celebrate their kid finishing elementary school. 
+Instead, if you try some food that you really like, see where it's from and think about whether you'd like to visit. This happened because I got some [soba](https://tamayaseimen.co.jp/en/archives/products/gassan-soba-70) last year from my grandfather (who lives in Nagoya). He volunteers to walk kids to school, and the parents of one of the kids he walked with gave him this whole load of soba as a gift to celebrate their kid finishing elementary school. 
 
 The soba was really good, so I went to look up where it's from: Mt Gassan. Mt Gassan is located in Nishikawa and is part of the "Three Holy Mountains of Dewa [...] situated near the Sea of Japan in Yamagata Prefecture, consisting of Mount Haguro, Mount Gassan and Mount Yudono that represent birth, death and rebirth respectively."[^1] Someone's also got [a really detailed writeup](https://timbunting.com/mountains/gassan/) about hiking Mt Gassan. 
 

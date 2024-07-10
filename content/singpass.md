@@ -26,6 +26,9 @@ iOS: [download from the App Store](https://apps.apple.com/sg/app/sgworkpass/id12
 2. Take a screenshot of that page (it shows that your pass is valid)
 3. Email support@singpass.gov.sg and attach the screenshot
 
+> Note: Singpass FAQ says that Singpass accounts expire 3 months after a Work Permit is cancelled. 
+> https://ask.gov.sg/singpass/questions/clul2p4cf003s3b8g1podbru7?from=search 
+
 # Where to get help
 
 1. Email singpass@singpass.gov.sg

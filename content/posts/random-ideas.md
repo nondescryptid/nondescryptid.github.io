@@ -16,4 +16,6 @@ Someone older and wiser said to me: "If you keep throwing things at a wall, ther
 - matching pet names: Phillips, Torx, Tri-Wing etc. The fun part is using Phillips for your first pet before surprising people with the fact that they're all actually named after screwdriver bits. 
 > Imagine saying this: "My cat is called Phil, it's short for Phillips #00"
 - paying extra for a child-free flight (I know an inclusive society means including children and I will live by this rule in public spaces, but I really really want to opt-out of a red-eye 15-hour flight where someone's kid is crying)
+- something that suggests vacation places based on temperature. You set a lower bound and upper bound for temperatures you can tolerate, and it'll suggest places to go. Nika introduced to me the concept of a [coolation](https://www.cntravellerme.com/story/five-coolcations-to-plan-this-summer) (and its counterpart, the warmcation), and I thought it'd be really cool to have something like this. 
+- read the PCMag issue nearest to your birthday 
 

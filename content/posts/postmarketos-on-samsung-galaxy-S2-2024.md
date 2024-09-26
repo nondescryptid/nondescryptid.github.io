@@ -1,7 +1,7 @@
 ---
 date: '2024-09-16T15:04:44+08:00'
 draft: false
-title: "My WiFi doesn't work because are ghosts in the machine and there's magic in the batteries: postmarketOS on a Samsung Galaxy SII (i9100) in Sep 2024"
+title: "My WiFi doesn't work because there are ghosts in the machine and magic in the batteries: postmarketOS on a Samsung Galaxy SII (i9100) in Sep 2024"
 showtoc: true
 ---
 I've got a Samsung Galaxy S II (i9100) lying around, and decided to try seeing if I can repurpose it and get it to host a blog. I was inspired by [compost.party](https://compost.party) -- a very cool server running off a Xiaomi Poco F1 using postmarketOS and a solar panel for charging. 

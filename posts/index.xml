@@ -1,4 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on nondescryptid</title><link>https://tomoe.asia/posts/</link><description>Recent content in Posts on nondescryptid</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Sep 2024 08:48:15 +0800</lastBuildDate><atom:link href="https://tomoe.asia/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Weeknote 34</title><link>https://tomoe.asia/posts/weeknote-34/</link><pubDate>Tue, 03 Sep 2024 08:48:15 +0800</pubDate><guid>https://tomoe.asia/posts/weeknote-34/</guid><description>I have unfortunately lagged behind yet again, and am actually writing this in the beginning of Week 36. Week 34 felt a lot like receiving tons of tiny paper cuts.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on nondescryptid</title><link>https://tomoe.asia/posts/</link><description>Recent content in Posts on nondescryptid</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 16 Sep 2024 15:04:44 +0800</lastBuildDate><atom:link href="https://tomoe.asia/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My WiFi doesn't work because are ghosts in the machine and there's magic in the batteries: postmarketOS on a Samsung Galaxy SII (i9100) in Sep 2024</title><link>https://tomoe.asia/posts/postmarketos-on-samsung-galaxy-S2-2024/</link><pubDate>Mon, 16 Sep 2024 15:04:44 +0800</pubDate><guid>https://tomoe.asia/posts/postmarketos-on-samsung-galaxy-S2-2024/</guid><description>I&amp;rsquo;ve got a Samsung Galaxy S II (i9100) lying around, and decided to try seeing if I can repurpose it and get it to host a blog. I was inspired by compost.party &amp;ndash; a very cool server running off a Xiaomi Poco F1 using postmarketOS and a solar panel for charging.
+The physical nature of computing is usually not a concern, as things are sufficiently abstracted for me to not have to care too much about it.</description><content:encoded><![CDATA[<p>I&rsquo;ve got a Samsung Galaxy S II (i9100) lying around, and decided to try seeing if I can repurpose it and get it to host a blog. I was inspired by <a href="https://compost.party">compost.party</a> &ndash; a very cool server running off a Xiaomi Poco F1 using postmarketOS and a solar panel for charging.</p>
+<p>The physical nature of computing is usually not a concern, as things are sufficiently abstracted for me to not have to care too much about it. But trying to revive this phone from 2011 was a reminder that when we talk about compute, we are ultimately dealing with physical resources &ndash; tiny towns with blocks of silicon, lithium, etc etc.</p>
+<p>This post will also talk more about the tools I found helpful in troubleshooting - I wasn&rsquo;t familiar with things like <code>dmesg</code>, <code>logread</code>, <code>rfkill</code>, <code>ip</code>, <code>iw</code> or <code>grep</code> before this, but this gave me a lot of practice.</p>
+<p>I&rsquo;ve ended up killing this project (for now) because of issues with sourcing batteries (more on this later) and my lack of expertise in debugging problems with kernels and firmware, so this is sort of a journal entry/obituary for my i9100 and everything it&rsquo;s gone through so far.</p>
+<h1 id="installing-postmarketos-pmos">Installing postmarketOS (pmOS)</h1>
+<p>pmOS can be installed with a tool called <code>pmbootstrap</code> or via a pre-built image for your device (<a href="https://postmarketos.org/install/">check if your device is on the list</a>).</p>
+<h2 id="things-to-note-when-using-pmbootstrap-for-the-i9100">Things to note when using <code>pmbootstrap</code> for the i9100</h2>
+<ol>
+<li>There is no pre-built image for the I9100, so you&rsquo;ll need to create the image and install it with <code>pmbootstrap</code> (postmarketOS build tool).</li>
+<li>This requires an unlocked bootloader, but the I9100 bootloader is already unlocked so you don&rsquo;t need to do anything on your part.</li>
+<li>You will need Linux to use <code>pmbootstrap</code>. Fortunately, I&rsquo;ve got an old Macbook Pro (A1278) running Ubuntu 22.04.</li>
+<li>You should use v3 of <code>pmbootstrap</code> for the i9100. The wiki page for installation will encourage you to use the stable release, but you should ignore it. There is an issue (<a href="https://gitlab.com/postmarketOS/pmaports/-/issues/2735">&ldquo;i9100 Flashing mainline kernel fails with missing vmlinuz-dtb&rdquo;</a>) with previous versions of <code>pmbootstrap</code> that affects the i9100 and a few other phones that use a method of flashing called <code>iso-rec</code>.</li>
+</ol>
+<h2 id="installing-pmbootstrap-from-git">Installing <code>pmbootstrap</code> from <code>git</code></h2>
+<p>Follow the instructions <a href="https://wiki.postmarketos.org/wiki/Pmbootstrap#From_git">here</a> for installation via git. Ignore the part where it encourages you to use the stable release. Make sure that when you check <code>pmbootstrap --version</code> that it starts with 3.</p>
+<h2 id="configuring-your-os-image-pmbootstrap-init-and-building-the-os-image">Configuring your OS image <code>pmbootstrap init</code> and building the OS image</h2>
+<p>Run <code>pmbootstrap init</code>. There will be a series of questions for configuration.</p>
+<p>One of the earliest prompts concerns which release channel you want to use.My experience regarding <code>edge</code> vs <code>stable</code> release channels: When configuring your pmOS installation, choosing the <code>edge</code> release channel may result in a lack of wifi scanning functionality. I tried <code>edge</code> on 21 Sep 2024 and it led to my <code>wlan0</code> appearing to be up, but was unable to scan for wifi networks. After trying the latest stable release channel <code>v24.06</code>, I was able to use wifi scanning.</p>
+<p>When prompted for <code>vendor</code>, type <code>samsung</code> and when asked for your device&rsquo;s codename, say <code>i9100</code>. You can go with the default options for everything else.</p>
+<p>After you&rsquo;re done with configuring, use <code>pmbootstrap install</code>. This will build the image for your phone based on the information you&rsquo;ve provided.</p>
+<h2 id="installing-postmarketos-on-your-phone">Installing postmarketOS on your phone</h2>
+<p>I won&rsquo;t belabour the point here - refer to <a href="https://wiki.postmarketos.org/wiki/Samsung_Galaxy_SII_(samsung-i9100)/Installation">Instructions from the postmarketOS wiki for the Samsung Galaxy S II</a>.</p>
+<p>The phone will reboot in between <code>flash_rootfs</code> and <code>flash_kernel</code>. If it seems to be stuck in a boot loop after <code>flash_rootfs</code>, you can shut it off by just removing the battery and trying to enter ODIN/download mode again to do <code>flash_kernel</code>. After this, you should be able to use postmarketOS.</p>
+<h2 id="after-booting-enabling-ssh-and-sharing-internet-with-your-phone-over-usb-since-wifi-doesnt-work-yet">After booting: Enabling SSH and sharing internet with your phone over USB (since WiFi doesn&rsquo;t work yet)</h2>
+<p>At this point, WiFi does not work.</p>
+<p>To get started, I connected my phone to my laptop with a microUSB cable and connected via <code>ssh</code> so I could at least use the terminal with a proper keyboard (the on-screen keyboard is a bit small).</p>
+<p>If you kept the default username (<code>user</code>) in <code>pmbootstrap init</code>, you can connect with <code>ssh user@172.16.42.1</code> and then enter your password.</p>
+<h1 id="the-long-drawn-struggle-with-wifi">The long-drawn struggle with WiFi</h1>
+<h2 id="debugging-problems-with-wifi">Debugging problems with WiFi</h2>
+<p>The strange thing was that the WiFi screen in the Settings app on the phone wouldn&rsquo;t display any networks, but Bluetooth was working. WiFi and Bluetooth functionality are handled by the Broadcom BCM4330 chip.</p>
+<p>To get an idea what was going wrong, I tried running <code>dmesg</code>. This helps to review what&rsquo;s happening as the system starts up.</p>
+<h3 id="me--my-failed-firmware-load">Me &amp; my failed firmware load</h3>
+<p>I ended up finding this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[   18.099406] brcmfmac mmc2:0001:1: Direct firmware load for brcm/brcmfmac4330-sdio.samsung,i9100.bin failed with error -2
+</span></span></code></pre></div><p>There were a lot of lines and this took a lot of scrolling, but if you&rsquo;re in the future and trying to check if your firmware load failed &ndash; you can try something like <code>dmesg | grep samsung</code> which should narrow down your results compared to looking at the whole of <code>dmesg</code>.</p>
+<p>However, this was confusing because I didn&rsquo;t know where exactly the firmware was being loaded from. After some searching, I found that the Linux kernel typically expects firmware to be found in <a href="https://www.linuxfromscratch.org/blfs/view/svn/postlfs/firmware.html"><code>/lib/firmware</code></a>. In this case, it was looking for Broadcom firmware in <code>/lib/firmware/brcm</code>.</p>
+<p>After visiting that folder and listing its contents (<code>$ ls /lib/firmware/brcm</code>) I realised it was empty, and that the firmware files were actually in <code>/lib/firmware/postmarketos/brcm</code>.</p>
+<p>The <a href="https://wiki.postmarketos.org/wiki/WiFi">postmarketOS wiki&rsquo;s WiFi page</a> says:</p>
+<blockquote>
+<p>Devices with Broadcom WiFi chips usually have the path to the firmware hardcoded in the kernel, mostly to /system/vendor/firmware.</p>
+<p>In most cases you should be able to set CONFIG_BCMDHD_FW_PATH and CONFIG_BCMDHD_NVRAM_PATH in the kernel config. In other cases, you need to patch the kernel and change the path to /lib/firmware/postmarketos (see this patch).</p>
+</blockquote>
+<p>As someone who doesn&rsquo;t know how to configure a kernel, or where to even find the config, or what &ldquo;patch the kernel&rdquo; means&quot; &ndash; I decided to just do the most straightforward thing I could think of:</p>
+<ol>
+<li>Copy the firmware files from the <code>lib/firmware/postmarketos/brcm</code> directory to the <code>/lib/firmware/brcm</code> directory:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cp -r /lib/firmware/postmarketos/brcm/* /lib/firmware/brcm/
+</span></span></code></pre></div><ol start="2">
+<li>Reboot with <code>sudo reboot</code> (though you could do this through the phone&rsquo;s UI too)</li>
+</ol>
+<p>After doing this, the error message complaining about problems with loading <code>brcm/brcmfmac4330-sdio.samsung,i9100.bin</code> should go away.</p>
+<h3 id="doing-various-checks-on-the-wlan0-interface">Doing various checks on the <code>wlan0</code> interface</h3>
+<p>After placating the kernel by putting the firmware at the location it was looking for it, I did the following checks:</p>
+<h4 id="ip-a"><code>ip a</code></h4>
+<p>This is meant to show and list all ip addresses associated on network interfaces. I use it to check if the <code>wlan0</code> interface even exists.</p>
+<p>Here&rsquo;s what it looked for me:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>samsung-i9100:~$ ip a
+</span></span><span style="display:flex;"><span>1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu <span style="color:#ae81ff">65536</span> qdisc noqueue state UNKNOWN qlen <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+</span></span><span style="display:flex;"><span>    inet 127.0.0.1/8 scope host lo
+</span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever
+</span></span><span style="display:flex;"><span>    inet6 ::1/128 scope host 
+</span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever
+</span></span><span style="display:flex;"><span>2: usb0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu <span style="color:#ae81ff">1500</span> qdisc pfifo_fast state UP qlen <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>    link/ether 22:14:db:d6:a9:60 brd ff:ff:ff:ff:ff:ff
+</span></span><span style="display:flex;"><span>    inet 172.16.42.1/16 brd 172.16.255.255 scope global noprefixroute usb0
+</span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever
+</span></span><span style="display:flex;"><span>    inet6 fe80::6ab0:a1b4:35df:aac7/64 scope link noprefixroute 
+</span></span><span style="display:flex;"><span>       valid_lft forever preferred_lft forever
+</span></span><span style="display:flex;"><span>3: wlan0: &lt;NO-CARRIER,BROADCAST,MULTICAST,UP&gt; mtu <span style="color:#ae81ff">1500</span> qdisc pfifo_fast state DOWN qlen <span style="color:#ae81ff">1000</span>
+</span></span><span style="display:flex;"><span>    link/ether 14:7d:c5:eb:47:2b brd ff:ff:ff:ff:ff:ff
+</span></span></code></pre></div><p><code>wlan0: &lt;NO-CARRIER,BROADCAST,MULTICAST,UP&gt;</code> indicates that the interface is up.</p>
+<h4 id="rfkill-list"><code>rfkill list</code></h4>
+<p>This helps to check that <code>wlan0</code> is not being blocked by software or hardware.</p>
+<pre tabindex="0"><code>samsung-i9100:~$ rfkill list
+0: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+1: wlan0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+</code></pre><p>If any of these interfaces are blocked, you can try <code>sudo rfkill unblock all</code></p>
+<h4 id="nmcli-dev-wifi-list"><code>nmcli dev wifi list</code></h4>
+<p><code>nmcli</code> is a command line interface for NetworkManager. You can scan for wifi with <code>nmcli dev wifi list</code>. If it&rsquo;s successful, it should show a list of networks near you.</p>
+<h4 id="iw-reg-get-and-iw-reg-set"><code>iw reg get</code> and <code>iw reg set</code></h4>
+<p>I didn&rsquo;t face an issue with the regulatory region, but if problems still persist even if <code>ip a</code> and <code>rfkill list</code> return happy outputs, you can try checking your regulatory region with <code>iw reg get</code> and <code>iw reg set $COUNTRY_CODE</code>. The <code>$COUNTRY_CODE</code> is the 2 letter country code (<a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a>). For instance, changing my regulatory region to Singapore would mean doing <code>iw reg set SG</code>.</p>
+<h2 id="sharing-my-laptops-internet-connection-with-the-phone">Sharing my laptop&rsquo;s internet connection with the phone</h2>
+<p>Being able to share my laptop&rsquo;s connection with my phone was helpful for experimenting with downloading some packages while troubleshooting. For instance, <code>iw</code> didn&rsquo;t come with the default pmOS (since I did not specify any additional packages to install).</p>
+<p>Follow the instructions here: <a href="https://wiki.postmarketos.org/wiki/USB_Internet">postmarketOS wiki: USB Internet</a></p>
+<p>On the part of my phone, changing the nameserver with <code>echo nameserver 1.1.1.1 &gt; /etc/resolv.conf</code> as suggested on the wiki didn&rsquo;t work even when I ran it with <code>sudo</code> as it kept saying I didn&rsquo;t have permission to do that. However, using <code>sudo vi /etc/resolv.conf</code> and editing the file to change <code>nameserver</code> to <code>nameserver 8.8.8.8</code> worked.</p>
+<p>After that I tested my connection with <code>ping</code>.</p>
+<h2 id="after-all-that-my-i9100-only-connects-to-my-iphones-hotspot-and-refuses-to-connect-to-anything-else">After all that, my i9100 only connects to my iPhone&rsquo;s hotspot and refuses to connect to anything else.</h2>
+<p>Somehow, I&rsquo;m able to connect to my iPhone&rsquo;s hotspot while connecting to my home&rsquo;s 2.4GHz and 5GHz networks which both use WPA2-AES has been a largely fruitless endeavour. I even tried various public WiFi networks by standing around outside Burger King and around various malls to no avail.</p>
+<p>When I try to connect to my home wifi with <code>wpa_supplicant</code>, I get all these complaints:</p>
+<pre tabindex="0"><code>[Sep 25 22:41:17] kern kernel: ieee80211 phy0: brcmf_proto_bcdc_query_dcmd: brcmf_proto_bcdc_msg failed w/status -110
+[Sep 25 22:41:17] kern kernel: ieee80211 phy0: brcmf_cfg80211_get_channel: chanspec failed (-110)
+[Sep 25 22:41:20] kern kernel: ieee80211 phy0: brcmf_proto_bcdc_query_dcmd: brcmf_proto_bcdc_msg failed w/status -110
+[Sep 25 22:41:20] kern kernel: ieee80211 phy0: brcmf_cfg80211_get_channel: chanspec failed (-110)
+[Sep 25 22:41:33] kern kernel: ieee80211 phy0: brcmf_run_escan: error (-110)
+[Sep 25 22:41:33] kern kernel: ieee80211 phy0: brcmf_cfg80211_scan: scan error (-110)
+[Sep 25 22:41:36] kern kernel: ieee80211 phy0: brcmf_proto_bcdc_query_dcmd: brcmf_proto_bcdc_msg failed w/status -110
+[Sep 25 22:41:36] kern kernel: ieee80211 phy0: brcmf_cfg80211_get_channel: chanspec failed (-110)
+[Sep 25 22:41:38] kern kernel: ieee80211 phy0: brcmf_proto_bcdc_query_dcmd: brcmf_proto_bcdc_msg failed w/status -110
+[Sep 25 22:41:38] kern kernel: ieee80211 phy0: brcmf_cfg80211_get_channel: chanspec failed (-110)
+</code></pre><p>I don&rsquo;t even know where to start with debugging this.</p>
+<p>When I tried <code>NetworkManager</code>, it&rsquo;d constantly say <code>Connection activation failed: (7) Secrets were required, but not provided</code> even though my password was correct. I thought there were no secrets between me and my Nokia Beacon 1, but I suppose it begs to differ. I tried every fix I could find regarding this issue. I even tried changing the channels that my network used to match my iPhone hotspot in some kind of desperate last-ditch attempt to make things right.</p>
+<p>(For checkling logs from these services, I used <code>logread</code>)</p>
+<p>Despite all my half-baked attempts to fix this problem, my phone still has only ever connected on one network &ndash; my iPhone hotspot. Some kind of strange, forbidden electronic monogamy between my Samsung Galaxy and iPhone. I declare them husband and WiFi.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/v1727370167/pmOS/photo_1_2024-09-27_01-02-37.jpg" alt="Samsung Galaxy S2 running postmarketOS displaying that it is connected to a wifi network called &amp;ldquo;unemployable pigeon&amp;rdquo;"  />
+</p>
+<p>My WiFi doesn&rsquo;t work because there are ghosts in the machine and love in the air.</p>
+<h1 id="power-struggle-it-could-be-the-battery-or-perhaps-the-charging-port-or-both">Power struggle (it could be the battery, or perhaps the charging port, or both)</h1>
+<p>I started having problems where I&rsquo;d plug my charger in, then the phone would light up with an empty battery sign, and then go back to black. This would continue even as I left it plugged in for hours.</p>
+<p>I got a new battery at a shop at Sim Lim Square (Unicell on the 2nd floor) which worked for about a week, before it started having this problem too. I decided to try measuring the voltage on the battery and it came up to about 2.6V after 5 hours of charging.</p>
+<p>After leaving it overnight, I measured the voltage the next day and it came up to&hellip; 0.004V.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/dezwnhp01/image/upload/v1727374392/pmOS/photo_2024-09-27_02-12-56.jpg" alt="Multimeter reading showing a samsung galaxy s2 battery measuring 0.004v"  />
+</p>
+<p><em>We&rsquo;re totally back together</em></p>
+<p>Unicell gave me a replacement as I brought it back to the store within 30 days, and they verified that it really was unbelievably drained with their own multimeter. This was nice, as I got a bit loopy and started wondering if my multimeter was also broken.</p>
+<p><em>We&rsquo;re so over</em></p>
+<p>The same problem appeared with the new battery. At this point, I feel like I&rsquo;ve tried all I can think of and can&rsquo;t seem to surmount the problems with powering this device and also getting it to connect to my home wifi (much less powering it with solar).</p>
+]]></content:encoded></item><item><title>Weeknote 34</title><link>https://tomoe.asia/posts/weeknote-34/</link><pubDate>Tue, 03 Sep 2024 08:48:15 +0800</pubDate><guid>https://tomoe.asia/posts/weeknote-34/</guid><description>I have unfortunately lagged behind yet again, and am actually writing this in the beginning of Week 36. Week 34 felt a lot like receiving tons of tiny paper cuts.
 The Elusive Form 99 for applying for a Community Courts and Tribunals Friend For the small claims case I&amp;rsquo;m assisting on, I needed to find a form for one of the volunteer interpreters to sign up as a Community Courts and Tribunals Friend (&amp;ldquo;CCT Friend&amp;rdquo;) in order to allow them to attend consultations/hearings at the Small Claims Tribunal with a worker who speaks Bengali.</description><content:encoded><![CDATA[<p>I have unfortunately lagged behind yet again, and am actually writing this in the beginning of Week 36. Week 34 felt a lot like receiving tons of tiny paper cuts.</p>
 <h1 id="the-elusive-form-99-for-applying-for-a-community-courts-and-tribunals-friend">The Elusive Form 99 for applying for a Community Courts and Tribunals Friend</h1>
 <p>For the small claims case I&rsquo;m assisting on, I needed to find a form for one of the volunteer interpreters to sign up as a Community Courts and Tribunals Friend (&ldquo;CCT Friend&rdquo;) in order to allow them to attend consultations/hearings at the Small Claims Tribunal with a worker who speaks Bengali. CCT Friends can provide administrative and emotional support, and also interpret proceedings/documents for parties.</p>

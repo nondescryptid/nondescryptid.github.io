@@ -2,6 +2,7 @@
 date: '2024-11-25T18:32:25+08:00'
 draft: false
 title: "Growing pink oyster mushrooms from a Kin Yan Agrotech grow kit (unabridged)"
+showToc: true
 ---
 
 While walking around sometime in June, I saw a flyer for All Things Fungi - a festival about, well, all things fungi. At that point in time, I was still in my tomato obsession phase but found it interesting enough to snap a photo to remember. Lucky are those who live in Sussex. 
@@ -38,14 +39,14 @@ The reason we need to do this is that the Pink Oyster Mushroom (*pleurotus djamo
 
 I also scratched part of the surface with a fork as some websites recommended that for their grow kits, but I didn't really see how it affected mushroom growth at all. 
 
-# Day 3 (15 Sep 2024) 
+## Day 3 (15 Sep 2024) 
 Little pins start to appear after what felt like 3 days of pointless misting. 
 
 The "pinning humidity" mentioned earlier refers to the humidity needed to trigger mushroom development. There are some slight differences between mushroom primordia and pins, but they're both stages that occur before the mushroom properly fruits. For more about stages of mushroom growth, check [this](https://www.mushroom-corner.com/posts/mycelium-pinning#:~:text=The%20Mushroom%20Pinning%20Process%3A%20A%20Visual%20Guide,-Identifying%20Primordia%20and&text=Mycelium%20pinning%2C%20also%20known%20as,mature%20fruiting%20bodies%20or%20mushrooms.) out.   
 
 ![Pink oyster mushroom primordia start to appear](https://res.cloudinary.com/dezwnhp01/image/upload/f_auto,q_auto/v1/shroomposting/15_Sep)
 
-# Day 4 (16 Sep 2024)
+## Day 4 (16 Sep 2024)
 
 They grow up so fast. For oyster mushrooms, these two things matter a lot: 
 
@@ -60,7 +61,7 @@ Due to Singapore's humidity (which hovers around the mid-80s), I got away with b
 
 
 
-# Day 5 (17 Sep 2024) - 150g
+## Day 5 (17 Sep 2024) - 150g
 
 First harvest! The mushrooms on my kit grew quite unevenly, so I decided to harvest some on this day and some on the next day.
 
@@ -74,7 +75,7 @@ I harvested my first round around 11pm that night and got 150g of mushrooms.
 
 After harvesting, I put them in a paper bag lined with some paper towels to absorb moisture.
 
-# Day 6 (18 Sep 2024) - 140g 
+## Day 6 (18 Sep 2024) - 140g 
 
 I decided to harvest the rest of the mushrooms a day later, but later regretted that decision. 
 
@@ -135,7 +136,9 @@ I've crumbled up part of my mushroom kit to mix into soil as mushroom compost ca
 
 I've also crumbled up part of the kit to mix with coffee grounds and cardboard to see if it'll continue growing. 
 
-# Was this cheaper than the same thing at the supermarket? 
+# Was this cheaper than just buying the same thing at the supermarket? 
+
+TL;DR: No. 
 
 The kit cost me SGD14.40 (while it was on sale). I got about 330g of mushrooms from September to November. Pink oyster mushrooms from the same farm -- Kin Yan Agrotech -- costs SGD3.34 for 130g. For 330g of mushrooms, it would've cost me SGD8.47 to buy it from the supermarket. 
 

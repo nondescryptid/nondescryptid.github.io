@@ -2,6 +2,7 @@
 date: '2024-07-03T14:23:02+08:00'
 draft: false
 title: 'Olympus AF-1 Twin: would probably survive a rough hike'
+tags: ["35mm"]
 ---
 
 The [Olympus AF-1 Twin](http://camera-wiki.org/wiki/Olympus_AF-1_Twin) gives off the vibe of a slightly austere older sibling -- built to withstand all sorts of conditions (supposedly weatherproof), and not the type to give you a lot of choices. 

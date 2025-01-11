@@ -65,4 +65,20 @@ In the spirit of "you really can just do things", I went to look up the Polish e
 
 I spent a while worrying about whether my registration would get rejected until my friend told me about the [custom of leaving an extra seat at the table](https://culture.pl/en/article/why-do-poles-leave-one-chair-empty-on-christmas-eve) and that it would be very un-Polish to turn away people who have already filled in the Google Form. 
 
-This event was the first time I got to tryS pierogi ruskie and barszcz — there aren't any Polish restaurants in Singapore. Lots of interesting new flavours as there was also ryba po grecku (Greek-style fish, but it is not Greek in origin), seared sous-vide duck with apple sauce and some croquettes (Polish croquettes resemble spring rolls more than the Japanese potato croquettes I'm used to). Loved kompot. Ambivalent about mulled beer. 
+This event was the first time I got to try pierogi ruskie and barszcz — there aren't any Polish restaurants in Singapore. Lots of interesting new flavours as there was also ryba po grecku (Greek-style fish, but it is not Greek in origin), seared sous-vide duck with apple sauce and some croquettes (Polish croquettes resemble spring rolls more than the Japanese potato croquettes I'm used to). Loved kompot. Ambivalent about mulled beer. 
+
+# New things I have not counted in advance
+
+Some things I tried this year for the first time: 
+- Throwing pottery on the wheel (after going to Yingge alone). 
+- Seeing autumn (I've never had the chance to travel during this time of the year)
+- Growing mushrooms 
+- Being a NEET
+- Brewing kombucha 
+- Making a wavy ring in a silversmithing class 
+- Being in a typhoon (Kong Rey/Leon, the largest to hit Taiwan directly in 30 years)
+- Making a pull request to fix typos in documentation for a testing workshop while stuck indoors because of said typhoon (TDD actually stands for Typhoon-Driven Development)
+- Descending Gyeongju's Namsan while it's wet and slippery. There was an Alltrails review that I read afterwards that said:  
+> "We took a taxi to Namsan Information Center and took the trail to Geumobong. The footing is excellent along this stretch. From there to Yongjangsaji, then to Yongjang village. That stretch had a few difficult spots that would be treacherous if wet. [...]"
+
+In 2025 I will be reading Alltrails reviews very carefully *before* going on a hike. 

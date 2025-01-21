@@ -4,6 +4,24 @@ draft: false
 title: '2025 Weeknotes'
 ---
 
+# Week 4 / 20 Jan 2025
+
+## Links
+[DeepSeek-R1 has performance on par with OpenAI o1 and is MIT licensed](https://x.com/deepseek_ai/status/1881318130334814301)
+
+## Yapping
+I attended a police auction preview. It's something that's been on my list for a long time, but I only got around to it this week. The preview was held at the Police Logistics Base at 1 Hemmant Rd, which is a place that I never knew existed until this week. It's in Paya Lebar, down the corner from where City Plaza is. The assets are handled by ST Logistics, but the auctioning process is outsourced to a company named AssetHub (which is really what it says on the tin - a hub for assets). The preview allows you to take a look at what is on offer -- in particular, I wanted to see Lots 60-62 which involved cameras with vague descriptions on the catalog such as "Black Leica Camera" (which was really a Leica C, and not the M-series). 
+
+After circling about the rack where the cameras were, I accosted one of the hapless ST Logistics staff members on duty and asked a burning question: Are any of these assets confiscated from the landmark $3B [money-laundering case](https://www.straitstimes.com/singapore/3b-money-laundering-case-1-85b-in-assets-surrendered-by-15-suspects-on-the-run-from-spore-police)?
+
+To my great disappointment, he says no -- most of the items here are actually unclaimed items from the Lost & Found department. I don't know how people lose Raymond Weil watches, DJI ultralight drones, cameras and jewellery, but this is apparently a thing that happens. And it happens often enough that there are enough things to organise into lots for auctioning. I ask him if these previews are largely attended by regulars and he says that he'd estimate about 80% of the turnout to be regulars. There are two guys walking about with loupes and flashlights to inspect the jewellery lots. They are regulars. 
+
+One of the Jewellery Guys says that they come here regularly to look for jewellery and watches, but they've given up on selling watches directly to consumers as it's too much trouble to provide a warranty and deal with the cost of servicing it if it spoils within the warranty period as the cost of servicing may sometimes exceed what they make from a watch. Instead, they sell to watch dealers directly. 
+
+While leaving, I see a bunch of bikes that are also part of the auction and realised that these bikes used to belong to the Singapore Police Force. The SPF logo is scratched out on most of the bikes, but enough of it remains to identify these bikes as decommissioned police bikes. 
+
+
+
 # Week 3 / 14 Jan 2025 
 
 This year, instead of having multiple posts for weeknotes, I have decided to make one megapost that I update periodically. The point is to have a record of roughly what I was thinking about in each week / links I liked. Also, one md file is really easy to process if I ever want to do any kind of NLP or glorified regex mumbojumbo on my own writing (e.g. ripping every link I mentioned in 2025 and categorizing it). Also, reading this requires periodically coming back to check on this post like a Tamagotchi, which will hopefully decrease the (already tiny) potential readership of this post, and hence encourage me to censor myself less. 

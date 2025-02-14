@@ -1,7 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on nondescryptid</title><link>https://tomoe.asia/posts/</link><description>Recent content in Posts on nondescryptid</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jan 2025 01:09:47 +0800</lastBuildDate><atom:link href="https://tomoe.asia/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 Weeknotes</title><link>https://tomoe.asia/posts/2025-weeknote-megapost/</link><pubDate>Tue, 14 Jan 2025 01:09:47 +0800</pubDate><guid>https://tomoe.asia/posts/2025-weeknote-megapost/</guid><description>Week 4 / 20 Jan 2025 Links DeepSeek-R1 has performance on par with OpenAI o1 and is MIT licensed
-Yapping I attended a police auction preview. It&amp;rsquo;s something that&amp;rsquo;s been on my list for a long time, but I only got around to it this week. The preview was held at the Police Logistics Base at 1 Hemmant Rd, which is a place that I never knew existed until this week.</description><content:encoded><![CDATA[<h1 id="week-4--20-jan-2025">Week 4 / 20 Jan 2025</h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on nondescryptid</title><link>https://tomoe.asia/posts/</link><description>Recent content in Posts on nondescryptid</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jan 2025 01:09:47 +0800</lastBuildDate><atom:link href="https://tomoe.asia/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 Weeknotes</title><link>https://tomoe.asia/posts/2025-weeknote-megapost/</link><pubDate>Tue, 14 Jan 2025 01:09:47 +0800</pubDate><guid>https://tomoe.asia/posts/2025-weeknote-megapost/</guid><description>Week 7 / 10 Feb 2025 Wikipedia - Rōnin
+In feudal Japan (1185–1868), a rōnin (/ˈroʊnɪn/ ROH-nin; Japanese: 浪人, IPA: [ɾoːɲiɴ], &amp;lsquo;drifter&amp;rsquo; or &amp;lsquo;wandering man&amp;rsquo;, lit. &amp;lsquo;unrestrained or dissolute person&amp;rsquo;) was a samurai who had no lord or master and in some cases, had also severed all links with his family or clan. A samurai became a rōnin upon the death of his master, or after the loss of his master&amp;rsquo;s favor or legal privilege.</description><content:encoded><![CDATA[<h1 id="week-7--10-feb-2025">Week 7 / 10 Feb 2025</h1>
+<p><a href="https://en.wikipedia.org/wiki/R%C5%8Dnin">Wikipedia - Rōnin</a></p>
+<blockquote>
+<p>In feudal Japan (1185–1868), a rōnin (/ˈroʊnɪn/ ROH-nin; Japanese: 浪人, IPA: [ɾoːɲiɴ], &lsquo;drifter&rsquo; or &lsquo;wandering man&rsquo;, lit. &lsquo;unrestrained or dissolute person&rsquo;) was a samurai who had no lord or master and in some cases, had also severed all links with his family or clan. A samurai became a rōnin upon the death of his master, or after the loss of his master&rsquo;s favor or legal privilege.</p>
+<p>In modern Japanese, the term is usually used to describe a salaryman who is unemployed or a secondary school graduate who has not yet been admitted to university.</p>
+</blockquote>
+<hr>
+<p>Questions I&rsquo;ve been thinking about for making decisions:</p>
+<ol>
+<li>What would I want to do if I knew it&rsquo;d work out?</li>
+<li>What would I want to do even if I knew it&rsquo;d fail?</li>
+<li>Is there something that&rsquo;s on both lists? (Where both the happy and sad case are desirable, for whatever reason) - If yes: This is something that I must really do. Figure out a way to try it out and see what happens.</li>
+</ol>
+<p>The latest decision I made with this was the choice to take a gap year (more of Apr 2024 - Jan 2025 but you get my drift) to just do whatever I felt like doing that <em>wasn&rsquo;t employment</em>.</p>
+<p>Sort of life update: I am taking on my very first SWE intern role at a startup. I&rsquo;m nervous but hopeful.</p>
+<h1 id="week-5--27-jan-2025">Week 5 / 27 Jan 2025</h1>
 <h2 id="links">Links</h2>
-<p><a href="https://x.com/deepseek_ai/status/1881318130334814301">DeepSeek-R1 has performance on par with OpenAI o1 and is MIT licensed</a></p>
+<p><a href="https://spectrum.ieee.org/claude-shannon-information-theory">Spectrum IEEE - How Claude Shannon Helped Kick-start Machine Learning </a></p>
+<p>I first encountered Claude Shannon recently while reading the Nand2Tetris textbook.</p>
+<p><a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html">The Vatican publishes: Antiqua et Nova - Note on the Relationship Between Artificial Intelligence and Human Intelligence</a></p>
+<blockquote>
+<ol start="34">
+<li>Drawing an overly close equivalence between human intelligence and AI risks succumbing to a functionalist perspective, where people are valued based on the work they can perform. However, a person’s worth does not depend on possessing specific skills, cognitive and technological achievements, or individual success, but on the person’s inherent dignity, grounded in being created in the image of God.
+[&hellip;]</li>
+<li>Furthermore, there is the risk of AI being used to promote what Pope Francis has called the “technocratic paradigm,” which perceives all the world’s problems as solvable through technological means alone In this paradigm, human dignity and fraternity are often set aside in the name of efficiency, “as if reality, goodness, and truth automatically flow from technological and economic power as such.” Yet, human dignity and the common good must never be violated for the sake of efficiency, for “technological developments that do not lead to an improvement in the quality of life of all humanity, but on the contrary, aggravate inequalities and conflicts, can never count as true progress.” Instead, AI should be put “at the service of another type of progress, one which is healthier, more human, more social, more integral.”</li>
+</ol>
+</blockquote>
+<p><a href="https://blog.scottstevenson.net/p/lego-mindset-vs-woodworking-mindset">Scott Stevenson - Lego Mindset vs Woodworking Mindset: On Accepting Toil</a></p>
+<p><a href="https://www.tumblr.com/sexysilverstrider/690379473978310657">Tumblr user sexysilverstrider has the funniest compilation of Tom Scott clips - &ldquo;the group chat when i ask whos available to hang out next week&rdquo;</a></p>
+<blockquote>
+<p>I am under the English Channel. I&rsquo;m squinting into the sun. I&rsquo;m in Swindon. I&rsquo;m on my way back from the Arctic. I am putting myself at risk of being sued. [&hellip;] I&rsquo;m back in the UK, and I have a cold.</p>
+</blockquote>
+<p>I got a copy of <em>Elements of Computing Systems</em> for free. Delightful :)</p>
+<h1 id="week-4--20-jan-2025">Week 4 / 20 Jan 2025</h1>
+<h2 id="links-1">Links</h2>
+<p><a href="https://surma.dev/things/ditherpunk/">surma: Ditherpunk — The article I wish I had about monochrome image dithering</a>
+<a href="https://x.com/deepseek_ai/status/1881318130334814301">DeepSeek-R1 has performance on par with OpenAI o1 and is MIT licensed</a> - thank u <a href="https://sometimes.digital/">Dominika</a> for always having the coolest links</p>
+<p><a href="https://82mhz.net/posts/2025/01/i-will-never-need-to-buy-a-new-computer-again/">82mhz writes: I will never need to buy a new computer again</a> - saw this because <a href="https://post.lurk.org/@computersandblues/113837298027595426">arne shared this on mastodon</a></p>
+<ul>
+<li>good for me to keep in mind when I get the itch to &lsquo;upgrade&rsquo; - my laptop is working fine! I don&rsquo;t need the physical and financial resources that a new laptop would demand.</li>
+</ul>
+<p><a href="https://github.com/hybridgroup/gopherconsg-2025/tree/main">deadprogram/Ron Evans hosted a really fun hack session for GopherconSG to experience TinyGo with lots of sensors, bots and a Bluetooth-controlled drone. Here&rsquo;s the repo!</a></p>
+<p><a href="https://github.com/v3ga/dessins_geometriques_et_artistiques">v3ga implements programs featured in Jean-Paul Delahaye&rsquo;s <em>Dessins géométriques et artistiques avec votre micro-ordinateur</em> (1985) in p5.js</a></p>
+<ul>
+<li>The original implementations from the 80s were programmed with Microsoft Basic and outputs were drawn on a Canon X710 plotter.</li>
+</ul>
+<p><a href="https://archive.org/details/@issung">issung posts a whole bunch of photos from late 90s-early 2000s LAN Parties on Internet Archive</a></p>
 <h2 id="yapping">Yapping</h2>
 <p>I attended a police auction preview. It&rsquo;s something that&rsquo;s been on my list for a long time, but I only got around to it this week. The preview was held at the Police Logistics Base at 1 Hemmant Rd, which is a place that I never knew existed until this week. It&rsquo;s in Paya Lebar, down the corner from where City Plaza is. The assets are handled by ST Logistics, but the auctioning process is outsourced to a company named AssetHub (which is really what it says on the tin - a hub for assets). The preview allows you to take a look at what is on offer &ndash; in particular, I wanted to see Lots 60-62 which involved cameras with vague descriptions on the catalog such as &ldquo;Black Leica Camera&rdquo; (which was really a Leica C, and not the M-series).</p>
 <p>After circling about the rack where the cameras were, I accosted one of the hapless ST Logistics staff members on duty and asked a burning question: Are any of these assets confiscated from the landmark $3B <a href="https://www.straitstimes.com/singapore/3b-money-laundering-case-1-85b-in-assets-surrendered-by-15-suspects-on-the-run-from-spore-police">money-laundering case</a>?</p>
@@ -10,7 +54,7 @@ Yapping I attended a police auction preview. It&amp;rsquo;s something that&amp;r
 <p>While leaving, I see a bunch of bikes that are also part of the auction and realised that these bikes used to belong to the Singapore Police Force. The SPF logo is scratched out on most of the bikes, but enough of it remains to identify these bikes as decommissioned police bikes.</p>
 <h1 id="week-3--14-jan-2025">Week 3 / 14 Jan 2025</h1>
 <p>This year, instead of having multiple posts for weeknotes, I have decided to make one megapost that I update periodically. The point is to have a record of roughly what I was thinking about in each week / links I liked. Also, one md file is really easy to process if I ever want to do any kind of NLP or glorified regex mumbojumbo on my own writing (e.g. ripping every link I mentioned in 2025 and categorizing it). Also, reading this requires periodically coming back to check on this post like a Tamagotchi, which will hopefully decrease the (already tiny) potential readership of this post, and hence encourage me to censor myself less.</p>
-<h2 id="links-1">Links</h2>
+<h2 id="links-2">Links</h2>
 <p><a href="https://x.com/i/bookmarks?post_id=1877170430286639227">Nice explainer from Evan from SF Compute about creating markets for GPU compute</a></p>
 <p><a href="https://mashable.com/article/anker-solar-beach-umbrella">Anker introduces a solar beach umbrella that uses perovskite cells</a> - thank u Dominika for introducing me to this :D</p>
 <blockquote>
